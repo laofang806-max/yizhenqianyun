@@ -1,0 +1,48 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 17-oct-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Tue Nov  3 17:40:34 2026
+# Process ID         : 102316
+# Current directory  : C:/Users/libiao/Documents/ChatGPT/competition
+# Command line       : vivado.exe -mode batch -source delivery/yizhen-qianyun/build/create_project.tcl -log vivado-create-delivery-project.log -journal vivado-create-delivery-project.jou
+# Log file           : C:/Users/libiao/Documents/ChatGPT/competition/vivado-create-delivery-project.log
+# Journal file       : C:/Users/libiao/Documents/ChatGPT/competition\vivado-create-delivery-project.jou
+# Running On         : libiao
+# Platform           : Windows 11
+# Operating System   : 26100
+# Processor Detail   : AMD Ryzen 9 9955HX 16-Core Processor           
+# CPU Frequency      : 2495 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 32
+# Host memory        : 16305 MB
+# Swap memory        : 26575 MB
+# Total Virtual      : 42880 MB
+# Available Virtual  : 8494 MB
+#-----------------------------------------------------------
+source delivery/yizhen-qianyun/build/create_project.tcl
+# set root [file dirname [file dirname [file normalize [info script]]]]
+# set project_dir [file join $root build project]
+# set_param general.maxThreads 2
+# create_project -force yizhen_qianyun $project_dir -part xc7a100tfgg484-2
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/libiao/Documents/ChatGPT/competition/delivery/yizhen-qianyun/build/project'
+# set_property target_language Verilog [current_project]
+# add_files [glob [file join $root src rtl *.v]]
+# set_property top board_top [get_filesets sources_1]
+# add_files -fileset constrs_1 [file join $root board constraints pins.xdc]
+# set extra [file join $root board constraints camera_clock_route.xdc]
+# add_files -fileset constrs_1 $extra
+# set_property USED_IN_SYNTHESIS false [get_files $extra]
+# add_files -fileset sim_1 [glob [file join $root sim tb *.v]]
+# set_property top tb_needle_ir_top [get_filesets sim_1]
+# update_compile_order -fileset sources_1
+# update_compile_order -fileset sim_1
+# foreach source [get_files -compile_order sources -used_in synthesis] {
+#  if {![string match "${root}/*" [file normalize $source]]} {error "External source rejected: $source"}
+# }
+# puts "PROJECT_CREATED=[file join $project_dir yizhen_qianyun.xpr]"
+PROJECT_CREATED=C:/Users/libiao/Documents/ChatGPT/competition/delivery/yizhen-qianyun/build/project/yizhen_qianyun.xpr
+INFO: [Common 17-206] Exiting Vivado at Tue Nov  3 17:40:44 2026...

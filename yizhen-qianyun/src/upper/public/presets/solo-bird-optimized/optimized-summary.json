@@ -1,0 +1,13 @@
+{
+  "needles": 284,
+  "uniqueHoles": 284,
+  "repeatHoles": 0,
+  "actions": 568,
+  "threadMm": 378.84033128097724,
+  "patternWidthMm": 48.18,
+  "patternHeightMm": 33.83,
+  "previousNeedles": 442,
+  "previousThreadMm": 501.71759254643615,
+  "minimumDwellSecondsAt1s": 284,
+  "routeMethod": "Exact shortest open postman traversal for this fixed connected centreline graph; connector topology and image tracing remain heuristic."
+}

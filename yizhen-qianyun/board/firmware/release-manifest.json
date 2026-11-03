@@ -1,0 +1,113 @@
+{
+  "project": "一针千韵",
+  "builtAtLocal": "2026-11-03 17:41:50 Asia/Shanghai",
+  "tool": "Vivado 2026.1 Build 6511674",
+  "part": "xc7a100tfgg484-2",
+  "top": "board_top",
+  "mode": "automatic needle; verified IR leave/return feedback enabled",
+  "bitFile": "board/firmware/yizhen_qianyun_auto_needle.bit",
+  "bitBytes": 3825989,
+  "bitSHA256": "d886a66a27e780f803ebfb0b069f40cf0d632c58fdf63abb828932393a23c1b5",
+  "sourceFiles": [
+    {
+      "path": "src/rtl/board_top.v",
+      "sha256": "d3591a599141ccc08a2d2709bfadb18d007a2b143bb6ebbd44b4f38f9a0b18ad"
+    },
+    {
+      "path": "src/rtl/camera_usb_stream.v",
+      "sha256": "b739d67a43e4706ea088c42673e201d59ad56ce5156051be2714b61c7cb0af23"
+    },
+    {
+      "path": "src/rtl/encoder_monitor.v",
+      "sha256": "803215b4d2a54e9b211a3bffd7e4ff72e17aa5de763c2c99a7045dc3c1ce9730"
+    },
+    {
+      "path": "src/rtl/ft232h_stream_start.v",
+      "sha256": "f4d35f3e574f72f51f9d56c02384e1f246c05b99d7d2ff365b9932d6382b5dcb"
+    },
+    {
+      "path": "src/rtl/homing.v",
+      "sha256": "0aeb704ddf37408ef4435bb1c1d0af49b4ee678001e4be0d393c45e70ef97156"
+    },
+    {
+      "path": "src/rtl/input_filter.v",
+      "sha256": "21aed0922232ec4bd1f57f71a96e52ede676762e614dfe276cbe4ce960528278"
+    },
+    {
+      "path": "src/rtl/motion_xy.v",
+      "sha256": "8077a36d8268b1cb9003eb357f7cd5aa9a18f42b3ad13f1c2e851ff36e4fa005"
+    },
+    {
+      "path": "src/rtl/needle_ctrl.v",
+      "sha256": "c0f37967767c5c9348ec1a62081e5798fb793f62acee83401e07cf11c59ae446"
+    },
+    {
+      "path": "src/rtl/ov5640_sccb_init.v",
+      "sha256": "cf1b105a7beb83925fe6ad14800d91df91f1a5bca86fee0ce2d58ded7c266926"
+    },
+    {
+      "path": "src/rtl/protocol_parser.v",
+      "sha256": "2fae2a6b752427c85d53e8bffb778e335b739fed92999e4cb14bab5f551b4b8e"
+    },
+    {
+      "path": "src/rtl/text_tx.v",
+      "sha256": "67a682dcf34454ba366c7665dc4eef89936f9c032ceba2b9a79998e66dc46a1d"
+    },
+    {
+      "path": "src/rtl/top.v",
+      "sha256": "1b8ebe21b8b1317f4619e0f8bd758a5acce0fa251c595e52d74099d304603860"
+    },
+    {
+      "path": "src/rtl/uart.v",
+      "sha256": "c03ea2f16287f52df67a5a77a692ba7f463ba356c23c54895403558b30e37bd5"
+    },
+    {
+      "path": "board/constraints/camera_clock_route.xdc",
+      "sha256": "73e72c6513528ac99bd6d1dd1f592342e91ae0c78deba1b5c14d68c24cd959af"
+    },
+    {
+      "path": "board/constraints/pins.xdc",
+      "sha256": "eb814d640f9bb790c649f6cf7ea6f35789d9bf6e0b10b955fbf476f58e705627"
+    }
+  ],
+  "sourceEquality": "All 13 RTL and both XDC equal selected automatic-needle source copy and actual build inputs",
+  "projectFile": "build/project/yizhen_qianyun.xpr",
+  "projectFileSHA256": "ac184ca956139646e73535ea6471abfb359d7b0131be807f10a1c98fa0f7a7b6",
+  "projectRelativeFileReferences": [
+    "src/rtl/camera_usb_stream.v",
+    "src/rtl/encoder_monitor.v",
+    "src/rtl/ft232h_stream_start.v",
+    "src/rtl/homing.v",
+    "src/rtl/input_filter.v",
+    "src/rtl/motion_xy.v",
+    "src/rtl/needle_ctrl.v",
+    "src/rtl/ov5640_sccb_init.v",
+    "src/rtl/protocol_parser.v",
+    "src/rtl/text_tx.v",
+    "src/rtl/top.v",
+    "src/rtl/uart.v",
+    "src/rtl/board_top.v",
+    "board/constraints/pins.xdc",
+    "board/constraints/camera_clock_route.xdc",
+    "sim/tb/tb_needle_ir.v",
+    "sim/tb/tb_layer_reset_probe.v",
+    "sim/tb/tb_needle_led.v"
+  ],
+  "projectRelocationTest": "PASS: opened moved XPR in real Vivado; all 13 synthesis sources stayed in moved package",
+  "releaseCheck": "RELEASE_PASS setup=0.903 hold=0.084",
+  "setupWorstSlackNs": 0.903,
+  "holdWorstSlackNs": 0.084,
+  "drcErrors": 0,
+  "drcWarningRules": [
+    "CFGBVS-1",
+    "CHECK-3",
+    "PLCK-12",
+    "RBOR-1",
+    "REQP-1839",
+    "RPBF-3"
+  ],
+  "timingScope": "Constrained implemented paths only; report also lists 21 no_input_delay and 16 no_output_delay endpoints. Not proof of external camera timing or mechanics.",
+  "simulation": "four real XSim tests passed 2026-11-03",
+  "programmed": false,
+  "physicalNeedleCycleTested": false
+}

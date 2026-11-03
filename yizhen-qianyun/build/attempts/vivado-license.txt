@@ -1,0 +1,3 @@
+2026-11-03 当前交付目录构建尝试，进程退出码 1。
+ERROR: Vivado Design Suite cannot be launched because a valid license was not found. Visit the Vivado Licensing page to choose and generate the right license.
+未生成当前自动下针版本 bit，不随包发布历史 bit。

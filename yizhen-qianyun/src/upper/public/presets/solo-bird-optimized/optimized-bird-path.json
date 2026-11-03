@@ -1,0 +1,4047 @@
+{
+  "version": 1,
+  "frame": {
+    "width": 100,
+    "height": 100,
+    "origin": "top-left"
+  },
+  "unit": "mm",
+  "coordinatePrecisionMm": 0.01,
+  "colors": [
+    "black",
+    "red",
+    "yellow",
+    "blue"
+  ],
+  "executionOrder": [
+    "black",
+    "red",
+    "yellow",
+    "blue"
+  ],
+  "paths": {
+    "black": {
+      "color": "black",
+      "segments": [
+        {
+          "points": [
+            {
+              "x": 63.71,
+              "y": 51.34,
+              "action": "jump"
+            },
+            {
+              "x": 63.71,
+              "y": 51.34,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 63.71,
+              "y": 51.34,
+              "action": "jump"
+            },
+            {
+              "x": 65.78,
+              "y": 50.29,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 65.78,
+              "y": 50.29,
+              "action": "jump"
+            },
+            {
+              "x": 67.85,
+              "y": 49.24,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 67.85,
+              "y": 49.24,
+              "action": "jump"
+            },
+            {
+              "x": 69.92,
+              "y": 48.19,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 69.92,
+              "y": 48.19,
+              "action": "jump"
+            },
+            {
+              "x": 71.99,
+              "y": 47.14,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 71.99,
+              "y": 47.14,
+              "action": "jump"
+            },
+            {
+              "x": 73.47,
+              "y": 46.29,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 73.47,
+              "y": 46.29,
+              "action": "jump"
+            },
+            {
+              "x": 74.95,
+              "y": 45.43,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 74.95,
+              "y": 45.43,
+              "action": "jump"
+            },
+            {
+              "x": 76.43,
+              "y": 44.58,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 76.43,
+              "y": 44.58,
+              "action": "jump"
+            },
+            {
+              "x": 77.01,
+              "y": 44.11,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 77.01,
+              "y": 44.11,
+              "action": "jump"
+            },
+            {
+              "x": 77.36,
+              "y": 42.94,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 77.36,
+              "y": 42.94,
+              "action": "jump"
+            },
+            {
+              "x": 77.13,
+              "y": 42.83,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 77.13,
+              "y": 42.83,
+              "action": "jump"
+            },
+            {
+              "x": 76.43,
+              "y": 43.41,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 76.43,
+              "y": 43.41,
+              "action": "jump"
+            },
+            {
+              "x": 76.66,
+              "y": 43.53,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 76.66,
+              "y": 43.53,
+              "action": "jump"
+            },
+            {
+              "x": 76.66,
+              "y": 43.29,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 76.66,
+              "y": 43.29,
+              "action": "jump"
+            },
+            {
+              "x": 76.96,
+              "y": 42.99,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 76.96,
+              "y": 42.99,
+              "action": "jump"
+            },
+            {
+              "x": 76.54,
+              "y": 42.48,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 76.54,
+              "y": 42.48,
+              "action": "jump"
+            },
+            {
+              "x": 77.01,
+              "y": 41.66,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 77.01,
+              "y": 41.66,
+              "action": "jump"
+            },
+            {
+              "x": 77.13,
+              "y": 41.89,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 77.13,
+              "y": 41.89,
+              "action": "jump"
+            },
+            {
+              "x": 76.89,
+              "y": 41.89,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 76.89,
+              "y": 41.89,
+              "action": "jump"
+            },
+            {
+              "x": 76.61,
+              "y": 42.26,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 76.61,
+              "y": 42.26,
+              "action": "jump"
+            },
+            {
+              "x": 76.08,
+              "y": 42.36,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 76.08,
+              "y": 42.36,
+              "action": "jump"
+            },
+            {
+              "x": 75.96,
+              "y": 41.43,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 75.96,
+              "y": 41.43,
+              "action": "jump"
+            },
+            {
+              "x": 75.26,
+              "y": 41.78,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 75.26,
+              "y": 41.78,
+              "action": "jump"
+            },
+            {
+              "x": 75.49,
+              "y": 41.89,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 75.49,
+              "y": 41.89,
+              "action": "jump"
+            },
+            {
+              "x": 75.49,
+              "y": 41.66,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 75.49,
+              "y": 41.66,
+              "action": "jump"
+            },
+            {
+              "x": 75.96,
+              "y": 40.84,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 75.96,
+              "y": 40.84,
+              "action": "jump"
+            },
+            {
+              "x": 74.21,
+              "y": 41.31,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 74.21,
+              "y": 41.31,
+              "action": "jump"
+            },
+            {
+              "x": 74.44,
+              "y": 41.31,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 74.44,
+              "y": 41.31,
+              "action": "jump"
+            },
+            {
+              "x": 74.79,
+              "y": 41.66,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 74.79,
+              "y": 41.66,
+              "action": "jump"
+            },
+            {
+              "x": 74.68,
+              "y": 42.13,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 74.68,
+              "y": 42.13,
+              "action": "jump"
+            },
+            {
+              "x": 75.14,
+              "y": 42.36,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 75.14,
+              "y": 42.36,
+              "action": "jump"
+            },
+            {
+              "x": 75.14,
+              "y": 42.01,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 75.14,
+              "y": 42.01,
+              "action": "jump"
+            },
+            {
+              "x": 74.79,
+              "y": 41.89,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 74.79,
+              "y": 41.89,
+              "action": "jump"
+            },
+            {
+              "x": 75.02,
+              "y": 42.2,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 75.02,
+              "y": 42.2,
+              "action": "jump"
+            },
+            {
+              "x": 75.49,
+              "y": 42.59,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 75.49,
+              "y": 42.59,
+              "action": "jump"
+            },
+            {
+              "x": 75.96,
+              "y": 42.59,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 75.96,
+              "y": 42.59,
+              "action": "jump"
+            },
+            {
+              "x": 75.49,
+              "y": 42.83,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 75.49,
+              "y": 42.83,
+              "action": "jump"
+            },
+            {
+              "x": 74.56,
+              "y": 43.53,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 74.56,
+              "y": 43.53,
+              "action": "jump"
+            },
+            {
+              "x": 72.55,
+              "y": 44.72,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 72.55,
+              "y": 44.72,
+              "action": "jump"
+            },
+            {
+              "x": 70.55,
+              "y": 45.91,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 70.55,
+              "y": 45.91,
+              "action": "jump"
+            },
+            {
+              "x": 68.54,
+              "y": 47.1,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 68.54,
+              "y": 47.1,
+              "action": "jump"
+            },
+            {
+              "x": 66.53,
+              "y": 48.29,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 66.53,
+              "y": 48.29,
+              "action": "jump"
+            },
+            {
+              "x": 64.53,
+              "y": 49.48,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 64.53,
+              "y": 49.48,
+              "action": "jump"
+            },
+            {
+              "x": 63.01,
+              "y": 50.29,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 63.01,
+              "y": 50.29,
+              "action": "jump"
+            },
+            {
+              "x": 62.43,
+              "y": 49.94,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 62.43,
+              "y": 49.94,
+              "action": "jump"
+            },
+            {
+              "x": 62.43,
+              "y": 49.13,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 62.43,
+              "y": 49.13,
+              "action": "jump"
+            },
+            {
+              "x": 64.39,
+              "y": 47.82,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 64.39,
+              "y": 47.82,
+              "action": "jump"
+            },
+            {
+              "x": 66.35,
+              "y": 46.52,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 66.35,
+              "y": 46.52,
+              "action": "jump"
+            },
+            {
+              "x": 68.32,
+              "y": 45.22,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 68.32,
+              "y": 45.22,
+              "action": "jump"
+            },
+            {
+              "x": 70.28,
+              "y": 43.91,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 70.28,
+              "y": 43.91,
+              "action": "jump"
+            },
+            {
+              "x": 72.24,
+              "y": 42.61,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 72.24,
+              "y": 42.61,
+              "action": "jump"
+            },
+            {
+              "x": 74.01,
+              "y": 41.44,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 74.01,
+              "y": 41.44,
+              "action": "jump"
+            },
+            {
+              "x": 72.42,
+              "y": 42.5,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 72.42,
+              "y": 42.5,
+              "action": "jump"
+            },
+            {
+              "x": 70.49,
+              "y": 43.79,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 70.49,
+              "y": 43.79,
+              "action": "jump"
+            },
+            {
+              "x": 68.51,
+              "y": 45.11,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 68.51,
+              "y": 45.11,
+              "action": "jump"
+            },
+            {
+              "x": 66.61,
+              "y": 46.38,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 66.61,
+              "y": 46.38,
+              "action": "jump"
+            },
+            {
+              "x": 64.62,
+              "y": 47.7,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 64.62,
+              "y": 47.7,
+              "action": "jump"
+            },
+            {
+              "x": 62.64,
+              "y": 49.02,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 62.64,
+              "y": 49.02,
+              "action": "jump"
+            },
+            {
+              "x": 61.61,
+              "y": 49.01,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 61.61,
+              "y": 49.01,
+              "action": "jump"
+            },
+            {
+              "x": 59.98,
+              "y": 47.43,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 59.98,
+              "y": 47.43,
+              "action": "jump"
+            },
+            {
+              "x": 58.34,
+              "y": 45.86,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 58.34,
+              "y": 45.86,
+              "action": "jump"
+            },
+            {
+              "x": 56.65,
+              "y": 44.75,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 56.65,
+              "y": 44.75,
+              "action": "jump"
+            },
+            {
+              "x": 54.96,
+              "y": 43.64,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 54.96,
+              "y": 43.64,
+              "action": "jump"
+            },
+            {
+              "x": 53.27,
+              "y": 42.88,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 53.27,
+              "y": 42.88,
+              "action": "jump"
+            },
+            {
+              "x": 51.58,
+              "y": 42.13,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 51.58,
+              "y": 42.13,
+              "action": "jump"
+            },
+            {
+              "x": 49.94,
+              "y": 41.62,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 49.94,
+              "y": 41.62,
+              "action": "jump"
+            },
+            {
+              "x": 48.31,
+              "y": 41.11,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 48.31,
+              "y": 41.11,
+              "action": "jump"
+            },
+            {
+              "x": 46.68,
+              "y": 40.61,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 46.68,
+              "y": 40.61,
+              "action": "jump"
+            },
+            {
+              "x": 45.45,
+              "y": 38.74,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 45.45,
+              "y": 38.74,
+              "action": "jump"
+            },
+            {
+              "x": 44.23,
+              "y": 36.88,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 44.23,
+              "y": 36.88,
+              "action": "jump"
+            },
+            {
+              "x": 42.59,
+              "y": 35.36,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 42.59,
+              "y": 35.36,
+              "action": "jump"
+            },
+            {
+              "x": 40.96,
+              "y": 34.54,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 40.96,
+              "y": 34.54,
+              "action": "jump"
+            },
+            {
+              "x": 39.91,
+              "y": 34.31,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 39.91,
+              "y": 34.31,
+              "action": "jump"
+            },
+            {
+              "x": 37.46,
+              "y": 34.31,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 37.46,
+              "y": 34.31,
+              "action": "jump"
+            },
+            {
+              "x": 36.41,
+              "y": 34.54,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 36.41,
+              "y": 34.54,
+              "action": "jump"
+            },
+            {
+              "x": 34.78,
+              "y": 35.36,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 34.78,
+              "y": 35.36,
+              "action": "jump"
+            },
+            {
+              "x": 33.38,
+              "y": 36.64,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 33.38,
+              "y": 36.64,
+              "action": "jump"
+            },
+            {
+              "x": 32.73,
+              "y": 37.87,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 32.73,
+              "y": 37.87,
+              "action": "jump"
+            },
+            {
+              "x": 32.09,
+              "y": 39.09,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 32.09,
+              "y": 39.09,
+              "action": "jump"
+            },
+            {
+              "x": 30.63,
+              "y": 38.98,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 30.63,
+              "y": 38.98,
+              "action": "jump"
+            },
+            {
+              "x": 29.18,
+              "y": 38.86,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 29.18,
+              "y": 38.86,
+              "action": "jump"
+            },
+            {
+              "x": 30.39,
+              "y": 38.96,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 30.39,
+              "y": 38.96,
+              "action": "jump"
+            },
+            {
+              "x": 31.85,
+              "y": 39.07,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 31.85,
+              "y": 39.07,
+              "action": "jump"
+            },
+            {
+              "x": 32.44,
+              "y": 39.56,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 32.44,
+              "y": 39.56,
+              "action": "jump"
+            },
+            {
+              "x": 33.96,
+              "y": 39.67,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 33.96,
+              "y": 39.67,
+              "action": "jump"
+            },
+            {
+              "x": 35.65,
+              "y": 39.47,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 35.65,
+              "y": 39.47,
+              "action": "jump"
+            },
+            {
+              "x": 37.34,
+              "y": 39.27,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 37.34,
+              "y": 39.27,
+              "action": "jump"
+            },
+            {
+              "x": 37.18,
+              "y": 39.71,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 37.18,
+              "y": 39.71,
+              "action": "jump"
+            },
+            {
+              "x": 36.84,
+              "y": 40.01,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 36.84,
+              "y": 40.01,
+              "action": "jump"
+            },
+            {
+              "x": 36.41,
+              "y": 40.08,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 36.41,
+              "y": 40.08,
+              "action": "jump"
+            },
+            {
+              "x": 36.02,
+              "y": 39.94,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 36.02,
+              "y": 39.94,
+              "action": "jump"
+            },
+            {
+              "x": 35.77,
+              "y": 39.64,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 35.77,
+              "y": 39.64,
+              "action": "jump"
+            },
+            {
+              "x": 35.71,
+              "y": 39.27,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 35.71,
+              "y": 39.27,
+              "action": "jump"
+            },
+            {
+              "x": 35.84,
+              "y": 38.94,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 35.84,
+              "y": 38.94,
+              "action": "jump"
+            },
+            {
+              "x": 36.1,
+              "y": 38.73,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 36.1,
+              "y": 38.73,
+              "action": "jump"
+            },
+            {
+              "x": 36.41,
+              "y": 38.68,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 36.41,
+              "y": 38.68,
+              "action": "jump"
+            },
+            {
+              "x": 36.68,
+              "y": 38.8,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 36.68,
+              "y": 38.8,
+              "action": "jump"
+            },
+            {
+              "x": 36.85,
+              "y": 39.01,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 36.85,
+              "y": 39.01,
+              "action": "jump"
+            },
+            {
+              "x": 36.88,
+              "y": 39.27,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 36.88,
+              "y": 39.27,
+              "action": "jump"
+            },
+            {
+              "x": 36.78,
+              "y": 39.48,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 36.78,
+              "y": 39.48,
+              "action": "jump"
+            },
+            {
+              "x": 36.6,
+              "y": 39.6,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 36.6,
+              "y": 39.6,
+              "action": "jump"
+            },
+            {
+              "x": 36.25,
+              "y": 39.54,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 36.25,
+              "y": 39.54,
+              "action": "jump"
+            },
+            {
+              "x": 36.17,
+              "y": 39.27,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 36.17,
+              "y": 39.27,
+              "action": "jump"
+            },
+            {
+              "x": 36.33,
+              "y": 39.13,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 36.33,
+              "y": 39.13,
+              "action": "jump"
+            },
+            {
+              "x": 35.93,
+              "y": 39.22,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 35.93,
+              "y": 39.22,
+              "action": "jump"
+            },
+            {
+              "x": 35.99,
+              "y": 39.7,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 35.99,
+              "y": 39.7,
+              "action": "jump"
+            },
+            {
+              "x": 36.61,
+              "y": 39.93,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 36.61,
+              "y": 39.93,
+              "action": "jump"
+            },
+            {
+              "x": 36.98,
+              "y": 39.79,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 36.98,
+              "y": 39.79,
+              "action": "jump"
+            },
+            {
+              "x": 37.22,
+              "y": 39.45,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 37.22,
+              "y": 39.45,
+              "action": "jump"
+            },
+            {
+              "x": 35.89,
+              "y": 39.47,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 35.89,
+              "y": 39.47,
+              "action": "jump"
+            },
+            {
+              "x": 34.2,
+              "y": 39.65,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 34.2,
+              "y": 39.65,
+              "action": "jump"
+            },
+            {
+              "x": 32.68,
+              "y": 39.57,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 32.68,
+              "y": 39.57,
+              "action": "jump"
+            },
+            {
+              "x": 32.67,
+              "y": 41.66,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 32.67,
+              "y": 41.66,
+              "action": "jump"
+            },
+            {
+              "x": 33.26,
+              "y": 43.0,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 33.26,
+              "y": 43.0,
+              "action": "jump"
+            },
+            {
+              "x": 33.84,
+              "y": 44.34,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 33.84,
+              "y": 44.34,
+              "action": "jump"
+            },
+            {
+              "x": 33.73,
+              "y": 46.38,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 33.73,
+              "y": 46.38,
+              "action": "jump"
+            },
+            {
+              "x": 33.61,
+              "y": 48.43,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 33.61,
+              "y": 48.43,
+              "action": "jump"
+            },
+            {
+              "x": 34.08,
+              "y": 50.88,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 34.08,
+              "y": 50.88,
+              "action": "jump"
+            },
+            {
+              "x": 34.78,
+              "y": 52.39,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 34.78,
+              "y": 52.39,
+              "action": "jump"
+            },
+            {
+              "x": 35.48,
+              "y": 53.91,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 35.48,
+              "y": 53.91,
+              "action": "jump"
+            },
+            {
+              "x": 36.41,
+              "y": 55.13,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 36.41,
+              "y": 55.13,
+              "action": "jump"
+            },
+            {
+              "x": 37.34,
+              "y": 56.36,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 37.34,
+              "y": 56.36,
+              "action": "jump"
+            },
+            {
+              "x": 38.86,
+              "y": 57.76,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 38.86,
+              "y": 57.76,
+              "action": "jump"
+            },
+            {
+              "x": 40.61,
+              "y": 58.93,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 40.61,
+              "y": 58.93,
+              "action": "jump"
+            },
+            {
+              "x": 42.3,
+              "y": 59.63,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 42.3,
+              "y": 59.63,
+              "action": "jump"
+            },
+            {
+              "x": 43.99,
+              "y": 60.33,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 43.99,
+              "y": 60.33,
+              "action": "jump"
+            },
+            {
+              "x": 45.45,
+              "y": 60.56,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 45.45,
+              "y": 60.56,
+              "action": "jump"
+            },
+            {
+              "x": 46.91,
+              "y": 60.79,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 46.91,
+              "y": 60.79,
+              "action": "jump"
+            },
+            {
+              "x": 47.26,
+              "y": 61.14,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 47.26,
+              "y": 61.14,
+              "action": "jump"
+            },
+            {
+              "x": 48.31,
+              "y": 60.91,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 48.31,
+              "y": 60.91,
+              "action": "jump"
+            },
+            {
+              "x": 49.71,
+              "y": 60.91,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 49.71,
+              "y": 60.91,
+              "action": "jump"
+            },
+            {
+              "x": 51.11,
+              "y": 60.91,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 51.11,
+              "y": 60.91,
+              "action": "jump"
+            },
+            {
+              "x": 49.95,
+              "y": 60.91,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 49.95,
+              "y": 60.91,
+              "action": "jump"
+            },
+            {
+              "x": 48.55,
+              "y": 60.91,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 48.55,
+              "y": 60.91,
+              "action": "jump"
+            },
+            {
+              "x": 47.49,
+              "y": 61.1,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 47.49,
+              "y": 61.1,
+              "action": "jump"
+            },
+            {
+              "x": 47.14,
+              "y": 61.73,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 47.14,
+              "y": 61.73,
+              "action": "jump"
+            },
+            {
+              "x": 46.03,
+              "y": 62.66,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 46.03,
+              "y": 62.66,
+              "action": "jump"
+            },
+            {
+              "x": 44.93,
+              "y": 63.59,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 44.93,
+              "y": 63.59,
+              "action": "jump"
+            },
+            {
+              "x": 44.81,
+              "y": 64.18,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 44.81,
+              "y": 64.18,
+              "action": "jump"
+            },
+            {
+              "x": 43.18,
+              "y": 64.76,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 43.18,
+              "y": 64.76,
+              "action": "jump"
+            },
+            {
+              "x": 42.13,
+              "y": 64.64,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 42.13,
+              "y": 64.64,
+              "action": "jump"
+            },
+            {
+              "x": 41.08,
+              "y": 65.34,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 41.08,
+              "y": 65.34,
+              "action": "jump"
+            },
+            {
+              "x": 40.61,
+              "y": 66.04,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 40.61,
+              "y": 66.04,
+              "action": "jump"
+            },
+            {
+              "x": 40.84,
+              "y": 65.58,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 40.84,
+              "y": 65.58,
+              "action": "jump"
+            },
+            {
+              "x": 41.89,
+              "y": 64.76,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 41.89,
+              "y": 64.76,
+              "action": "jump"
+            },
+            {
+              "x": 42.83,
+              "y": 64.76,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 42.83,
+              "y": 64.76,
+              "action": "jump"
+            },
+            {
+              "x": 41.78,
+              "y": 66.16,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 41.78,
+              "y": 66.16,
+              "action": "jump"
+            },
+            {
+              "x": 41.54,
+              "y": 66.98,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 41.54,
+              "y": 66.98,
+              "action": "jump"
+            },
+            {
+              "x": 41.71,
+              "y": 66.39,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 41.71,
+              "y": 66.39,
+              "action": "jump"
+            },
+            {
+              "x": 42.64,
+              "y": 64.98,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 42.64,
+              "y": 64.98,
+              "action": "jump"
+            },
+            {
+              "x": 43.64,
+              "y": 64.64,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 43.64,
+              "y": 64.64,
+              "action": "jump"
+            },
+            {
+              "x": 42.94,
+              "y": 66.39,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 42.94,
+              "y": 66.39,
+              "action": "jump"
+            },
+            {
+              "x": 43.06,
+              "y": 67.21,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 43.06,
+              "y": 67.21,
+              "action": "jump"
+            },
+            {
+              "x": 42.98,
+              "y": 66.63,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 42.98,
+              "y": 66.63,
+              "action": "jump"
+            },
+            {
+              "x": 43.57,
+              "y": 64.87,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 43.57,
+              "y": 64.87,
+              "action": "jump"
+            },
+            {
+              "x": 44.6,
+              "y": 64.29,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 44.6,
+              "y": 64.29,
+              "action": "jump"
+            },
+            {
+              "x": 46.56,
+              "y": 64.29,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 46.56,
+              "y": 64.29,
+              "action": "jump"
+            },
+            {
+              "x": 47.38,
+              "y": 64.88,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 47.38,
+              "y": 64.88,
+              "action": "jump"
+            },
+            {
+              "x": 48.31,
+              "y": 65.93,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 48.31,
+              "y": 65.93,
+              "action": "jump"
+            },
+            {
+              "x": 47.73,
+              "y": 66.74,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 47.73,
+              "y": 66.74,
+              "action": "jump"
+            },
+            {
+              "x": 48.17,
+              "y": 66.12,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 48.17,
+              "y": 66.12,
+              "action": "jump"
+            },
+            {
+              "x": 49.13,
+              "y": 65.34,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 49.13,
+              "y": 65.34,
+              "action": "jump"
+            },
+            {
+              "x": 49.83,
+              "y": 65.34,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 49.83,
+              "y": 65.34,
+              "action": "jump"
+            },
+            {
+              "x": 49.71,
+              "y": 65.93,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 49.71,
+              "y": 65.93,
+              "action": "jump"
+            },
+            {
+              "x": 48.78,
+              "y": 67.21,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 48.78,
+              "y": 67.21,
+              "action": "jump"
+            },
+            {
+              "x": 48.78,
+              "y": 67.91,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 48.78,
+              "y": 67.91,
+              "action": "jump"
+            },
+            {
+              "x": 48.78,
+              "y": 67.45,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 48.78,
+              "y": 67.45,
+              "action": "jump"
+            },
+            {
+              "x": 49.58,
+              "y": 66.13,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 49.58,
+              "y": 66.13,
+              "action": "jump"
+            },
+            {
+              "x": 49.75,
+              "y": 65.57,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 49.75,
+              "y": 65.57,
+              "action": "jump"
+            },
+            {
+              "x": 50.76,
+              "y": 65.34,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 50.76,
+              "y": 65.34,
+              "action": "jump"
+            },
+            {
+              "x": 50.18,
+              "y": 66.86,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 50.18,
+              "y": 66.86,
+              "action": "jump"
+            },
+            {
+              "x": 50.29,
+              "y": 68.14,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 50.29,
+              "y": 68.14,
+              "action": "jump"
+            },
+            {
+              "x": 50.2,
+              "y": 67.1,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 50.2,
+              "y": 67.1,
+              "action": "jump"
+            },
+            {
+              "x": 50.69,
+              "y": 65.57,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 50.69,
+              "y": 65.57,
+              "action": "jump"
+            },
+            {
+              "x": 51.34,
+              "y": 64.88,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 51.34,
+              "y": 64.88,
+              "action": "jump"
+            },
+            {
+              "x": 51.58,
+              "y": 65.11,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 51.58,
+              "y": 65.11,
+              "action": "jump"
+            },
+            {
+              "x": 52.74,
+              "y": 64.99,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 52.74,
+              "y": 64.99,
+              "action": "jump"
+            },
+            {
+              "x": 53.68,
+              "y": 65.11,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 53.68,
+              "y": 65.11,
+              "action": "jump"
+            },
+            {
+              "x": 54.49,
+              "y": 65.81,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 54.49,
+              "y": 65.81,
+              "action": "jump"
+            },
+            {
+              "x": 53.86,
+              "y": 65.26,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 53.86,
+              "y": 65.26,
+              "action": "jump"
+            },
+            {
+              "x": 51.81,
+              "y": 65.12,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 51.81,
+              "y": 65.12,
+              "action": "jump"
+            },
+            {
+              "x": 51.58,
+              "y": 63.94,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 51.58,
+              "y": 63.94,
+              "action": "jump"
+            },
+            {
+              "x": 52.74,
+              "y": 62.31,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 52.74,
+              "y": 62.31,
+              "action": "jump"
+            },
+            {
+              "x": 53.91,
+              "y": 60.68,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 53.91,
+              "y": 60.68,
+              "action": "jump"
+            },
+            {
+              "x": 53.68,
+              "y": 60.21,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 53.68,
+              "y": 60.21,
+              "action": "jump"
+            },
+            {
+              "x": 53.09,
+              "y": 60.09,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 53.09,
+              "y": 60.09,
+              "action": "jump"
+            },
+            {
+              "x": 53.91,
+              "y": 60.44,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 53.91,
+              "y": 60.44,
+              "action": "jump"
+            },
+            {
+              "x": 55.83,
+              "y": 59.45,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 55.83,
+              "y": 59.45,
+              "action": "jump"
+            },
+            {
+              "x": 57.76,
+              "y": 58.46,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 57.76,
+              "y": 58.46,
+              "action": "jump"
+            },
+            {
+              "x": 59.39,
+              "y": 56.94,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 59.39,
+              "y": 56.94,
+              "action": "jump"
+            },
+            {
+              "x": 59.51,
+              "y": 56.24,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 59.51,
+              "y": 56.24,
+              "action": "jump"
+            },
+            {
+              "x": 61.73,
+              "y": 56.24,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 61.73,
+              "y": 56.24,
+              "action": "jump"
+            },
+            {
+              "x": 63.94,
+              "y": 56.24,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 63.94,
+              "y": 56.24,
+              "action": "jump"
+            },
+            {
+              "x": 65.69,
+              "y": 55.78,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 65.69,
+              "y": 55.78,
+              "action": "jump"
+            },
+            {
+              "x": 65.69,
+              "y": 55.08,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 65.69,
+              "y": 55.08,
+              "action": "jump"
+            },
+            {
+              "x": 65.69,
+              "y": 55.54,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 65.69,
+              "y": 55.54,
+              "action": "jump"
+            },
+            {
+              "x": 64.16,
+              "y": 56.15,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 64.16,
+              "y": 56.15,
+              "action": "jump"
+            },
+            {
+              "x": 61.96,
+              "y": 56.23,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 61.96,
+              "y": 56.23,
+              "action": "jump"
+            },
+            {
+              "x": 59.75,
+              "y": 56.24,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 59.75,
+              "y": 56.24,
+              "action": "jump"
+            },
+            {
+              "x": 57.72,
+              "y": 56.05,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 57.72,
+              "y": 56.05,
+              "action": "jump"
+            },
+            {
+              "x": 55.93,
+              "y": 55.85,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 55.93,
+              "y": 55.85,
+              "action": "jump"
+            },
+            {
+              "x": 54.14,
+              "y": 55.66,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 54.14,
+              "y": 55.66,
+              "action": "jump"
+            },
+            {
+              "x": 52.51,
+              "y": 55.27,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 52.51,
+              "y": 55.27,
+              "action": "jump"
+            },
+            {
+              "x": 50.88,
+              "y": 54.88,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 50.88,
+              "y": 54.88,
+              "action": "jump"
+            },
+            {
+              "x": 49.24,
+              "y": 54.49,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 49.24,
+              "y": 54.49,
+              "action": "jump"
+            },
+            {
+              "x": 49.24,
+              "y": 53.79,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 49.24,
+              "y": 53.79,
+              "action": "jump"
+            },
+            {
+              "x": 47.96,
+              "y": 53.91,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 47.96,
+              "y": 53.91,
+              "action": "jump"
+            },
+            {
+              "x": 45.98,
+              "y": 53.44,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 45.98,
+              "y": 53.44,
+              "action": "jump"
+            },
+            {
+              "x": 44.34,
+              "y": 52.63,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 44.34,
+              "y": 52.63,
+              "action": "jump"
+            },
+            {
+              "x": 42.83,
+              "y": 51.46,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 42.83,
+              "y": 51.46,
+              "action": "jump"
+            },
+            {
+              "x": 41.54,
+              "y": 49.83,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 41.54,
+              "y": 49.83,
+              "action": "jump"
+            },
+            {
+              "x": 40.96,
+              "y": 48.31,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 40.96,
+              "y": 48.31,
+              "action": "jump"
+            },
+            {
+              "x": 40.96,
+              "y": 46.68,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 40.96,
+              "y": 46.68,
+              "action": "jump"
+            },
+            {
+              "x": 41.31,
+              "y": 45.98,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 41.31,
+              "y": 45.98,
+              "action": "jump"
+            },
+            {
+              "x": 41.07,
+              "y": 46.46,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 41.07,
+              "y": 46.46,
+              "action": "jump"
+            },
+            {
+              "x": 40.97,
+              "y": 48.07,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 40.97,
+              "y": 48.07,
+              "action": "jump"
+            },
+            {
+              "x": 41.47,
+              "y": 49.6,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 41.47,
+              "y": 49.6,
+              "action": "jump"
+            },
+            {
+              "x": 42.68,
+              "y": 51.26,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 42.68,
+              "y": 51.26,
+              "action": "jump"
+            },
+            {
+              "x": 44.16,
+              "y": 52.47,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 44.16,
+              "y": 52.47,
+              "action": "jump"
+            },
+            {
+              "x": 45.76,
+              "y": 53.33,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 45.76,
+              "y": 53.33,
+              "action": "jump"
+            },
+            {
+              "x": 47.73,
+              "y": 53.85,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 47.73,
+              "y": 53.85,
+              "action": "jump"
+            },
+            {
+              "x": 49.0,
+              "y": 53.8,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 49.0,
+              "y": 53.8,
+              "action": "jump"
+            },
+            {
+              "x": 50.18,
+              "y": 53.56,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 50.18,
+              "y": 53.56,
+              "action": "jump"
+            },
+            {
+              "x": 50.53,
+              "y": 52.98,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 50.53,
+              "y": 52.98,
+              "action": "jump"
+            },
+            {
+              "x": 48.54,
+              "y": 52.39,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 48.54,
+              "y": 52.39,
+              "action": "jump"
+            },
+            {
+              "x": 46.56,
+              "y": 51.23,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 46.56,
+              "y": 51.23,
+              "action": "jump"
+            },
+            {
+              "x": 48.33,
+              "y": 52.27,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 48.33,
+              "y": 52.27,
+              "action": "jump"
+            },
+            {
+              "x": 50.3,
+              "y": 52.9,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 50.3,
+              "y": 52.9,
+              "action": "jump"
+            },
+            {
+              "x": 51.93,
+              "y": 52.74,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 51.93,
+              "y": 52.74,
+              "action": "jump"
+            },
+            {
+              "x": 51.93,
+              "y": 53.56,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 51.93,
+              "y": 53.56,
+              "action": "jump"
+            },
+            {
+              "x": 53.75,
+              "y": 53.87,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 53.75,
+              "y": 53.87,
+              "action": "jump"
+            },
+            {
+              "x": 55.58,
+              "y": 54.18,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 55.58,
+              "y": 54.18,
+              "action": "jump"
+            },
+            {
+              "x": 57.41,
+              "y": 54.49,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 57.41,
+              "y": 54.49,
+              "action": "jump"
+            },
+            {
+              "x": 59.24,
+              "y": 54.53,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 59.24,
+              "y": 54.53,
+              "action": "jump"
+            },
+            {
+              "x": 61.06,
+              "y": 54.57,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 61.06,
+              "y": 54.57,
+              "action": "jump"
+            },
+            {
+              "x": 62.89,
+              "y": 54.61,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 62.89,
+              "y": 54.61,
+              "action": "jump"
+            },
+            {
+              "x": 64.06,
+              "y": 54.26,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 64.06,
+              "y": 54.26,
+              "action": "jump"
+            },
+            {
+              "x": 63.71,
+              "y": 52.98,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 63.71,
+              "y": 52.98,
+              "action": "jump"
+            },
+            {
+              "x": 64.0,
+              "y": 54.03,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 64.0,
+              "y": 54.03,
+              "action": "jump"
+            },
+            {
+              "x": 63.1,
+              "y": 54.5,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 63.1,
+              "y": 54.5,
+              "action": "jump"
+            },
+            {
+              "x": 61.3,
+              "y": 54.56,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 61.3,
+              "y": 54.56,
+              "action": "jump"
+            },
+            {
+              "x": 59.48,
+              "y": 54.53,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 59.48,
+              "y": 54.53,
+              "action": "jump"
+            },
+            {
+              "x": 57.65,
+              "y": 54.5,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 57.65,
+              "y": 54.5,
+              "action": "jump"
+            },
+            {
+              "x": 55.82,
+              "y": 54.22,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 55.82,
+              "y": 54.22,
+              "action": "jump"
+            },
+            {
+              "x": 53.99,
+              "y": 53.91,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 53.99,
+              "y": 53.91,
+              "action": "jump"
+            },
+            {
+              "x": 52.16,
+              "y": 53.6,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 52.16,
+              "y": 53.6,
+              "action": "jump"
+            },
+            {
+              "x": 51.99,
+              "y": 52.97,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 51.99,
+              "y": 52.97,
+              "action": "jump"
+            },
+            {
+              "x": 52.63,
+              "y": 52.39,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 52.63,
+              "y": 52.39,
+              "action": "jump"
+            },
+            {
+              "x": 52.86,
+              "y": 51.69,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 52.86,
+              "y": 51.69,
+              "action": "jump"
+            },
+            {
+              "x": 50.53,
+              "y": 51.11,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 50.53,
+              "y": 51.11,
+              "action": "jump"
+            },
+            {
+              "x": 49.01,
+              "y": 50.29,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 49.01,
+              "y": 50.29,
+              "action": "jump"
+            },
+            {
+              "x": 50.31,
+              "y": 50.99,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 50.31,
+              "y": 50.99,
+              "action": "jump"
+            },
+            {
+              "x": 52.63,
+              "y": 51.63,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 52.63,
+              "y": 51.63,
+              "action": "jump"
+            },
+            {
+              "x": 53.91,
+              "y": 51.34,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 53.91,
+              "y": 51.34,
+              "action": "jump"
+            },
+            {
+              "x": 54.38,
+              "y": 50.29,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 54.38,
+              "y": 50.29,
+              "action": "jump"
+            },
+            {
+              "x": 52.63,
+              "y": 49.83,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 52.63,
+              "y": 49.83,
+              "action": "jump"
+            },
+            {
+              "x": 51.23,
+              "y": 49.13,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 51.23,
+              "y": 49.13,
+              "action": "jump"
+            },
+            {
+              "x": 52.41,
+              "y": 49.72,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 52.41,
+              "y": 49.72,
+              "action": "jump"
+            },
+            {
+              "x": 54.14,
+              "y": 50.22,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 54.14,
+              "y": 50.22,
+              "action": "jump"
+            },
+            {
+              "x": 55.83,
+              "y": 50.35,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 55.83,
+              "y": 50.35,
+              "action": "jump"
+            },
+            {
+              "x": 57.29,
+              "y": 50.41,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 57.29,
+              "y": 50.41,
+              "action": "jump"
+            },
+            {
+              "x": 57.99,
+              "y": 50.06,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 57.99,
+              "y": 50.06,
+              "action": "jump"
+            },
+            {
+              "x": 57.64,
+              "y": 49.13,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 57.64,
+              "y": 49.13,
+              "action": "jump"
+            },
+            {
+              "x": 56.36,
+              "y": 48.54,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 56.36,
+              "y": 48.54,
+              "action": "jump"
+            },
+            {
+              "x": 55.08,
+              "y": 47.96,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 55.08,
+              "y": 47.96,
+              "action": "jump"
+            },
+            {
+              "x": 56.14,
+              "y": 48.44,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 56.14,
+              "y": 48.44,
+              "action": "jump"
+            },
+            {
+              "x": 57.42,
+              "y": 49.03,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 57.42,
+              "y": 49.03,
+              "action": "jump"
+            },
+            {
+              "x": 57.88,
+              "y": 49.85,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 57.88,
+              "y": 49.85,
+              "action": "jump"
+            },
+            {
+              "x": 57.46,
+              "y": 50.24,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 57.46,
+              "y": 50.24,
+              "action": "jump"
+            },
+            {
+              "x": 56.07,
+              "y": 50.33,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 56.07,
+              "y": 50.33,
+              "action": "jump"
+            },
+            {
+              "x": 54.61,
+              "y": 50.3,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 54.61,
+              "y": 50.3,
+              "action": "jump"
+            },
+            {
+              "x": 54.04,
+              "y": 51.14,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 54.04,
+              "y": 51.14,
+              "action": "jump"
+            },
+            {
+              "x": 54.14,
+              "y": 52.28,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 54.14,
+              "y": 52.28,
+              "action": "jump"
+            },
+            {
+              "x": 54.84,
+              "y": 52.16,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 54.84,
+              "y": 52.16,
+              "action": "jump"
+            },
+            {
+              "x": 56.48,
+              "y": 52.63,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 56.48,
+              "y": 52.63,
+              "action": "jump"
+            },
+            {
+              "x": 58.58,
+              "y": 52.86,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 58.58,
+              "y": 52.86,
+              "action": "jump"
+            },
+            {
+              "x": 60.21,
+              "y": 52.86,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 60.21,
+              "y": 52.86,
+              "action": "jump"
+            },
+            {
+              "x": 61.84,
+              "y": 52.86,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 61.84,
+              "y": 52.86,
+              "action": "jump"
+            },
+            {
+              "x": 62.08,
+              "y": 52.74,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 62.08,
+              "y": 52.74,
+              "action": "jump"
+            },
+            {
+              "x": 61.84,
+              "y": 51.81,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 61.84,
+              "y": 51.81,
+              "action": "jump"
+            },
+            {
+              "x": 60.79,
+              "y": 51.34,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 60.79,
+              "y": 51.34,
+              "action": "jump"
+            },
+            {
+              "x": 60.21,
+              "y": 51.11,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 60.21,
+              "y": 51.11,
+              "action": "jump"
+            },
+            {
+              "x": 59.74,
+              "y": 51.34,
+              "action": "stitch"
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 59.74,
+              "y": 51.34,
+              "action": "jump"
+            },
+            {
+              "x": 58.23,
+              "y": 51.34,
+              "action": "stitch"
+            }
+          ]
+        }
+      ]
+    },
+    "red": {
+      "color": "red",
+      "segments": []
+    },
+    "yellow": {
+      "color": "yellow",
+      "segments": []
+    },
+    "blue": {
+      "color": "blue",
+      "segments": []
+    }
+  },
+  "statistics": {
+    "pathCountByColor": {
+      "black": 284,
+      "red": 0,
+      "yellow": 0,
+      "blue": 0
+    },
+    "stitchPointCountByColor": {
+      "black": 284,
+      "red": 0,
+      "yellow": 0,
+      "blue": 0
+    },
+    "totalStitchPointCount": 284,
+    "totalCommandPointCount": 568
+  },
+  "metadata": {
+    "image": {
+      "name": "bird-extracted.png",
+      "width": 600,
+      "height": 400
+    },
+    "generation": {
+      "tolerance": 20,
+      "scale": 0.7,
+      "rotationDegrees": 0,
+      "positionXmm": 0,
+      "positionYmm": 0
+    }
+  }
+}

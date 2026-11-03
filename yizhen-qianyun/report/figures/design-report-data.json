@@ -1,0 +1,58 @@
+{
+  "source": "build/release/implementation-utilization.rpt",
+  "stage": "post-implementation",
+  "date": "2026-11-03",
+  "part": "xc7a100tfgg484-2",
+  "resources": [
+    {
+      "name": "Slice LUTs",
+      "label": "LUT",
+      "used": 5652,
+      "available": 63400,
+      "percent": 8.91
+    },
+    {
+      "name": "Slice Registers",
+      "label": "FF",
+      "used": 3543,
+      "available": 126800,
+      "percent": 2.79
+    },
+    {
+      "name": "Block RAM Tile",
+      "label": "BRAM",
+      "used": 76,
+      "available": 135,
+      "percent": 56.3
+    },
+    {
+      "name": "DSPs",
+      "label": "DSP",
+      "used": 0,
+      "available": 240,
+      "percent": 0.0
+    },
+    {
+      "name": "Bonded IOB",
+      "label": "IOB",
+      "used": 52,
+      "available": 285,
+      "percent": 18.25
+    },
+    {
+      "name": "BUFGCTRL",
+      "label": "BUFG",
+      "used": 4,
+      "available": 32,
+      "percent": 12.5
+    },
+    {
+      "name": "MMCME2_ADV",
+      "label": "MMCM",
+      "used": 1,
+      "available": 6,
+      "percent": 16.67
+    }
+  ],
+  "actualDeviceTesting": false
+}

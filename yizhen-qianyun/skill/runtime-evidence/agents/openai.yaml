@@ -1,0 +1,4 @@
+interface:
+  display_name: "运行证据与实验"
+  short_description: "整理资源时序、真实仿真和持续响应数据，核对版本来源并明确未验证范围。"
+  default_prompt: "使用 $runtime-evidence 处理当前工程，保存实际结果并说明验证范围。"

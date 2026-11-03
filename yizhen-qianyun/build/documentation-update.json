@@ -1,0 +1,12 @@
+{
+  "scope": "documentation and reference files only; no RTL/host/UI implementation changes",
+  "date": "2026-11-03",
+  "pinCount": 54,
+  "pinsFromCurrentXdc": true,
+  "officialModelRevision": "462165984030d82259a11f4367a4eed129e94a7b",
+  "baseFiles": 20,
+  "datasetSourceChecked": "MSEmbGAN author page links directly to file 1UDxn4W2M3ur1A0TkEeTrpXNGGIBhnrZX",
+  "actualV2Data": "packaged project images; 8 train variants + 1 diagnostic",
+  "externalUrlsChecked": "2026-11-03; fixed SDXL page + author page + Drive page",
+  "hardwareRunPerformed": false
+}

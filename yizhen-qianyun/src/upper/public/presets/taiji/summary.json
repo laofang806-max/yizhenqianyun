@@ -1,0 +1,11 @@
+{
+  "needleCount": 331,
+  "diameterMm": 60.0,
+  "fillSpacingMm": 2.8,
+  "fillNeedles": "endpoints only; no intermediate drops on each straight fill pass",
+  "maxStitchMm": 42.09741733333333,
+  "lengthMm": 965.0415662402927,
+  "cuts": 0,
+  "connectorNote": "Visible stitched connection to upper dot, approximately 10.7mm.",
+  "repeatedRoundedHoles": 0
+}

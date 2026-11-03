@@ -1,0 +1,4 @@
+interface:
+  display_name: "彩色色层流程"
+  short_description: "合并近似颜色并忽略白底，逐层生成针迹与传输，检查元数据和固件兼容性。"
+  default_prompt: "使用 $color-layer-workflow 处理当前工程，保存实际结果并说明验证范围。"

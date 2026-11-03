@@ -1,0 +1,50 @@
+[
+  {
+    "packaged": "board-base-v2.6.pdf",
+    "description": "达芬奇 Pro 底板 V2.6 原理图",
+    "originalProvidedPath": "E:/AMD_COMPETITION/Control/资料/达芬奇Pro底板原理图_V2.6.pdf",
+    "sha256": "37bcf9a78b48858aae9b5e348b2c8c0ed201c8f80277246a92a7476773fa9922"
+  },
+  {
+    "packaged": "board-core-v4.1.pdf",
+    "description": "达芬奇 Pro 核心板 V4.1 原理图",
+    "originalProvidedPath": "E:/AMD_COMPETITION/Control/资料/达芬奇Pro核心板原理图_V4.1.pdf",
+    "sha256": "35971818bd26768e675a8d37ee857aa13bb428869c54ff3fe6330604f6552a85"
+  },
+  {
+    "packaged": "vendor-io-map.xlsx",
+    "description": "厂家 IO 分配表（仅参考；本项目约束另见 constraints）",
+    "originalProvidedPath": "E:/AMD_COMPETITION/Control/资料/达芬奇Pro开发板IO引脚分配表.xlsx",
+    "sha256": "210621daee3d3a2662bb60cae3cede294843fb992d768289a9cd50ba72f29aa1"
+  },
+  {
+    "packaged": "davinci-pro-spec-v1.2.pdf",
+    "description": "达芬奇 Pro 开发板规格书 V1.2",
+    "originalProvidedPath": "E:/AMD_COMPETITION/Control/资料/【正点原子】达芬奇PRO开发板规格书V1.2.pdf",
+    "sha256": "c7621dec72c2bc82c320abaef664bdc3b9d6d715c524f7ee1893a8297c9fe2e2"
+  },
+  {
+    "packaged": "tb6600.pdf",
+    "description": "TB6600 规格书，含拨码、端子和控制条件",
+    "originalProvidedPath": "E:/AMD_COMPETITION/Control/资料/TB6600/TB6600规格书.pdf",
+    "sha256": "8877ece051fce3c4e412098274c8a02cfb5bd0d5f01e7ea699d09b99c87707fb"
+  },
+  {
+    "packaged": "minebea-motor.jpg",
+    "description": "用户提供的美蓓亚 0.9°/1A 六线 42 电机图",
+    "originalProvidedPath": "E:/AMD_COMPETITION/Control/资料/8f803969a6e0e326cc8a1832e4b6a408.jpg",
+    "sha256": "57e005699b3e9361b1bfb8ae89b484276d78ac4c7f30fed892c2522889936f6d"
+  },
+  {
+    "packaged": "itr9606.pdf",
+    "description": "EVERLIGHT ITR9606 Rev3 数据手册",
+    "originalProvidedPath": "E:/stm32/模块资料/模块资料/7-对射式红外传感器/ITR9606.pdf",
+    "sha256": "9f86ea120fdbd394f2a7d35b81278e3deaf86f78e937dda4596027ba6b292985"
+  },
+  {
+    "packaged": "ov5640-datasheet.pdf",
+    "description": "OV5640 数据手册",
+    "originalProvidedPath": "E:/AMD_COMPETITION/Control/资料/OV5640/OV5640数据手册.pdf",
+    "sha256": "e00aa20794992826bfceffe7330d714a99e80869e24fff216c0ae750bb0fa9dd"
+  }
+]

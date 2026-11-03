@@ -1,0 +1,286 @@
+{
+  "summary": {
+    "source": "ImageGen isolated butterfly, centre-line thinning using existing thinMask, edge-complete chain tracing",
+    "strokeCount": 1,
+    "needleCount": 302,
+    "skeletonEdges": 2257,
+    "tracedEdges": 2257,
+    "defaultScale": 0.9,
+    "maxStitchMm": 2.8,
+    "defaultFrameMm": [
+      100,
+      100
+    ],
+    "jumpBetweenStrokes": true,
+    "previousNeedleCount": 243,
+    "simplificationTolerancePx": 1.2,
+    "maxStitchDistanceFromInkPx": 1.0,
+    "orderPolicy": "Offline planned fixed closed ink-only route. Host maps coordinates only; no online planner.",
+    "internalJumpCount": 0,
+    "internalJumpMaxMm": 0,
+    "closed": true,
+    "defaultPositionMm": {
+      "x": 6.06445312,
+      "y": -10.10742188
+    },
+    "retraceLengthMm": 175.60200001226684,
+    "uniqueInkLengthMm": 397.84432521079805,
+    "offlineMatchingGap": 0.0
+  },
+  "originalStrokeTraversalCounts": [
+    2,
+    1,
+    1,
+    1,
+    2,
+    2,
+    1,
+    1,
+    1,
+    2,
+    1,
+    2,
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2,
+    1,
+    2,
+    1
+  ],
+  "walk": [
+    {
+      "edge": 14,
+      "from": 0,
+      "to": 11
+    },
+    {
+      "edge": 10,
+      "from": 11,
+      "to": 10
+    },
+    {
+      "edge": 8,
+      "from": 10,
+      "to": 9
+    },
+    {
+      "edge": 15,
+      "from": 9,
+      "to": 13
+    },
+    {
+      "edge": 18,
+      "from": 13,
+      "to": 16
+    },
+    {
+      "edge": 18,
+      "from": 16,
+      "to": 13
+    },
+    {
+      "edge": 16,
+      "from": 13,
+      "to": 14
+    },
+    {
+      "edge": 16,
+      "from": 14,
+      "to": 13
+    },
+    {
+      "edge": 15,
+      "from": 13,
+      "to": 9
+    },
+    {
+      "edge": 7,
+      "from": 9,
+      "to": 8
+    },
+    {
+      "edge": 5,
+      "from": 8,
+      "to": 7
+    },
+    {
+      "edge": 5,
+      "from": 7,
+      "to": 8
+    },
+    {
+      "edge": 6,
+      "from": 8,
+      "to": 5
+    },
+    {
+      "edge": 4,
+      "from": 5,
+      "to": 6
+    },
+    {
+      "edge": 4,
+      "from": 6,
+      "to": 5
+    },
+    {
+      "edge": 3,
+      "from": 5,
+      "to": 4
+    },
+    {
+      "edge": 9,
+      "from": 4,
+      "to": 10
+    },
+    {
+      "edge": 9,
+      "from": 10,
+      "to": 4
+    },
+    {
+      "edge": 2,
+      "from": 4,
+      "to": 3
+    },
+    {
+      "edge": 11,
+      "from": 3,
+      "to": 11
+    },
+    {
+      "edge": 11,
+      "from": 11,
+      "to": 3
+    },
+    {
+      "edge": 1,
+      "from": 3,
+      "to": 2
+    },
+    {
+      "edge": 12,
+      "from": 2,
+      "to": 12
+    },
+    {
+      "edge": 22,
+      "from": 12,
+      "to": 19
+    },
+    {
+      "edge": 23,
+      "from": 19,
+      "to": 20
+    },
+    {
+      "edge": 23,
+      "from": 20,
+      "to": 19
+    },
+    {
+      "edge": 21,
+      "from": 19,
+      "to": 18
+    },
+    {
+      "edge": 26,
+      "from": 18,
+      "to": 22
+    },
+    {
+      "edge": 25,
+      "from": 22,
+      "to": 21
+    },
+    {
+      "edge": 28,
+      "from": 21,
+      "to": 23
+    },
+    {
+      "edge": 27,
+      "from": 23,
+      "to": 22
+    },
+    {
+      "edge": 26,
+      "from": 22,
+      "to": 18
+    },
+    {
+      "edge": 20,
+      "from": 18,
+      "to": 17
+    },
+    {
+      "edge": 19,
+      "from": 17,
+      "to": 16
+    },
+    {
+      "edge": 17,
+      "from": 16,
+      "to": 15
+    },
+    {
+      "edge": 17,
+      "from": 15,
+      "to": 16
+    },
+    {
+      "edge": 19,
+      "from": 16,
+      "to": 17
+    },
+    {
+      "edge": 29,
+      "from": 17,
+      "to": 23
+    },
+    {
+      "edge": 28,
+      "from": 23,
+      "to": 21
+    },
+    {
+      "edge": 24,
+      "from": 21,
+      "to": 2
+    },
+    {
+      "edge": 12,
+      "from": 2,
+      "to": 12
+    },
+    {
+      "edge": 13,
+      "from": 12,
+      "to": 0
+    },
+    {
+      "edge": 0,
+      "from": 0,
+      "to": 1
+    },
+    {
+      "edge": 0,
+      "from": 1,
+      "to": 0
+    }
+  ],
+  "allOriginalStrokesCovered": true,
+  "offlineOnly": true
+}

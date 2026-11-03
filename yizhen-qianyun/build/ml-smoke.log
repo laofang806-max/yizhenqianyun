@@ -1,0 +1,28 @@
+Existing shard index found
+`torch_dtype` is deprecated! Use `dtype` instead!
+Frozen text embeddings cached for all variants
+
+Loading checkpoint shards:   0%|          | 0/10 [00:00<?, ?it/s]
+Loading checkpoint shards:  10%|��         | 1/10 [00:01<00:09,  1.00s/it]
+Loading checkpoint shards:  20%|����        | 2/10 [00:01<00:07,  1.03it/s]
+Loading checkpoint shards:  30%|������       | 3/10 [00:02<00:06,  1.01it/s]
+Loading checkpoint shards:  40%|��������      | 4/10 [00:03<00:05,  1.02it/s]
+Loading checkpoint shards:  50%|����������     | 5/10 [00:04<00:04,  1.03it/s]
+Loading checkpoint shards:  60%|������������    | 6/10 [00:05<00:03,  1.02it/s]
+Loading checkpoint shards:  70%|��������������   | 7/10 [00:06<00:03,  1.01s/it]
+Loading checkpoint shards:  80%|����������������  | 8/10 [00:08<00:02,  1.07s/it]
+Loading checkpoint shards:  90%|������������������ | 9/10 [00:09<00:01,  1.14s/it]
+Loading checkpoint shards: 100%|��������������������| 10/10 [00:10<00:00,  1.07s/it]
+Loading checkpoint shards: 100%|��������������������| 10/10 [00:10<00:00,  1.04s/it]
+
+Loading pipeline components...:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading pipeline components...: 100%|��������������������| 3/3 [00:00<00:00, 81.98it/s]
+No LoRA keys associated to NoneType found with the prefix='text_encoder'. This is safe to ignore if LoRA state dict didn't originally have any NoneType related params. You can also try specifying `prefix=None` to resolve the warning. Otherwise, open an issue if you think it's unexpected: https://github.com/huggingface/diffusers/issues/new
+No LoRA keys associated to NoneType found with the prefix='text_encoder_2'. This is safe to ignore if LoRA state dict didn't originally have any NoneType related params. You can also try specifying `prefix=None` to resolve the warning. Otherwise, open an issue if you think it's unexpected: https://github.com/huggingface/diffusers/issues/new
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+ 50%|����������     | 1/2 [00:15<00:15, 15.29s/it]
+100%|��������������������| 2/2 [00:15<00:00,  6.40s/it]
+100%|��������������������| 2/2 [00:15<00:00,  7.74s/it]
+{"variant": "ema", "seed": 42, "settings": {"prompt": "A clean black line drawing of a small bird perched on a flowering branch, simple flat embroidery design, complete centered composition, pure white background, no text, no fabric texture", "negative_prompt": "photograph, cloth texture, watermark, letters, cropped subject", "width": 512, "height": 512, "num_inference_steps": 2, "guidance_scale": 5.0}, "loadSeconds": 12.565168900007848, "encodeAndDenoiseSeconds": 16.74793920002412, "decodeAndTransferSeconds": 8.325095899985172, "generationSeconds": 25.073035100009292, "steadyDenoiseStepSeconds": null, "stepIntervalsSeconds": [], "peakAllocatedMiB": 5053.1953125, "peakReservedMiB": 5266.0, "borderNonwhiteRate": 0.9721272849671172, "borderDarkRate": 0.24061415773393402, "borderWidthFraction": 0.08, "textEmbeddingsCached": true, "execution": "manual UNet GPU, VAE CPU, no automatic offload hooks", "explicitEvalMode": true, "allDropoutDisabled": true, "weightLoading": "sharded direct-to-GPU; loadSeconds not used to claim model speed superiority", "scope": "isolated process; generation includes cached tensor transfer and CPU tiled decoding, excludes frozen text encoding and disk loading; no FPGA inference"}
+Generated image and real timings: C:\Users\libiao\Documents\ChatGPT\competition\delivery\yizhen-qianyun\data\ml\smoke-inference\benchmark-final\ema_seed42.png

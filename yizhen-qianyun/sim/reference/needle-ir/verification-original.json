@@ -1,0 +1,46 @@
+{
+  "Date": "2026-11-02",
+  "Simulator": "Vivado XSim 2026.1",
+  "Scope": "E:/AMD_COMPETITION/Control/fpga - 副本",
+  "Tests": [
+    {
+      "Test": "tb_needle_ir",
+      "Result": "PASS",
+      "Evidence": "PASS: needle IR cycle, retry, missing down, stuck return, initial blocked, pause, cancel"
+    },
+    {
+      "Test": "tb_needle_ir_top",
+      "Result": "PASS",
+      "Evidence": "PASS: top automatic verified stitches, no XY before return, retry fault, KEY0 lockout, RESET, initial motion interlock, no needle error reply and BUSY status"
+    },
+    {
+      "Test": "tb_needle_led",
+      "Result": "PASS",
+      "Evidence": "PASS: LED3 marks two stationary stitch locations, skips jumps/return/completion, auto-continues without confirmation"
+    },
+    {
+      "Test": "tb_layer_reset_probe",
+      "Result": "PASS",
+      "Evidence": "PASS: five reusable layers, tagged PING idle/motion, UART reset, held KEY1 one-shot reset, retained firmware response and held-KEY0 restart interlock"
+    }
+  ],
+  "ChangedSHA256": {
+    "needle_ctrl.v": "C0F37967767C5C9348EC1A62081E5798FB793F62ACEE83401E07CF11C59AE446",
+    "top.v": "1B8EBE21B8B1317F4619E0F8BD758A5ACCE0FA251C595E52D74099D304603860",
+    "tb\\tb_needle_ir.v": "41DDAC1BB3DB1B9FEDCDCB2D72E167EBB2DD70BC836B477A174CFA7850B2CB99",
+    "text_tx.v": "67A682DCF34454BA366C7665DC4EEF89936F9C032CEBA2B9A79998E66DC46A1D",
+    "WIRING.md": "3803EE851148177ECA26529F8B1F80D99740562BFB55C09732027B1D36B92CA2",
+    "board_top.v": "D3591A599141CCC08A2D2709BFADB18D007A2B143BB6EBBD44B4F38F9A0B18AD",
+    "README.md": "43432ADE8562D2638CF0FC38285330B7D05E08B69FBB665E639F76B9759F4B6C",
+    "run_needle_ir_simulations.ps1": "9A777E7D6DD5142D3551DDD15A706AC60C0219BE26742970657F27EE336168EA"
+  },
+  "PulseMS": 20,
+  "RetryWaitMS": 200,
+  "MaxPulses": 3,
+  "DownTimeoutMS": 1000,
+  "ReturnTimeoutMS": 2000,
+  "HardwareTested": false,
+  "BitstreamBuilt": false,
+  "Programmed": false,
+  "NeedleFaultSerialReply": "No unsolicited error; STATUS? replies BUSY"
+}

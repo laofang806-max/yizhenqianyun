@@ -1,0 +1,4 @@
+interface:
+  display_name: "湘绣固定图案管理"
+  short_description: "用户明确指定花鸟、鸟、花、太极固定图案，提供可复用流程、真实检查结果与适用边界说明。"
+  default_prompt: "$artwork-route 载入太极路线，保持外圆约60mm，导出当前针序。"

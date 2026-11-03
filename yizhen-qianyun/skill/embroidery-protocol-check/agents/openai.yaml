@@ -1,0 +1,4 @@
+interface:
+  display_name: "湘绣传输数据检查"
+  short_description: "离线检查动作流、针序、编码范围和导出一致性，提供可复用流程、真实检查结果与适用边界说明。"
+  default_prompt: "$embroidery-protocol-check 检查本地UART文件，累计每个S目标并与标准JSON比较，不连接设备。"

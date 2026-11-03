@@ -1,0 +1,4 @@
+interface:
+  display_name: "湘绣针迹规划"
+  short_description: "线稿连续走线、填充、尺寸与针孔优化，提供可复用流程、真实检查结果与适用边界说明。"
+  default_prompt: "$embroidery-path 将输入图规划为60mm图案，保留鸟眼，说明连接线及重复针孔。"

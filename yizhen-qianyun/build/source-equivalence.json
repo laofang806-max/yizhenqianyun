@@ -1,0 +1,859 @@
+{
+  "date": "2026-11-03",
+  "method": "SHA256 bytewise file comparison with current local development sources",
+  "groups": {
+    "finalAutomaticNeedleRTL": [
+      {
+        "file": "src/rtl/board_top.v",
+        "source": "E:\\AMD_COMPETITION\\Control\\fpga - 副本\\board_top.v",
+        "sha256": "d3591a599141ccc08a2d2709bfadb18d007a2b143bb6ebbd44b4f38f9a0b18ad",
+        "sourceSha256": "d3591a599141ccc08a2d2709bfadb18d007a2b143bb6ebbd44b4f38f9a0b18ad",
+        "equal": true
+      },
+      {
+        "file": "src/rtl/camera_usb_stream.v",
+        "source": "E:\\AMD_COMPETITION\\Control\\fpga - 副本\\camera_usb_stream.v",
+        "sha256": "b739d67a43e4706ea088c42673e201d59ad56ce5156051be2714b61c7cb0af23",
+        "sourceSha256": "b739d67a43e4706ea088c42673e201d59ad56ce5156051be2714b61c7cb0af23",
+        "equal": true
+      },
+      {
+        "file": "src/rtl/encoder_monitor.v",
+        "source": "E:\\AMD_COMPETITION\\Control\\fpga - 副本\\encoder_monitor.v",
+        "sha256": "803215b4d2a54e9b211a3bffd7e4ff72e17aa5de763c2c99a7045dc3c1ce9730",
+        "sourceSha256": "803215b4d2a54e9b211a3bffd7e4ff72e17aa5de763c2c99a7045dc3c1ce9730",
+        "equal": true
+      },
+      {
+        "file": "src/rtl/ft232h_stream_start.v",
+        "source": "E:\\AMD_COMPETITION\\Control\\fpga - 副本\\ft232h_stream_start.v",
+        "sha256": "f4d35f3e574f72f51f9d56c02384e1f246c05b99d7d2ff365b9932d6382b5dcb",
+        "sourceSha256": "f4d35f3e574f72f51f9d56c02384e1f246c05b99d7d2ff365b9932d6382b5dcb",
+        "equal": true
+      },
+      {
+        "file": "src/rtl/homing.v",
+        "source": "E:\\AMD_COMPETITION\\Control\\fpga - 副本\\homing.v",
+        "sha256": "0aeb704ddf37408ef4435bb1c1d0af49b4ee678001e4be0d393c45e70ef97156",
+        "sourceSha256": "0aeb704ddf37408ef4435bb1c1d0af49b4ee678001e4be0d393c45e70ef97156",
+        "equal": true
+      },
+      {
+        "file": "src/rtl/input_filter.v",
+        "source": "E:\\AMD_COMPETITION\\Control\\fpga - 副本\\input_filter.v",
+        "sha256": "21aed0922232ec4bd1f57f71a96e52ede676762e614dfe276cbe4ce960528278",
+        "sourceSha256": "21aed0922232ec4bd1f57f71a96e52ede676762e614dfe276cbe4ce960528278",
+        "equal": true
+      },
+      {
+        "file": "src/rtl/motion_xy.v",
+        "source": "E:\\AMD_COMPETITION\\Control\\fpga - 副本\\motion_xy.v",
+        "sha256": "8077a36d8268b1cb9003eb357f7cd5aa9a18f42b3ad13f1c2e851ff36e4fa005",
+        "sourceSha256": "8077a36d8268b1cb9003eb357f7cd5aa9a18f42b3ad13f1c2e851ff36e4fa005",
+        "equal": true
+      },
+      {
+        "file": "src/rtl/needle_ctrl.v",
+        "source": "E:\\AMD_COMPETITION\\Control\\fpga - 副本\\needle_ctrl.v",
+        "sha256": "c0f37967767c5c9348ec1a62081e5798fb793f62acee83401e07cf11c59ae446",
+        "sourceSha256": "c0f37967767c5c9348ec1a62081e5798fb793f62acee83401e07cf11c59ae446",
+        "equal": true
+      },
+      {
+        "file": "src/rtl/ov5640_sccb_init.v",
+        "source": "E:\\AMD_COMPETITION\\Control\\fpga - 副本\\ov5640_sccb_init.v",
+        "sha256": "cf1b105a7beb83925fe6ad14800d91df91f1a5bca86fee0ce2d58ded7c266926",
+        "sourceSha256": "cf1b105a7beb83925fe6ad14800d91df91f1a5bca86fee0ce2d58ded7c266926",
+        "equal": true
+      },
+      {
+        "file": "src/rtl/protocol_parser.v",
+        "source": "E:\\AMD_COMPETITION\\Control\\fpga - 副本\\protocol_parser.v",
+        "sha256": "2fae2a6b752427c85d53e8bffb778e335b739fed92999e4cb14bab5f551b4b8e",
+        "sourceSha256": "2fae2a6b752427c85d53e8bffb778e335b739fed92999e4cb14bab5f551b4b8e",
+        "equal": true
+      },
+      {
+        "file": "src/rtl/text_tx.v",
+        "source": "E:\\AMD_COMPETITION\\Control\\fpga - 副本\\text_tx.v",
+        "sha256": "67a682dcf34454ba366c7665dc4eef89936f9c032ceba2b9a79998e66dc46a1d",
+        "sourceSha256": "67a682dcf34454ba366c7665dc4eef89936f9c032ceba2b9a79998e66dc46a1d",
+        "equal": true
+      },
+      {
+        "file": "src/rtl/top.v",
+        "source": "E:\\AMD_COMPETITION\\Control\\fpga - 副本\\top.v",
+        "sha256": "1b8ebe21b8b1317f4619e0f8bd758a5acce0fa251c595e52d74099d304603860",
+        "sourceSha256": "1b8ebe21b8b1317f4619e0f8bd758a5acce0fa251c595e52d74099d304603860",
+        "equal": true
+      },
+      {
+        "file": "src/rtl/uart.v",
+        "source": "E:\\AMD_COMPETITION\\Control\\fpga - 副本\\uart.v",
+        "sha256": "c03ea2f16287f52df67a5a77a692ba7f463ba356c23c54895403558b30e37bd5",
+        "sourceSha256": "c03ea2f16287f52df67a5a77a692ba7f463ba356c23c54895403558b30e37bd5",
+        "equal": true
+      }
+    ],
+    "constraints": [
+      {
+        "file": "board/constraints/camera_clock_route.xdc",
+        "source": "E:\\AMD_COMPETITION\\Control\\fpga - 副本\\prj\\xiangxiu\\xiangxiu.srcs\\constrs_1\\new\\camera_clock_route.xdc",
+        "sha256": "73e72c6513528ac99bd6d1dd1f592342e91ae0c78deba1b5c14d68c24cd959af",
+        "sourceSha256": "73e72c6513528ac99bd6d1dd1f592342e91ae0c78deba1b5c14d68c24cd959af",
+        "equal": true
+      },
+      {
+        "file": "board/constraints/pins.xdc",
+        "source": "E:\\AMD_COMPETITION\\Control\\fpga - 副本\\prj\\xiangxiu\\xiangxiu.srcs\\constrs_1\\new\\pins.xdc",
+        "sha256": "eb814d640f9bb790c649f6cf7ea6f35789d9bf6e0b10b955fbf476f58e705627",
+        "sourceSha256": "eb814d640f9bb790c649f6cf7ea6f35789d9bf6e0b10b955fbf476f58e705627",
+        "equal": true
+      }
+    ],
+    "upperSourceAndAssets": [
+      {
+        "file": "src/upper/src/App.tsx",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\App.tsx",
+        "sha256": "feb601a30dbbfdf43fb4dc8e5f3222d539e770e471ae2913eb60520de55b53ef",
+        "sourceSha256": "feb601a30dbbfdf43fb4dc8e5f3222d539e770e471ae2913eb60520de55b53ef",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/assets/bird-original.jpg",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\assets\\bird-original.jpg",
+        "sha256": "2f057a1f44a4f886a4ce5023050004785e32d56f357ba2b4a4e6f1e658dbcad7",
+        "sourceSha256": "2f057a1f44a4f886a4ce5023050004785e32d56f357ba2b4a4e6f1e658dbcad7",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/assets/butterfly-original.png",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\assets\\butterfly-original.png",
+        "sha256": "dc190ea3ce6254e14cf8b01b8f443e5ac89e1de09d07bf8b4c4a42e1df6b3df0",
+        "sourceSha256": "dc190ea3ce6254e14cf8b01b8f443e5ac89e1de09d07bf8b4c4a42e1df6b3df0",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/assets/flower-original.png",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\assets\\flower-original.png",
+        "sha256": "7adf56fc12555d08ddf2042f135b44743a446677d8ee4714ed330aa63fcc6671",
+        "sourceSha256": "7adf56fc12555d08ddf2042f135b44743a446677d8ee4714ed330aa63fcc6671",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/assets/rabbit-original.png",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\assets\\rabbit-original.png",
+        "sha256": "f378e8eeb72c452662dd45a9ceddc226803540f8953e66571a3da92085334fbd",
+        "sourceSha256": "f378e8eeb72c452662dd45a9ceddc226803540f8953e66571a3da92085334fbd",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/assets/solo-bird.png",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\assets\\solo-bird.png",
+        "sha256": "30b9c98dc7b40c5296471ab8d84a961dabfd12f17cd8282157eeaec0e6ad530d",
+        "sourceSha256": "30b9c98dc7b40c5296471ab8d84a961dabfd12f17cd8282157eeaec0e6ad530d",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/assets/taiji-original.svg",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\assets\\taiji-original.svg",
+        "sha256": "5f1a8b9a68ad448d051f4e3f2da392094ed40771c71498dbb8d90723a9ed6149",
+        "sourceSha256": "5f1a8b9a68ad448d051f4e3f2da392094ed40771c71498dbb8d90723a9ed6149",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/assets/xiangxiu-branch.svg",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\assets\\xiangxiu-branch.svg",
+        "sha256": "29f509e11f3d1c56b70fbaa2139e87aef51dc6aa92b89a2f781933427d6479d4",
+        "sourceSha256": "29f509e11f3d1c56b70fbaa2139e87aef51dc6aa92b89a2f781933427d6479d4",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/color-runtime.css",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\color-runtime.css",
+        "sha256": "d119d41a3d929b5372b8d1e721f9a0afcedd1e9ddc3ee626cc39dea2ff927e6a",
+        "sourceSha256": "d119d41a3d929b5372b8d1e721f9a0afcedd1e9ddc3ee626cc39dea2ff927e6a",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/components/ArtworkCreator.tsx",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\components\\ArtworkCreator.tsx",
+        "sha256": "f489278454f7e8d503755b3595f50907abdb8f508a6d7bcd7b380c5220acdb3c",
+        "sourceSha256": "f489278454f7e8d503755b3595f50907abdb8f508a6d7bcd7b380c5220acdb3c",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/components/AuthGate.tsx",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\components\\AuthGate.tsx",
+        "sha256": "181f7bbc0313eef1ec09a18efc38627f4295c71b93c828c5b73b311b483f5d3a",
+        "sourceSha256": "181f7bbc0313eef1ec09a18efc38627f4295c71b93c828c5b73b311b483f5d3a",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/components/CameraCapturePanel.tsx",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\components\\CameraCapturePanel.tsx",
+        "sha256": "839d486865b5dd34bf13ae494bf1178d4db7b8ba8d29cb5f53a1bc981329e431",
+        "sourceSha256": "839d486865b5dd34bf13ae494bf1178d4db7b8ba8d29cb5f53a1bc981329e431",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/components/CanvasEditor.tsx",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\components\\CanvasEditor.tsx",
+        "sha256": "9949c7ead457dce19c4aa3ab662fe3b99dd0d24206a4a6933e7c62350d5492a5",
+        "sourceSha256": "9949c7ead457dce19c4aa3ab662fe3b99dd0d24206a4a6933e7c62350d5492a5",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/components/ColorPanel.tsx",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\components\\ColorPanel.tsx",
+        "sha256": "e90fba08b45925f98c970010be558bfd73fef85b0f76ff8db410497ac674ce88",
+        "sourceSha256": "e90fba08b45925f98c970010be558bfd73fef85b0f76ff8db410497ac674ce88",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/components/DataTransferPage.tsx",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\components\\DataTransferPage.tsx",
+        "sha256": "e4995bd9534ff9d27bc06614c2eba0fd1ac1830ce4915b732c519dbc0c3215c5",
+        "sourceSha256": "e4995bd9534ff9d27bc06614c2eba0fd1ac1830ce4915b732c519dbc0c3215c5",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/components/DevicePanel.tsx",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\components\\DevicePanel.tsx",
+        "sha256": "1cb00f971d57a0268b935fa8e36c4e2312e331d5bc0aa428ad27419c5619a338",
+        "sourceSha256": "1cb00f971d57a0268b935fa8e36c4e2312e331d5bc0aa428ad27419c5619a338",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/components/ExportPanel.tsx",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\components\\ExportPanel.tsx",
+        "sha256": "49ae77cb69fded57c1ec9c3aa12af6c0704348c82162f95ad948d005c7c4c4af",
+        "sourceSha256": "49ae77cb69fded57c1ec9c3aa12af6c0704348c82162f95ad948d005c7c4c4af",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/components/FrameSettings.tsx",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\components\\FrameSettings.tsx",
+        "sha256": "1f37ec4d1f28f8a2baaec669ceee5ff33cf70cb3cc1736cc269cfcbe12c0402e",
+        "sourceSha256": "1f37ec4d1f28f8a2baaec669ceee5ff33cf70cb3cc1736cc269cfcbe12c0402e",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/components/ImageUploader.tsx",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\components\\ImageUploader.tsx",
+        "sha256": "7b68433add93058dfa8678d595729262d96adf6ad8ff06d54f2517c95f5d7428",
+        "sourceSha256": "7b68433add93058dfa8678d595729262d96adf6ad8ff06d54f2517c95f5d7428",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/components/NeedleEditPanel.tsx",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\components\\NeedleEditPanel.tsx",
+        "sha256": "38cb4dd29475040def705fa50edd369ff30ef855e9caa5dc728a6b8a134a38f7",
+        "sourceSha256": "38cb4dd29475040def705fa50edd369ff30ef855e9caa5dc728a6b8a134a38f7",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/components/PathPreview.tsx",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\components\\PathPreview.tsx",
+        "sha256": "3870a5f69485f7dfb27b371766ff2e368e0c12d8d849355efeea28950047a3d7",
+        "sourceSha256": "3870a5f69485f7dfb27b371766ff2e368e0c12d8d849355efeea28950047a3d7",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/components/SerialCapturePanel.css",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\components\\SerialCapturePanel.css",
+        "sha256": "fdf0ef7fc8060e55efda6499b0271b0f40d8bda7da3f08277077b847dfce8e2d",
+        "sourceSha256": "fdf0ef7fc8060e55efda6499b0271b0f40d8bda7da3f08277077b847dfce8e2d",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/components/SerialCapturePanel.tsx",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\components\\SerialCapturePanel.tsx",
+        "sha256": "ba8f8cfb477edcd28e96ff9d472c60a5fad8d146f548bb02da42e7950c1a6b85",
+        "sourceSha256": "ba8f8cfb477edcd28e96ff9d472c60a5fad8d146f548bb02da42e7950c1a6b85",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/components/StabilityPanel.tsx",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\components\\StabilityPanel.tsx",
+        "sha256": "b2cc114ef6dd1f5757b11dab462609083bed7f707a529956b0fca10c48b8cc61",
+        "sourceSha256": "b2cc114ef6dd1f5757b11dab462609083bed7f707a529956b0fca10c48b8cc61",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/components/StatisticsPanel.tsx",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\components\\StatisticsPanel.tsx",
+        "sha256": "54d8a91c3618edf0d348fc0ddc335ade939c92e5a9ecca67f679d963f4b28b52",
+        "sourceSha256": "54d8a91c3618edf0d348fc0ddc335ade939c92e5a9ecca67f679d963f4b28b52",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/components/ThreadLayersPanel.tsx",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\components\\ThreadLayersPanel.tsx",
+        "sha256": "6f02d6cf9e8031a838a9cb63749872659a8f8b050470df8d9151e2883257c6fa",
+        "sourceSha256": "6f02d6cf9e8031a838a9cb63749872659a8f8b050470df8d9151e2883257c6fa",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/components/VoiceInputButton.css",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\components\\VoiceInputButton.css",
+        "sha256": "0bc7c4954f07431be9b31a6ddb8bda425342cc07bb848feee298793d2de78426",
+        "sourceSha256": "0bc7c4954f07431be9b31a6ddb8bda425342cc07bb848feee298793d2de78426",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/components/VoiceInputButton.tsx",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\components\\VoiceInputButton.tsx",
+        "sha256": "a4178dafe6356ee0c9bc9f9bbf5a873011724857a40650072cc1543bb7af93c2",
+        "sourceSha256": "a4178dafe6356ee0c9bc9f9bbf5a873011724857a40650072cc1543bb7af93c2",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/data/bird-route.json",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\data\\bird-route.json",
+        "sha256": "ab1a50f7ad9222b2f9be050f8804ef98808240f5b17ca803a812256030c8b288",
+        "sourceSha256": "ab1a50f7ad9222b2f9be050f8804ef98808240f5b17ca803a812256030c8b288",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/data/butterfly-route.json",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\data\\butterfly-route.json",
+        "sha256": "cf297dd12f064cfb53ceda74d1298b14d273f244a53d3aaf80223f8dc1d4de34",
+        "sourceSha256": "cf297dd12f064cfb53ceda74d1298b14d273f244a53d3aaf80223f8dc1d4de34",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/data/flower-route.json",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\data\\flower-route.json",
+        "sha256": "b460b0caddf2368d01bcf2380392312c280dfef5e9d2e0c1b3d8961eac7e45a5",
+        "sourceSha256": "b460b0caddf2368d01bcf2380392312c280dfef5e9d2e0c1b3d8961eac7e45a5",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/data/rabbit-route.json",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\data\\rabbit-route.json",
+        "sha256": "860b20d09b0c77cf6b9d5ab3b1d71687f690404daf14fab86415c53bcaad0f1b",
+        "sourceSha256": "860b20d09b0c77cf6b9d5ab3b1d71687f690404daf14fab86415c53bcaad0f1b",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/data/solo-bird-route.json",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\data\\solo-bird-route.json",
+        "sha256": "e5400125ba08e2ed967c9acf9bb6a8e7500e89d4b2ae7151aede52a5abf95e8b",
+        "sourceSha256": "e5400125ba08e2ed967c9acf9bb6a8e7500e89d4b2ae7151aede52a5abf95e8b",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/data/taiji-route.json",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\data\\taiji-route.json",
+        "sha256": "359674bc0ae41c896beb1b97f3e848022e45b384cbe90e8609bb01508b8aa921",
+        "sourceSha256": "359674bc0ae41c896beb1b97f3e848022e45b384cbe90e8609bb01508b8aa921",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/index.css",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\index.css",
+        "sha256": "36fd31fe02dcd1dedeb69cc6504cf0465cc14e7b896ad6a35be6458c1781357c",
+        "sourceSha256": "36fd31fe02dcd1dedeb69cc6504cf0465cc14e7b896ad6a35be6458c1781357c",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/main.tsx",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\main.tsx",
+        "sha256": "c61eb16c45ba070201e8112aefd4b03d3e04dad768489b93aacd4f96bbe282fb",
+        "sourceSha256": "c61eb16c45ba070201e8112aefd4b03d3e04dad768489b93aacd4f96bbe282fb",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/types/embroidery.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\types\\embroidery.ts",
+        "sha256": "32bd9395b281e7c1d1fba1e83b66fdc64548ff1c20512fc77516beeaf14a9672",
+        "sourceSha256": "32bd9395b281e7c1d1fba1e83b66fdc64548ff1c20512fc77516beeaf14a9672",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/types/exportData.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\types\\exportData.ts",
+        "sha256": "44cfcf029f792c5917207fa3e9ffa1036b5a156d0a5014bb58f5451adba35d99",
+        "sourceSha256": "44cfcf029f792c5917207fa3e9ffa1036b5a156d0a5014bb58f5451adba35d99",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/adaptiveColors.test.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\adaptiveColors.test.ts",
+        "sha256": "27ab77545a6fc04b9642ccb87c562d151f2084dcb9e069aa3c668b8e21d3078d",
+        "sourceSha256": "27ab77545a6fc04b9642ccb87c562d151f2084dcb9e069aa3c668b8e21d3078d",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/adaptiveColors.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\adaptiveColors.ts",
+        "sha256": "4e882028250615269a95e60f0d4f4d3ae899f72e1253d94a583ba97f068d5819",
+        "sourceSha256": "4e882028250615269a95e60f0d4f4d3ae899f72e1253d94a583ba97f068d5819",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/artworkPresets.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\artworkPresets.ts",
+        "sha256": "e3bdac85de28be1eaeb72bd06f69337d53e2d373ef051f5c26de47a48221c7f4",
+        "sourceSha256": "e3bdac85de28be1eaeb72bd06f69337d53e2d373ef051f5c26de47a48221c7f4",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/binProtocol.test.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\binProtocol.test.ts",
+        "sha256": "43261ed434950e73311a8a31dd08a3d98f1378fd8bbd705a3ac00282aea3a08d",
+        "sourceSha256": "43261ed434950e73311a8a31dd08a3d98f1378fd8bbd705a3ac00282aea3a08d",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/binProtocol.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\binProtocol.ts",
+        "sha256": "6a4dceeedc36a9c7367e627e6c021c1344fb480a845dd4ac349c1c58c734d30c",
+        "sourceSha256": "6a4dceeedc36a9c7367e627e6c021c1344fb480a845dd4ac349c1c58c734d30c",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/birdPreset.test.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\birdPreset.test.ts",
+        "sha256": "80e4fcb34fc5ba804a42353895fb072ae4cd5b45c02a79e588ba8424fcd0bd26",
+        "sourceSha256": "cb20cfa465ddb2ed83e9d6ec7296264a4dcffb379ced6f7b18baaa0d89357384",
+        "equal": false
+      },
+      {
+        "file": "src/upper/src/utils/birdPreset.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\birdPreset.ts",
+        "sha256": "7ccb8e7aa8f0deff1e4939dbb4b8a987e9ba0a87523231c8eaec52ce931ed8dc",
+        "sourceSha256": "7ccb8e7aa8f0deff1e4939dbb4b8a987e9ba0a87523231c8eaec52ce931ed8dc",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/butterflyPreset.test.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\butterflyPreset.test.ts",
+        "sha256": "375e142fd9667314d2827e9940cee59dedc087921f357ffeaaef1af4f8c0b332",
+        "sourceSha256": "375e142fd9667314d2827e9940cee59dedc087921f357ffeaaef1af4f8c0b332",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/cameraStream.test.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\cameraStream.test.ts",
+        "sha256": "a6071edd241d7529aba6eb87284fc53c70dea0b24ca5ab8519ab4396e70e6748",
+        "sourceSha256": "a6071edd241d7529aba6eb87284fc53c70dea0b24ca5ab8519ab4396e70e6748",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/cameraStream.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\cameraStream.ts",
+        "sha256": "4e316b11e008d5b0ff1cd19c75e397c0acbc117e363a516c6fc2d45a65569cde",
+        "sourceSha256": "4e316b11e008d5b0ff1cd19c75e397c0acbc117e363a516c6fc2d45a65569cde",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/colorDetection.test.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\colorDetection.test.ts",
+        "sha256": "035f9b7a44b64693e125d2cc4230f8542244877a17d2f9aaa0c9f7903ab7ae89",
+        "sourceSha256": "035f9b7a44b64693e125d2cc4230f8542244877a17d2f9aaa0c9f7903ab7ae89",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/colorDetection.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\colorDetection.ts",
+        "sha256": "a1baf0593b75854e9adeb33f52a5c4f7b5f919b529ac550aff1c05f12f2f2b5d",
+        "sourceSha256": "a1baf0593b75854e9adeb33f52a5c4f7b5f919b529ac550aff1c05f12f2f2b5d",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/continuousRoute.test.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\continuousRoute.test.ts",
+        "sha256": "f1d43b4c722c6b7de3a97f539a18255c1d8c7e6f63dac2e7c424890a2450cd6b",
+        "sourceSha256": "f1d43b4c722c6b7de3a97f539a18255c1d8c7e6f63dac2e7c424890a2450cd6b",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/contourPaths.test.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\contourPaths.test.ts",
+        "sha256": "3412866091202bcb9f09197f0f520cf0551be63369bbe7d22397fdf8aa8d47a4",
+        "sourceSha256": "3412866091202bcb9f09197f0f520cf0551be63369bbe7d22397fdf8aa8d47a4",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/contourPaths.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\contourPaths.ts",
+        "sha256": "6500c58eca5b47b998f990cb38c5e953955dcbde1b21bd4a3450626e49e352bb",
+        "sourceSha256": "6500c58eca5b47b998f990cb38c5e953955dcbde1b21bd4a3450626e49e352bb",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/coordinateTransform.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\coordinateTransform.ts",
+        "sha256": "ae203b2604e3447dc425374470a5dc75b5266ff5c5d8d8777560efc599b16392",
+        "sourceSha256": "ae203b2604e3447dc425374470a5dc75b5266ff5c5d8d8777560efc599b16392",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/deviceProtocol.test.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\deviceProtocol.test.ts",
+        "sha256": "59904398a869cb9500a7306f46a1fb6e8afb143c7757a684bf501d7acdb43b5a",
+        "sourceSha256": "59904398a869cb9500a7306f46a1fb6e8afb143c7757a684bf501d7acdb43b5a",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/deviceProtocol.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\deviceProtocol.ts",
+        "sha256": "54f6f57682fa803d800d88811dba1580f863f9fca484939834bf3749f0051648",
+        "sourceSha256": "54f6f57682fa803d800d88811dba1580f863f9fca484939834bf3749f0051648",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/encoderTelemetry.test.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\encoderTelemetry.test.ts",
+        "sha256": "2df7f3ef77216836100a252daa069f0141213c91d32c6ccb62093345a323724b",
+        "sourceSha256": "2df7f3ef77216836100a252daa069f0141213c91d32c6ccb62093345a323724b",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/encoderTelemetry.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\encoderTelemetry.ts",
+        "sha256": "20ed0c4e9c6fa1ffe9ca90a38cb84f7935d4065c30b2f26b9a1a1fa600df83af",
+        "sourceSha256": "20ed0c4e9c6fa1ffe9ca90a38cb84f7935d4065c30b2f26b9a1a1fa600df83af",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/fileDownload.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\fileDownload.ts",
+        "sha256": "d37a1768e9c9acd7212cf6649171cb11cb90fa9bfcd695702e14d782429b8360",
+        "sourceSha256": "d37a1768e9c9acd7212cf6649171cb11cb90fa9bfcd695702e14d782429b8360",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/fixtures/flower-line.json",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\fixtures\\flower-line.json",
+        "sha256": "18067ce3304f7de3a1d6e5ac00ec20759347f9bf248d784bea7ae8b5012ea1f1",
+        "sourceSha256": "18067ce3304f7de3a1d6e5ac00ec20759347f9bf248d784bea7ae8b5012ea1f1",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/graphStrokePaths.test.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\graphStrokePaths.test.ts",
+        "sha256": "e5c307f775d03b333074bcb362093a5bebca3a4a4a602eef56eca98ce2570fd8",
+        "sourceSha256": "e5c307f775d03b333074bcb362093a5bebca3a4a4a602eef56eca98ce2570fd8",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/graphStrokePaths.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\graphStrokePaths.ts",
+        "sha256": "9b518fd4be07746dfc28ff8103c47eba251b4de81cacc4759db3266ef0317e73",
+        "sourceSha256": "9b518fd4be07746dfc28ff8103c47eba251b4de81cacc4759db3266ef0317e73",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/imageProcessing.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\imageProcessing.ts",
+        "sha256": "053143097cd6e38931e0bc6492425fb279ac67f889450badc10e8c562769e02c",
+        "sourceSha256": "053143097cd6e38931e0bc6492425fb279ac67f889450badc10e8c562769e02c",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/needleEditing.test.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\needleEditing.test.ts",
+        "sha256": "138ca6aa09f5b87aa94082ee47c197673fa8d2c65e86b7fe8166f54a52ece341",
+        "sourceSha256": "138ca6aa09f5b87aa94082ee47c197673fa8d2c65e86b7fe8166f54a52ece341",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/needleEditing.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\needleEditing.ts",
+        "sha256": "837feef87d82dfa4ebd474dfe92363cc88b626e120407f290ea4dbade879135e",
+        "sourceSha256": "837feef87d82dfa4ebd474dfe92363cc88b626e120407f290ea4dbade879135e",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/oneStrokePaths.test.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\oneStrokePaths.test.ts",
+        "sha256": "bb290addc5c4933126efde9dc00f319944fafa6bad665be95d6eed2978afa628",
+        "sourceSha256": "bb290addc5c4933126efde9dc00f319944fafa6bad665be95d6eed2978afa628",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/oneStrokePaths.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\oneStrokePaths.ts",
+        "sha256": "4d5d810d4c0e6caaaea6f08fbe7a7ce41e4e3a6f3db4a8938ab749bdd58d9f33",
+        "sourceSha256": "4d5d810d4c0e6caaaea6f08fbe7a7ce41e4e3a6f3db4a8938ab749bdd58d9f33",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/orderedPointPaths.test.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\orderedPointPaths.test.ts",
+        "sha256": "722e48013508e65760364e00fc1a0a9c27a51086fe3bafbca1e5aeb37ca96637",
+        "sourceSha256": "722e48013508e65760364e00fc1a0a9c27a51086fe3bafbca1e5aeb37ca96637",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/orderedPointPaths.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\orderedPointPaths.ts",
+        "sha256": "dec912304f865f547318784052282cb61fd779309f77b9f518a7f8476c4dee4f",
+        "sourceSha256": "dec912304f865f547318784052282cb61fd779309f77b9f518a7f8476c4dee4f",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/pathExport.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\pathExport.ts",
+        "sha256": "7c7748ad00a3c5e0d97b8bed8ee1ac3107df9b3ab3da02791b809971317e77ff",
+        "sourceSha256": "7c7748ad00a3c5e0d97b8bed8ee1ac3107df9b3ab3da02791b809971317e77ff",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/pathGenerator.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\pathGenerator.ts",
+        "sha256": "7256461b6cd2f5b03e97bf3d9e6787ed40abc2e84c0f644dff96d6284eba11b4",
+        "sourceSha256": "7256461b6cd2f5b03e97bf3d9e6787ed40abc2e84c0f644dff96d6284eba11b4",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/rabbitPreset.test.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\rabbitPreset.test.ts",
+        "sha256": "f61996681c480bf3c342c5b2d2e694ac299451cf07301f7daf84b4283c3b4230",
+        "sourceSha256": "f61996681c480bf3c342c5b2d2e694ac299451cf07301f7daf84b4283c3b4230",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/recognizeArtwork.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\recognizeArtwork.ts",
+        "sha256": "17498515b9b1179dd5f873eda786a32344fce28dd31a6924094081c609230d1e",
+        "sourceSha256": "17498515b9b1179dd5f873eda786a32344fce28dd31a6924094081c609230d1e",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/routePreview.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\routePreview.ts",
+        "sha256": "0459edb5b87100f31f5e9247dbe2b9f4f58b3d980cacda071da1fe6992c958e1",
+        "sourceSha256": "0459edb5b87100f31f5e9247dbe2b9f4f58b3d980cacda071da1fe6992c958e1",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/runtimeMetrics.test.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\runtimeMetrics.test.ts",
+        "sha256": "8c30ad95e789c150a74aa6739806f613b6ed57cbe0adc5317463976f106d7b5a",
+        "sourceSha256": "8c30ad95e789c150a74aa6739806f613b6ed57cbe0adc5317463976f106d7b5a",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/runtimeMetrics.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\runtimeMetrics.ts",
+        "sha256": "ae0dce2c381a284d85263c9c2f7ebf798b622d31f9fbbc4c2e988a59803bf7da",
+        "sourceSha256": "ae0dce2c381a284d85263c9c2f7ebf798b622d31f9fbbc4c2e988a59803bf7da",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/serialCapture.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\serialCapture.ts",
+        "sha256": "3890097ef5ada34a776db2893e018b227c356dd4b4af4b7bf9beb1a22d4effaf",
+        "sourceSha256": "3890097ef5ada34a776db2893e018b227c356dd4b4af4b7bf9beb1a22d4effaf",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/serialWriteMetrics.test.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\serialWriteMetrics.test.ts",
+        "sha256": "bc74368a18505e7cedf83f4563a09230410815b88f974739714a31543ef93d8f",
+        "sourceSha256": "bc74368a18505e7cedf83f4563a09230410815b88f974739714a31543ef93d8f",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/smallDetails.test.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\smallDetails.test.ts",
+        "sha256": "464a580161fa80d5056a68761d9b14a73e9c65d862ee266daf09e6acd977df1f",
+        "sourceSha256": "464a580161fa80d5056a68761d9b14a73e9c65d862ee266daf09e6acd977df1f",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/utils/threadPreview.test.ts",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\utils\\threadPreview.test.ts",
+        "sha256": "77937be7fa849bae28c0e039b192d16f749af16a08c4a15b026d32e42d8a006b",
+        "sourceSha256": "77937be7fa849bae28c0e039b192d16f749af16a08c4a15b026d32e42d8a006b",
+        "equal": true
+      },
+      {
+        "file": "src/upper/src/workspace-pages.css",
+        "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\workspace-pages.css",
+        "sha256": "c7946834bde5af08296b15a9c33f82df981b3b92160bc8800c9ae286a4e81d55",
+        "sourceSha256": "c7946834bde5af08296b15a9c33f82df981b3b92160bc8800c9ae286a4e81d55",
+        "equal": true
+      }
+    ],
+    "hostPython": [
+      {
+        "file": "src/host/camera_bridge.py",
+        "source": "E:\\AMD_COMPETITION\\Control\\host\\camera_bridge.py",
+        "sha256": "aa5d9cc45dbc94265a587f9a02249edc5b1d3efde5b5f85523f2ac9d44251b96",
+        "sourceSha256": "aa5d9cc45dbc94265a587f9a02249edc5b1d3efde5b5f85523f2ac9d44251b96",
+        "equal": true
+      },
+      {
+        "file": "src/host/recognize_artwork.py",
+        "source": "E:\\AMD_COMPETITION\\Control\\host\\recognize_artwork.py",
+        "sha256": "ae8caf7fb13de1aaac954b58c559e9fdd6e639478334693c8b13e947be692e14",
+        "sourceSha256": "ae8caf7fb13de1aaac954b58c559e9fdd6e639478334693c8b13e947be692e14",
+        "equal": true
+      },
+      {
+        "file": "src/host/test_camera_bridge.py",
+        "source": "E:\\AMD_COMPETITION\\Control\\host\\test_camera_bridge.py",
+        "sha256": "e3e863fd4401ee7a218f3e8b79ca3390fb6c44ea5d21c3d627f176bb55d346f4",
+        "sourceSha256": "e3e863fd4401ee7a218f3e8b79ca3390fb6c44ea5d21c3d627f176bb55d346f4",
+        "equal": true
+      },
+      {
+        "file": "src/host/test_camera_serial.py",
+        "source": "E:\\AMD_COMPETITION\\Control\\host\\test_camera_serial.py",
+        "sha256": "804fe2ef5f7bedad5ca4dadeae8b92bc604d24d58fe1ad9b6989400093289d2b",
+        "sourceSha256": "804fe2ef5f7bedad5ca4dadeae8b92bc604d24d58fe1ad9b6989400093289d2b",
+        "equal": true
+      }
+    ],
+    "rtlTestbenches": [
+      {
+        "file": "sim/tb/tb_layer_reset_probe.v",
+        "source": "E:\\AMD_COMPETITION\\Control\\fpga - 副本\\tb\\tb_layer_reset_probe.v",
+        "sha256": "c4a46f4ee3a70450039af95b88cdf4d83d3ab264b05d8d648ac23fcedb430404",
+        "sourceSha256": "c4a46f4ee3a70450039af95b88cdf4d83d3ab264b05d8d648ac23fcedb430404",
+        "equal": true
+      },
+      {
+        "file": "sim/tb/tb_needle_ir.v",
+        "source": "E:\\AMD_COMPETITION\\Control\\fpga - 副本\\tb\\tb_needle_ir.v",
+        "sha256": "41ddac1bb3db1b9fedcdcb2d72e167ebb2dd70bc836b477a174cfa7850b2cb99",
+        "sourceSha256": "41ddac1bb3db1b9fedcdcb2d72e167ebb2dd70bc836b477a174cfa7850b2cb99",
+        "equal": true
+      },
+      {
+        "file": "sim/tb/tb_needle_led.v",
+        "source": "E:\\AMD_COMPETITION\\Control\\fpga - 副本\\tb\\tb_needle_led.v",
+        "sha256": "a57fce495781c50527bc1c8fb592198192e8798457157bf668435d8fcc7180b7",
+        "sourceSha256": "a57fce495781c50527bc1c8fb592198192e8798457157bf668435d8fcc7180b7",
+        "equal": true
+      }
+    ],
+    "loraWeights": [
+      {
+        "variant": "raw",
+        "file": "src/ml/adapters/raw/pytorch_lora_weights.safetensors",
+        "sha256": "2ae7612518972e7cff6c78a8755072d0cf42613dac1a3cd69d53c103e7654bf4",
+        "sourceSha256": "2ae7612518972e7cff6c78a8755072d0cf42613dac1a3cd69d53c103e7654bf4",
+        "equal": true
+      },
+      {
+        "variant": "ema",
+        "file": "src/ml/adapters/ema/pytorch_lora_weights.safetensors",
+        "sha256": "df1cb024c411d1122a12ad74c07db797bab43ebad38735fd9ab8bee805f4a117",
+        "sourceSha256": "df1cb024c411d1122a12ad74c07db797bab43ebad38735fd9ab8bee805f4a117",
+        "equal": true
+      },
+      {
+        "variant": "pilot",
+        "file": "src/ml/adapters/pilot/pytorch_lora_weights.safetensors",
+        "sha256": "1b8e50f70969d2badb3029d49e1e0eef3a6cde1bd0ec7a9dde69eaa82b40e2b9",
+        "sourceSha256": "1b8e50f70969d2badb3029d49e1e0eef3a6cde1bd0ec7a9dde69eaa82b40e2b9",
+        "equal": true
+      }
+    ]
+  },
+  "upperRootFiles": [
+    {
+      "file": ".env.example",
+      "sha256": "05ef5a7e521dad79504c3fc9665782fbb51ef6aae406f306c5a009314a73a6a5",
+      "sourceSha256": "05ef5a7e521dad79504c3fc9665782fbb51ef6aae406f306c5a009314a73a6a5",
+      "equal": true
+    },
+    {
+      "file": ".gitignore",
+      "sha256": "c62d1515ac39902aa74220e506f786b238341a6820054ce06d565b1878d8dd08",
+      "sourceSha256": "39203490fec93f1b3d3d1e0d9b5e0bb92d16c83240675a86a12c708a9cf168f0",
+      "equal": false
+    },
+    {
+      "file": "artworkRecognitionApi.ts",
+      "sha256": "c9b16d8320aa40a27d708ee5fca159753cc333770abcdfdbfaea0993ea4e6e58",
+      "sourceSha256": "b8af683960a1081a6c19506d1b4116349dbe7abac920f0d74be5d3c723b52aab",
+      "equal": false
+    },
+    {
+      "file": "index.html",
+      "sha256": "3a63a3827b99b9723904c2de5d6260651fa4280db1460884fcf98905d346e375",
+      "sourceSha256": "3a63a3827b99b9723904c2de5d6260651fa4280db1460884fcf98905d346e375",
+      "equal": true
+    },
+    {
+      "file": "init-account.cjs",
+      "sha256": "3a385d4df5e7de5fee81d90f2b210ab0980eb20688be249c06a324a7cd718e95",
+      "sourceSha256": null,
+      "equal": false
+    },
+    {
+      "file": "localAuthApi.ts",
+      "sha256": "35f22ad0dd3d30f2ca945a589f3e6a581fb6098d1707aed061aebda1e4485f92",
+      "sourceSha256": "35f22ad0dd3d30f2ca945a589f3e6a581fb6098d1707aed061aebda1e4485f92",
+      "equal": true
+    },
+    {
+      "file": "modelImageApi.test.ts",
+      "sha256": "b547d1a6c35cd021b0fe0b87b8b1ec1d8c8f23a1d21dc66df8d7861866f411f6",
+      "sourceSha256": "b547d1a6c35cd021b0fe0b87b8b1ec1d8c8f23a1d21dc66df8d7861866f411f6",
+      "equal": true
+    },
+    {
+      "file": "modelImageApi.ts",
+      "sha256": "9b8d2000e9cf9713f3bcceeb7efa24ea5b3fe801bcdfd442f90e0720973f29e3",
+      "sourceSha256": "9b8d2000e9cf9713f3bcceeb7efa24ea5b3fe801bcdfd442f90e0720973f29e3",
+      "equal": true
+    },
+    {
+      "file": "package-lock.json",
+      "sha256": "bd710508a9da37caffdbc18c0ae9ded673f38b5b0ea0edf95a7018381b5c8266",
+      "sourceSha256": "bd710508a9da37caffdbc18c0ae9ded673f38b5b0ea0edf95a7018381b5c8266",
+      "equal": true
+    },
+    {
+      "file": "package.json",
+      "sha256": "3131d6eb5f55ad03872ec52027c4533ef2b1193cd45c8871d753a7dccda07369",
+      "sourceSha256": "3131d6eb5f55ad03872ec52027c4533ef2b1193cd45c8871d753a7dccda07369",
+      "equal": true
+    },
+    {
+      "file": "tsconfig.json",
+      "sha256": "79b0012fa6cf8b61cf1a0aa0df011c6974c8b5597db6083638ca7cfc619b214b",
+      "sourceSha256": "79b0012fa6cf8b61cf1a0aa0df011c6974c8b5597db6083638ca7cfc619b214b",
+      "equal": true
+    },
+    {
+      "file": "tsconfig.node.json",
+      "sha256": "54fca67c84f5b300ad8dd93c592fd08947c8d8212302cd40eda5545c3155b457",
+      "sourceSha256": "54fca67c84f5b300ad8dd93c592fd08947c8d8212302cd40eda5545c3155b457",
+      "equal": true
+    },
+    {
+      "file": "vite.config.ts",
+      "sha256": "94ca207c3a39131bdfb9cfece8a70d55fe318c08680de690d3588b1e361d08ae",
+      "sourceSha256": "94ca207c3a39131bdfb9cfece8a70d55fe318c08680de690d3588b1e361d08ae",
+      "equal": true
+    }
+  ],
+  "expectedPackagingDifferences": [
+    "birdPreset.test.ts updated to the currently saved 1307-drop open route; not production path logic",
+    "artworkRecognitionApi.ts Python fallback changed from developer drive to PATH; ARTWORK_PYTHON override retained",
+    "init-account.cjs generates a fresh local admin account",
+    "gitignore excludes environment, account and generated files"
+  ],
+  "olderDevelopmentFirmwareCompared": "E:/AMD_COMPETITION/fpga",
+  "differentFromOlderFirmwareFiles": [
+    "board_top.v",
+    "needle_ctrl.v",
+    "top.v"
+  ],
+  "loadedBoardBitstreamIdentified": false,
+  "currentAutomaticNeedleBitBuilt": true,
+  "automaticNeedlePhysicalTestConfirmed": false,
+  "existingEvidence": "frontend 92 checks/build/browser passed; four current real XSim PASS logs; current Vivado implementation RELEASE_PASS; project relocation PASS",
+  "conclusion": "Matches selected automatic-needle source copy; not byte-identical to older timed-needle firmware; no claim of automatic-needle physical validation.",
+  "packagedBuildFlowUpdate": "Portable project creation and firmware output added after byte-identical RTL/XDC build; exact executed script retained in build/release.",
+  "releaseManifest": "board/firmware/release-manifest.json"
+}

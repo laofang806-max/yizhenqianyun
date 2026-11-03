@@ -1,0 +1,52 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 17-oct-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Tue Nov  3 17:42:10 2026
+# Process ID         : 81840
+# Current directory  : C:/Users/libiao/Documents/ChatGPT/competition
+# Command line       : vivado.exe -mode batch -source check_vivado_relocation.tcl -tclargs C:/Users/libiao/Documents/ChatGPT/competition/project-relocation-check -log vivado-project-relocation.log -journal vivado-project-relocation.jou
+# Log file           : C:/Users/libiao/Documents/ChatGPT/competition/vivado.log
+# Journal file       : C:/Users/libiao/Documents/ChatGPT/competition\vivado.jou
+# Running On         : libiao
+# Platform           : Windows 11
+# Operating System   : 26100
+# Processor Detail   : AMD Ryzen 9 9955HX 16-Core Processor           
+# CPU Frequency      : 2495 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 32
+# Host memory        : 16305 MB
+# Swap memory        : 26575 MB
+# Total Virtual      : 42880 MB
+# Available Virtual  : 11333 MB
+#-----------------------------------------------------------
+source check_vivado_relocation.tcl
+# set root [file normalize [lindex $argv 0]]
+# open_project [file join $root build project yizhen_qianyun.xpr]
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/libiao/Documents/ChatGPT/competition/project-relocation-check/build/project'
+INFO: [Project 1-313] Project file moved from 'C:/Users/libiao/Documents/ChatGPT/competition/delivery/yizhen-qianyun/build/project' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/libiao/Documents/ChatGPT/competition/project-relocation-check/build/project/yizhen_qianyun.gen/sources_1'.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Users/libiao/Documents/ChatGPT/competition/project-relocation-check/build/project/yizhen_qianyun.ip_user_files'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
+# if {[get_property PART [current_project]] ne "xc7a100tfgg484-2"} {error "Part mismatch"}
+# if {[get_property TOP [get_filesets sources_1]] ne "board_top"} {error "Top mismatch"}
+# set source_count 0
+# foreach file [get_files -compile_order sources -used_in synthesis] {
+#  set normalized [file normalize $file]
+#  if {![file exists $normalized]} {error "Missing: $normalized"}
+#  if {![string match "${root}/*" $normalized]} {error "External source: $normalized"}
+#  incr source_count
+# }
+# if {$source_count != 13} {error "Expected 13 RTL sources, got $source_count"}
+# foreach file [get_files -of_objects [get_filesets constrs_1]] {
+#  if {![string match "${root}/*" [file normalize $file]]} {error "External constraint"}
+# }
+# puts "RELOCATION_PASS: 13 RTL files, constraints, part and top resolve inside relocated package"
+RELOCATION_PASS: 13 RTL files, constraints, part and top resolve inside relocated package
+# close_project
+INFO: [Common 17-206] Exiting Vivado at Tue Nov  3 17:42:17 2026...

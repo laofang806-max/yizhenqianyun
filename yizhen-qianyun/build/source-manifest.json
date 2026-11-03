@@ -1,0 +1,3586 @@
+{
+  "project": "一针千韵",
+  "updated": "2026-11-03",
+  "files": [
+    {
+      "path": "board/constraints/camera_clock_route.xdc",
+      "bytes": 140,
+      "sha256": "73e72c6513528ac99bd6d1dd1f592342e91ae0c78deba1b5c14d68c24cd959af"
+    },
+    {
+      "path": "board/constraints/pins.xdc",
+      "bytes": 7227,
+      "sha256": "eb814d640f9bb790c649f6cf7ea6f35789d9bf6e0b10b955fbf476f58e705627"
+    },
+    {
+      "path": "board/firmware/README.md",
+      "bytes": 1207,
+      "sha256": "34e75c0bbb3cd6d4ebe9323d10c89eecdf8b0b154ccd17dfbddc83ae6c9c70ad"
+    },
+    {
+      "path": "board/firmware/release-manifest.json",
+      "bytes": 4124,
+      "sha256": "d426122c8bd55bda25a965b6c108f0f8be64a1dda94b6658a2b3d47c93b191ad"
+    },
+    {
+      "path": "board/firmware/yizhen_qianyun_auto_needle.bit",
+      "bytes": 3825989,
+      "sha256": "d886a66a27e780f803ebfb0b069f40cf0d632c58fdf63abb828932393a23c1b5"
+    },
+    {
+      "path": "board/README.md",
+      "bytes": 2795,
+      "sha256": "8cc3b19b8dad4bf5c34ca49861bf900c035e8fd0863fea7d74c841b6c340b22a"
+    },
+    {
+      "path": "board/references/board-base-v2.6.pdf",
+      "bytes": 1023684,
+      "sha256": "37bcf9a78b48858aae9b5e348b2c8c0ed201c8f80277246a92a7476773fa9922"
+    },
+    {
+      "path": "board/references/board-core-v4.1.pdf",
+      "bytes": 698217,
+      "sha256": "35971818bd26768e675a8d37ee857aa13bb428869c54ff3fe6330604f6552a85"
+    },
+    {
+      "path": "board/references/davinci-pro-spec-v1.2.pdf",
+      "bytes": 3008796,
+      "sha256": "c7621dec72c2bc82c320abaef664bdc3b9d6d715c524f7ee1893a8297c9fe2e2"
+    },
+    {
+      "path": "board/references/itr9606.pdf",
+      "bytes": 328408,
+      "sha256": "9f86ea120fdbd394f2a7d35b81278e3deaf86f78e937dda4596027ba6b292985"
+    },
+    {
+      "path": "board/references/minebea-motor.jpg",
+      "bytes": 172448,
+      "sha256": "57e005699b3e9361b1bfb8ae89b484276d78ac4c7f30fed892c2522889936f6d"
+    },
+    {
+      "path": "board/references/ov5640-datasheet.pdf",
+      "bytes": 1227583,
+      "sha256": "e00aa20794992826bfceffe7330d714a99e80869e24fff216c0ae750bb0fa9dd"
+    },
+    {
+      "path": "board/references/provenance.json",
+      "bytes": 2425,
+      "sha256": "20aa415019f31b9c9055499725b4cef2be494181582ea5c479c0609396219713"
+    },
+    {
+      "path": "board/references/README.md",
+      "bytes": 1147,
+      "sha256": "02252dbc77ae52819a1a14ec65762220b6ef45a5b9d09b1b5676df503c02a9fd"
+    },
+    {
+      "path": "board/references/tb6600.pdf",
+      "bytes": 436474,
+      "sha256": "8877ece051fce3c4e412098274c8a02cfb5bd0d5f01e7ea699d09b99c87707fb"
+    },
+    {
+      "path": "board/references/vendor-io-map.xlsx",
+      "bytes": 21720,
+      "sha256": "210621daee3d3a2662bb60cae3cede294843fb992d768289a9cd50ba72f29aa1"
+    },
+    {
+      "path": "board/start-camera.ps1",
+      "bytes": 243,
+      "sha256": "978ff10ef5c45490d41b20e34c0cd8ac7deb26d519a000a7a851d8faedf63c10"
+    },
+    {
+      "path": "board/start-upper.ps1",
+      "bytes": 312,
+      "sha256": "00ae4d780c75b7cff8a27dd645c75db84a0ac235478d57bbca69465ad05a219c"
+    },
+    {
+      "path": "board/完整引脚表.csv",
+      "bytes": 2499,
+      "sha256": "359f42fa93ec5d7ebbeb31f86171c2c120dad1fed598336c33bd79e53137f2b6"
+    },
+    {
+      "path": "board/硬件清单与完整接线.md",
+      "bytes": 13167,
+      "sha256": "f3719b269207626733e6c40c96fd4eeb2640e907e941f1174dd2ebe8fd2a1b95"
+    },
+    {
+      "path": "build/attempts/vivado-license.txt",
+      "bytes": 296,
+      "sha256": "ef00593cfa281433e0d5f1e5bd1fc7c1bc76d19913239758c5f19ad54ad9bded"
+    },
+    {
+      "path": "build/attempts/xsim-license.log",
+      "bytes": 1602,
+      "sha256": "59440cb69a97db3b84724422d0eb8d1d44d64ea5956f459f0824a216d9c64149"
+    },
+    {
+      "path": "build/browser-verification.json",
+      "bytes": 197,
+      "sha256": "15b5078c3bc1a458b0ec609f2c689a5dc4030c7b9b4102ab96730fb6dc32085c"
+    },
+    {
+      "path": "build/build.tcl",
+      "bytes": 1906,
+      "sha256": "376f4374ac7e677dc34dfcfa615c02fce2d519c34c9164ee1aa414e9cbb46312"
+    },
+    {
+      "path": "build/create_project.tcl",
+      "bytes": 1144,
+      "sha256": "dbef7d66b089120b03ad5265e39741a676aabdb8cb9c1bd9df51b29dd1860d71"
+    },
+    {
+      "path": "build/documentation-update.json",
+      "bytes": 568,
+      "sha256": "1fe1b5dafe14a30ddc22628547d2171786f26cd9767df2c988316b57dea79182"
+    },
+    {
+      "path": "build/frontend-build.log",
+      "bytes": 793,
+      "sha256": "2330cd18c699f6f19a3149d3d070ded8e0a53aa2d32a18248edb290797725724"
+    },
+    {
+      "path": "build/frontend-tests.log",
+      "bytes": 1412,
+      "sha256": "efe6f020842538b38d76c2c37a1ee27399b3669412352bf4f1551801b76bb190"
+    },
+    {
+      "path": "build/ml-smoke.json",
+      "bytes": 1487,
+      "sha256": "77ab06cb152ca67f3f8c9d964334a6a26028a6d4132f795df2b2c11602e28bef"
+    },
+    {
+      "path": "build/ml-smoke.log",
+      "bytes": 3926,
+      "sha256": "6471f9db0d0bb04c15deeb4b2e71689e035bf963476ec5eb2a3b50f1b4821c14"
+    },
+    {
+      "path": "build/project/README.md",
+      "bytes": 859,
+      "sha256": "8db9a1b1ed4729316b715a5606b71a683010e751ca19bdb37bdb6448cad2ba78"
+    },
+    {
+      "path": "build/project/yizhen_qianyun.xpr",
+      "bytes": 15539,
+      "sha256": "ac184ca956139646e73535ea6471abfb359d7b0131be807f10a1c98fa0f7a7b6"
+    },
+    {
+      "path": "build/readme-layout-verification.json",
+      "bytes": 564,
+      "sha256": "7577b65949f3df728967603fdd36ba65470d63ae8f6bf1a6684b8c9109da3f7e"
+    },
+    {
+      "path": "build/README.md",
+      "bytes": 815,
+      "sha256": "0a9e153402e9727cead6bb03acbc1e1a925f2a89e246e2a9a9f9fc3ef6013312"
+    },
+    {
+      "path": "build/release/drc.rpt",
+      "bytes": 21601,
+      "sha256": "31c8b3f12ed6741c8a38863f2b9eb21fbbf91542f96542254fd3fc94be6b7439"
+    },
+    {
+      "path": "build/release/executed-build.tcl",
+      "bytes": 2093,
+      "sha256": "a17a65c3a0b473a88513816dcf4d555b921f70e0cd520faa672bf7d75f9febca"
+    },
+    {
+      "path": "build/release/impl_1.log",
+      "bytes": 46526,
+      "sha256": "99db0add1749f971fa5aa4901e233ff7daeacf20912e9082a77c89433bf38031"
+    },
+    {
+      "path": "build/release/implementation-utilization.rpt",
+      "bytes": 11539,
+      "sha256": "c1abecd104e934a1bbd1b863391cda980aad777ddfaa545748a1d8fcd2beef7b"
+    },
+    {
+      "path": "build/release/io.rpt",
+      "bytes": 151779,
+      "sha256": "03e6394786651ebc257f1f6b363257ff28bd90a5ec0de9c797468fadad64c41d"
+    },
+    {
+      "path": "build/release/project-creation.log",
+      "bytes": 3191,
+      "sha256": "3e7b5eac9252efc691eaa99d41899c4b192ee128aba772faa48122b9895d51eb"
+    },
+    {
+      "path": "build/release/project-relocation.log",
+      "bytes": 3743,
+      "sha256": "974424dd0b38f58aba46281355c8c08842ef052386ada3af9c8fec7cf277be9d"
+    },
+    {
+      "path": "build/release/README.md",
+      "bytes": 923,
+      "sha256": "b55689f4d6b6b1c68709c1c657f8eb71997813c1c5e718258d45deb7d17050b3"
+    },
+    {
+      "path": "build/release/route.rpt",
+      "bytes": 588,
+      "sha256": "4c8d52e0a027c17291a07abf92f7a6a45e884a8e7172ee19f3197f90a9c11501"
+    },
+    {
+      "path": "build/release/synth_1.log",
+      "bytes": 63020,
+      "sha256": "a91ccbdf283e4881984a430c39f5727289a7598817b4b64ef4cb45b43ee53d9a"
+    },
+    {
+      "path": "build/release/synthesis-utilization.rpt",
+      "bytes": 9180,
+      "sha256": "a338fac0ff1b51b5f10b1e2e0382fc2ec9320dddc96dafc8ed30ce66951f0da2"
+    },
+    {
+      "path": "build/release/timing.rpt",
+      "bytes": 172211,
+      "sha256": "b3bfe5332744f8fbd7313c18ba4de560b942dd96bbb874f3f3724c25de353219"
+    },
+    {
+      "path": "build/release/vivado-build.log",
+      "bytes": 55597,
+      "sha256": "4cbf97294af1cba7b68818f10a91f198fbf7b3662a84134866428f1ac81e9686"
+    },
+    {
+      "path": "build/source-equivalence.json",
+      "bytes": 43946,
+      "sha256": "404fe7d15fdf8352b65b63be057140835d742587d7174bdb0b36c3b297f5e1c3"
+    },
+    {
+      "path": "build/validation.json",
+      "bytes": 1730,
+      "sha256": "f1e25b81a3598498aae9c279a28061c7f160593800a479b475a9824cbcb477d4"
+    },
+    {
+      "path": "build/verify.py",
+      "bytes": 606,
+      "sha256": "7d0cbb4caa4ead4e7f0dbb2f21da594013d812dff5aa1f6638ae401c336832a5"
+    },
+    {
+      "path": "data/ml/training-images/bird-original-0.png",
+      "bytes": 108006,
+      "sha256": "7421691344aefc5b64088ac85c6fed4085122ebce9f7428b8e92eddfb914051f"
+    },
+    {
+      "path": "data/ml/training-images/bird-original-1.png",
+      "bytes": 124586,
+      "sha256": "1f9f167d1d97a617ab16285a91e0be7297fa9f5fb4d9c95f76d297f133f884a8"
+    },
+    {
+      "path": "data/ml/training-images/bird-original-2.png",
+      "bytes": 124422,
+      "sha256": "240d7098c64cf49bcb8a290a30d202346671c3e56aef40c6b91dd11b9ea6dd33"
+    },
+    {
+      "path": "data/ml/training-images/bird-original-3.png",
+      "bytes": 106846,
+      "sha256": "5f7e3f58d422f8d0d49f4dd79a32a763dc91f802e4c718def953ff65f7927eb7"
+    },
+    {
+      "path": "data/ml/training-images/flower-original-0.png",
+      "bytes": 81361,
+      "sha256": "6eddbecea6418abf1a6a7482a2a96707857ea84bb5176409ccaf691e1a419531"
+    },
+    {
+      "path": "data/ml/training-images/solo-bird-0.png",
+      "bytes": 105769,
+      "sha256": "2b49ce5c57df92f7dd6ed540fe31ca8d73c3bd5511106922f8f5c4553a1d20cf"
+    },
+    {
+      "path": "data/ml/training-images/solo-bird-1.png",
+      "bytes": 115564,
+      "sha256": "c2f160fa2d4baf09bf0a174524de923380e5710281779d0f118cd8ec4b12ba25"
+    },
+    {
+      "path": "data/ml/training-images/solo-bird-2.png",
+      "bytes": 113358,
+      "sha256": "d1bd91301cdc15787b0c0ea06673f7d1bcec5a3aa3cbd267bd934afb7011e44b"
+    },
+    {
+      "path": "data/ml/training-images/solo-bird-3.png",
+      "bytes": 106739,
+      "sha256": "cf3213fa3d966e283706a6cd3513277eb9e9a8b82cf8db18f46cbffd3c348edb"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 462,
+      "sha256": "59f817814b8fdfeba582165e928d0599551cadba0c2f1af07daa5f384f0e679d"
+    },
+    {
+      "path": "data/数据集与基座下载地址.md",
+      "bytes": 8634,
+      "sha256": "21efc05f1e8bb950acad3d34ce1ff4de0c0cab77b3b4496e06b0aad30ca998f6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 38681,
+      "sha256": "29d2e2208311170b7344fad6a404b8232d3d649d66c952afc8e30f99448bccf6"
+    },
+    {
+      "path": "report/ai-collaboration-evidence.json",
+      "bytes": 5393,
+      "sha256": "c9613cae814d269dc6a97cb66b23dcb138c815cfd8fbc0ba02d11ab22f8affd1"
+    },
+    {
+      "path": "report/ml/benchmark-final/base_seed123.json",
+      "bytes": 1899,
+      "sha256": "696a436e42882ea0b7b76e7d9e9699131b2d87cdd06176b367c68f249edbc8c0"
+    },
+    {
+      "path": "report/ml/benchmark-final/base_seed123.png",
+      "bytes": 316435,
+      "sha256": "0e7106c855234de3dbc05f41e21c89468672caac7e1ac2d20081fa1cde49e305"
+    },
+    {
+      "path": "report/ml/benchmark-final/base_seed42.json",
+      "bytes": 1896,
+      "sha256": "6c7d2c1df26169699f7f8535c26c788533681783751a623d171671b5e70d923c"
+    },
+    {
+      "path": "report/ml/benchmark-final/base_seed42.png",
+      "bytes": 268848,
+      "sha256": "5d21ade53af38629ed4f9a09cae798939bd6ac86a4c8fcf9f09e603dc647087c"
+    },
+    {
+      "path": "report/ml/benchmark-final/ema_seed123.json",
+      "bytes": 1902,
+      "sha256": "ebe8113011aafa8645f7e31c9bce1a25414ff0b5f4a6e4ed9e4241cd11adb9b5"
+    },
+    {
+      "path": "report/ml/benchmark-final/ema_seed123.png",
+      "bytes": 190699,
+      "sha256": "095d0144f7a60a5d2dbbd5d441640b780dbb6de7b89e06e5076d772f83907e02"
+    },
+    {
+      "path": "report/ml/benchmark-final/ema_seed42.json",
+      "bytes": 1902,
+      "sha256": "075c691f5949902545db906355676cadab0e7d45369ed05f7586636d3ae42dd1"
+    },
+    {
+      "path": "report/ml/benchmark-final/ema_seed42.png",
+      "bytes": 287361,
+      "sha256": "55301345e3403a1696bbcfbec845b0d5bd6c1e0217de3cafc64f577476f27d49"
+    },
+    {
+      "path": "report/ml/benchmark-final/pilot_seed123.json",
+      "bytes": 1910,
+      "sha256": "f441261cc73f53947b76b42e38532b2585078d626aae244386f50c611c575157"
+    },
+    {
+      "path": "report/ml/benchmark-final/pilot_seed123.png",
+      "bytes": 179184,
+      "sha256": "a616cd88da2dc3ff1347016a72de6c33b1f4466eb9b9bb19cbf156b0574d713d"
+    },
+    {
+      "path": "report/ml/benchmark-final/pilot_seed42.json",
+      "bytes": 1906,
+      "sha256": "8a107f6bef8f207f140b194d01dddcb9ad2450742302ef5d6a458b83e237b42d"
+    },
+    {
+      "path": "report/ml/benchmark-final/pilot_seed42.png",
+      "bytes": 256115,
+      "sha256": "440603ec904ed2b390c9ae4daec12810e0355f489fe6dcd42aa6d88302a4c891"
+    },
+    {
+      "path": "report/ml/benchmark-final/raw_seed123.json",
+      "bytes": 1903,
+      "sha256": "2d79c5c9a7d401444e23f46beb7a4b5e48a371b3dc153e79c26de18db9011602"
+    },
+    {
+      "path": "report/ml/benchmark-final/raw_seed123.png",
+      "bytes": 176729,
+      "sha256": "6ef99dd7157bb68fc5a2dfe49e3c76ad6ad6bddbae1498b5bb1a3c3bb3feb885"
+    },
+    {
+      "path": "report/ml/benchmark-final/raw_seed42.json",
+      "bytes": 1900,
+      "sha256": "de9ccb40e600523c27273e5548c8f7a9ba7481db23166d2273a44e35c732f96b"
+    },
+    {
+      "path": "report/ml/benchmark-final/raw_seed42.png",
+      "bytes": 303430,
+      "sha256": "b4dc6f9797ac8491ad000a2ae591b1fccc9da82cb71b18dbcba23edb55fc7d38"
+    },
+    {
+      "path": "report/ml/benchmark-text-cache.json",
+      "bytes": 491,
+      "sha256": "ad4dc27a27320ca132b2cef46f70f6a4793be85cc5484aa5b8fe35e8fe11a446"
+    },
+    {
+      "path": "report/ml/config.json",
+      "bytes": 767,
+      "sha256": "ee02a75ad2a623f52502a018549c95413e43e7db8b4c02354d28dba0991ac05d"
+    },
+    {
+      "path": "report/ml/dataset.json",
+      "bytes": 5446,
+      "sha256": "687b8bc0d2cf841c32d355699d7bf6654b169b0c027dcf179036f0bb09e2da77"
+    },
+    {
+      "path": "report/ml/environment-freeze.txt",
+      "bytes": 2901,
+      "sha256": "d803b5dd000fd83b92e5b5cd56ae6ba39616754193e0fb53f06959fce67cebb9"
+    },
+    {
+      "path": "report/ml/environment.json",
+      "bytes": 481,
+      "sha256": "bf7cbbe116c137356942d2f21675b66774cbf8bf23c9ba3fa17110b169d691bb"
+    },
+    {
+      "path": "report/ml/figures/01_training_loss.pdf",
+      "bytes": 49606,
+      "sha256": "ad6f3641c28a9a27bdd2e10f3eae515abf541bff61bcd1c4cb602b52fff3d387"
+    },
+    {
+      "path": "report/ml/figures/01_training_loss.png",
+      "bytes": 322409,
+      "sha256": "871cb370aa50b94e4d2d8be6935d482531ebe6fa748977d766d62353bfc991ff"
+    },
+    {
+      "path": "report/ml/figures/01_training_loss.svg",
+      "bytes": 113573,
+      "sha256": "fe1c790e93f0382854ab24f86889523d6ed32167f1e6d616fdfce6720d95c62f"
+    },
+    {
+      "path": "report/ml/figures/02_fixed_noise_diagnostic.pdf",
+      "bytes": 36455,
+      "sha256": "e37310bacc319aba1472da8827b33ff21257dddc1ed22db2fa99dc7ee8978ff7"
+    },
+    {
+      "path": "report/ml/figures/02_fixed_noise_diagnostic.png",
+      "bytes": 113537,
+      "sha256": "bed6af1d173de30b817d60bcad00238abd3a2268d343e9a73326c8994374e6d4"
+    },
+    {
+      "path": "report/ml/figures/02_fixed_noise_diagnostic.svg",
+      "bytes": 71189,
+      "sha256": "67eb63a54a1b82db2df3e623ed4412cdabe773bb95eac2facd888d9a94971cee"
+    },
+    {
+      "path": "report/ml/figures/03_training_runtime_memory.pdf",
+      "bytes": 46201,
+      "sha256": "cdfaf096633dd37a2243205c7979bdc61589bc96dcd78c4a68b0acd3b72a9bd1"
+    },
+    {
+      "path": "report/ml/figures/03_training_runtime_memory.png",
+      "bytes": 120359,
+      "sha256": "d182c7d7c6272dc196bd150a8a2f77c2a6a06565ef595cee2285c894f0fd023a"
+    },
+    {
+      "path": "report/ml/figures/03_training_runtime_memory.svg",
+      "bytes": 103182,
+      "sha256": "9934cb65c5e2dbe772aca2f21de7836c1d8d488aa0f0748347699471100600d3"
+    },
+    {
+      "path": "report/ml/figures/04_inference_measured_comparison.pdf",
+      "bytes": 66385,
+      "sha256": "62d554849d3c3117385b6c71fe2122b43006a7de0e755257c1a167a5248fe5ca"
+    },
+    {
+      "path": "report/ml/figures/04_inference_measured_comparison.png",
+      "bytes": 165317,
+      "sha256": "bd1d5bad062753d7dba163cd341fb2eee5eea08da692c76eb399d99160173590"
+    },
+    {
+      "path": "report/ml/figures/04_inference_measured_comparison.svg",
+      "bytes": 145267,
+      "sha256": "0e29d0f9368306d5636d939e1c52f1c82a015139787c5ee20ae905662e48a7c3"
+    },
+    {
+      "path": "report/ml/figures/05_same_seed_images.pdf",
+      "bytes": 766520,
+      "sha256": "77c7bc02fe58e7e386c5b82aaf4d55a42306c6048d06b5bd8d6faaf77a993af9"
+    },
+    {
+      "path": "report/ml/figures/05_same_seed_images.png",
+      "bytes": 2268015,
+      "sha256": "a83509b1d6387a1a7de3303133f705c41a1a15753fcdebad58812044f43bef94"
+    },
+    {
+      "path": "report/ml/figures/05_same_seed_images.svg",
+      "bytes": 1140008,
+      "sha256": "f2de0d02744df6bcbdcba2003fb02a208652d75035bb202542723dbe4e4bb914"
+    },
+    {
+      "path": "report/ml/figures/06_actual_config.pdf",
+      "bytes": 59620,
+      "sha256": "5a45d1a3668da0f9bb9015a2f3c45bf20f4d925713fabe4a6f51e79131f08668"
+    },
+    {
+      "path": "report/ml/figures/06_actual_config.png",
+      "bytes": 137811,
+      "sha256": "f270e674b6c4367ee7639b6c8c2e6b24058a1ae2284fc6a312055e59c4545424"
+    },
+    {
+      "path": "report/ml/figures/06_actual_config.svg",
+      "bytes": 112091,
+      "sha256": "9ab872d941ff867f0d2c07368f249fcecb5191080968deb3b46f82876fa92f08"
+    },
+    {
+      "path": "report/ml/figures/07_structure_and_dataflow.pdf",
+      "bytes": 63078,
+      "sha256": "47266bd791c00a114385d99cc190d036e9628fba42cecc377c14064476612e2a"
+    },
+    {
+      "path": "report/ml/figures/07_structure_and_dataflow.png",
+      "bytes": 170638,
+      "sha256": "ba2c9cdcae333e96c24e63708e3bc64305f27349b6d245ac41fa78c883b7b9cc"
+    },
+    {
+      "path": "report/ml/figures/07_structure_and_dataflow.svg",
+      "bytes": 118586,
+      "sha256": "29edafadf2de71fac587067f9804743a54662601444b63207a0152fd59590d1b"
+    },
+    {
+      "path": "report/ml/figures/08_improved_model_framework.pdf",
+      "bytes": 146340,
+      "sha256": "a09cebc6a53b223162d6ab2f6d28fbca34486d1f5b05563310b34e792ec77650"
+    },
+    {
+      "path": "report/ml/figures/08_improved_model_framework.png",
+      "bytes": 658349,
+      "sha256": "ea49a25dbb0cbe2c6b3cf2c8e5cc8991d333bac0918a483ede5987384e5e4e96"
+    },
+    {
+      "path": "report/ml/figures/08_improved_model_framework.svg",
+      "bytes": 293356,
+      "sha256": "dbe58f09c60b9fa72a6986e3a1140e57446bb713feb33529dcbb5ccb23137072"
+    },
+    {
+      "path": "report/ml/figures/09_lora_branch_detail.pdf",
+      "bytes": 45370,
+      "sha256": "7440a3edd9a993bb60b489c35894808c64ec30d7f739a4d57c1b9807a8fd4d49"
+    },
+    {
+      "path": "report/ml/figures/09_lora_branch_detail.png",
+      "bytes": 183086,
+      "sha256": "4240b32521ce3168ed611c595901786fb57ba7c0cd494dda8fe37bc6a7348c23"
+    },
+    {
+      "path": "report/ml/figures/09_lora_branch_detail.svg",
+      "bytes": 96360,
+      "sha256": "cbc347d65bc06fba2e724f1e1292d68d10eef458c40a34bacaa81a35261c4045"
+    },
+    {
+      "path": "report/ml/inference-metrics.csv",
+      "bytes": 1471,
+      "sha256": "78e19401159611a6911dc247d9c82d5da5b7fdbbc4109e37399ba41c3f9eabff"
+    },
+    {
+      "path": "report/ml/metrics.csv",
+      "bytes": 11638,
+      "sha256": "06e1d91180f88ba51a04c9483b13bf038eb0a2dd4e4390d452ef57f6ee382246"
+    },
+    {
+      "path": "report/ml/model-and-dataset-details.md",
+      "bytes": 7519,
+      "sha256": "9f2248280b07f5e2762c38d3c3796b0f8b657abb4edfdfca5e4ae639f619f871"
+    },
+    {
+      "path": "report/ml/summary.json",
+      "bytes": 1483,
+      "sha256": "2394c82b53d94464c6e63dcfabe54eb8a524cee5198fc77c8b1179b3f8561e1d"
+    },
+    {
+      "path": "report/ml/v1-loss.csv",
+      "bytes": 4362,
+      "sha256": "7cfef2827046c7254a272ac3296d960cb49586b4f4dbcc92dde6795b89fff2c5"
+    },
+    {
+      "path": "report/ml/weight-sha256.json",
+      "bytes": 227,
+      "sha256": "3207de066778db60c8e0faf80ad36c6d88b7442a2c7556286a2c14eb66f7c06b"
+    },
+    {
+      "path": "report/ml/改进说明与真实结果.md",
+      "bytes": 14701,
+      "sha256": "dba928e01fa10c699d903ce618f95e3db20a87a599bc2bf2afee63c8f18b4d47"
+    },
+    {
+      "path": "report/README.md",
+      "bytes": 710,
+      "sha256": "eb9b13cc7d7c6894bf939a7ea043f6c8496e9eba8bbe9e4b56485d72e5156b7e"
+    },
+    {
+      "path": "report/上位机交付验证.png",
+      "bytes": 279653,
+      "sha256": "faeb2061830df38a20c7261a6c21458706288c1a812dfee16fcebda58e2ed46f"
+    },
+    {
+      "path": "report/大模型辅助开发与协作记录.md",
+      "bytes": 2531,
+      "sha256": "d59e7d265f5433d952a6d7898b3d9e346ff54c588033ed5a32e2c4556faa9140"
+    },
+    {
+      "path": "report/版本一致性核对.md",
+      "bytes": 2072,
+      "sha256": "026eb7618f06eb04fd84d7ca32b6c112a364c6fede0f3be2cb5fca7cf536937b"
+    },
+    {
+      "path": "report/设计与交付说明.md",
+      "bytes": 2493,
+      "sha256": "271c0a160cb2b6b2f51140d7bf7ffc8bd7ae188befc3aa33ab7c384ce511aa6a"
+    },
+    {
+      "path": "sim/README.md",
+      "bytes": 467,
+      "sha256": "ffe6a62501de98f9bc067a03eeff7f142256c674c346f470b6cec53fc5ae9441"
+    },
+    {
+      "path": "sim/reference/needle-ir/tb_layer_reset_probe-xsim.log",
+      "bytes": 1542,
+      "sha256": "232b19927baf40221e7f97bb88f2a0d6f46e580b965a0654e087c3e77e490281"
+    },
+    {
+      "path": "sim/reference/needle-ir/tb_needle_ir-xsim.log",
+      "bytes": 1428,
+      "sha256": "7d0bd3e9075d62c7737d9ec5e1fcae6b1a799c23248536fcdb7644ca69e70ba4"
+    },
+    {
+      "path": "sim/reference/needle-ir/tb_needle_ir_top-xsim.log",
+      "bytes": 1519,
+      "sha256": "9f149b93fd4e485c41ea94b5891a420e2ca2f4adceaa8675eb2108385d6d1b77"
+    },
+    {
+      "path": "sim/reference/needle-ir/tb_needle_led-xsim.log",
+      "bytes": 1463,
+      "sha256": "a0969cac26cfcb0661782b3a36e0064b6f4ad83aa97001e8f5fbff58ea282559"
+    },
+    {
+      "path": "sim/reference/needle-ir/verification-original.json",
+      "bytes": 2053,
+      "sha256": "e4c7cc907168103644448a17092bc406e5f115e5dbf31b79e19a557eca41745c"
+    },
+    {
+      "path": "sim/reference/source-match.json",
+      "bytes": 1103,
+      "sha256": "489f475c22dd39dfab07425ef3834055e9931af7c58e593597b5c020e117479f"
+    },
+    {
+      "path": "sim/run.ps1",
+      "bytes": 1312,
+      "sha256": "27c58c6eb704b2ddea5bf93688b95124ce580864435ef392206ad9f302bcddc0"
+    },
+    {
+      "path": "sim/tb/tb_layer_reset_probe.v",
+      "bytes": 3338,
+      "sha256": "c4a46f4ee3a70450039af95b88cdf4d83d3ab264b05d8d648ac23fcedb430404"
+    },
+    {
+      "path": "sim/tb/tb_needle_ir.v",
+      "bytes": 5990,
+      "sha256": "41ddac1bb3db1b9fedcdcb2d72e167ebb2dd70bc836b477a174cfa7850b2cb99"
+    },
+    {
+      "path": "sim/tb/tb_needle_led.v",
+      "bytes": 2292,
+      "sha256": "a57fce495781c50527bc1c8fb592198192e8798457157bf668435d8fcc7180b7"
+    },
+    {
+      "path": "sim/verified-20261103/README.md",
+      "bytes": 428,
+      "sha256": "432ac978dbb2ac1749fd636f7152a7f4217002cad926885be6dfd7bc81757476"
+    },
+    {
+      "path": "sim/verified-20261103/run.log",
+      "bytes": 12128,
+      "sha256": "5e13e69db8825f67c9c27879f86825a501195aba6f5ee79510b0551aa09c7aa7"
+    },
+    {
+      "path": "sim/verified-20261103/tb_layer_reset_probe.log",
+      "bytes": 1747,
+      "sha256": "1ffcfcf1096389d446fe15e2498c52fd5c9ab6918b12024bb7c344dce060d8b5"
+    },
+    {
+      "path": "sim/verified-20261103/tb_needle_ir.log",
+      "bytes": 1633,
+      "sha256": "94d223e904792e615fbf28ccc3a0d249e3592cb01f8361bf39ac8b4321f62933"
+    },
+    {
+      "path": "sim/verified-20261103/tb_needle_ir_top.log",
+      "bytes": 1724,
+      "sha256": "45a9da804c5e792d1ee6e4c9ef0a1869a5159b652d077acb63c432056e140604"
+    },
+    {
+      "path": "sim/verified-20261103/tb_needle_led.log",
+      "bytes": 1669,
+      "sha256": "259de413bc320ff2c0aa09881f6c9e0d0a87c4f25e66eab6bce1f938dcbe0541"
+    },
+    {
+      "path": "skill/artwork-route/agents/openai.yaml",
+      "bytes": 308,
+      "sha256": "46942c48cb815ce830004c810958f9ac5619136ddeb71a62bde673cbdcbc5588"
+    },
+    {
+      "path": "skill/artwork-route/README.md",
+      "bytes": 1099,
+      "sha256": "2782699c0da7348bd82e35d30c8c34a34bfadf696160e651b0a07d7bb036546e"
+    },
+    {
+      "path": "skill/artwork-route/SKILL.md",
+      "bytes": 2085,
+      "sha256": "ee7a1e228f8606e20e26863f9c3f5fa8233f446019e5152675cf8b0e681c0f8b"
+    },
+    {
+      "path": "skill/color-layer-workflow/agents/openai.yaml",
+      "bytes": 291,
+      "sha256": "0df57d56bfd43c897930e52590a2736ec224614773a27feac75949fd64dc8ad3"
+    },
+    {
+      "path": "skill/color-layer-workflow/README.md",
+      "bytes": 1116,
+      "sha256": "b1c8a2334cdc8a511452cde25f8ff9d1e6f460e4dca3f2b828debd2250c44340"
+    },
+    {
+      "path": "skill/color-layer-workflow/SKILL.md",
+      "bytes": 1521,
+      "sha256": "4316663a314cc7b2934a450a666e25148cbb058daefa3762ec72f382b6aff17d"
+    },
+    {
+      "path": "skill/embroidery-path/agents/openai.yaml",
+      "bytes": 316,
+      "sha256": "088331fe27c901af5819c94c59c6860e107a6a49989b975cb56d1dd6b33ce182"
+    },
+    {
+      "path": "skill/embroidery-path/README.md",
+      "bytes": 1174,
+      "sha256": "10548d01996369dcc66dc9706acb01beb3b10f06759ea84b1b909119d0d5e6e9"
+    },
+    {
+      "path": "skill/embroidery-path/SKILL.md",
+      "bytes": 2390,
+      "sha256": "7ca48916ef66d69ea11a3e29d06e3ea59477161f9e8eb21db7fefd029f10bcf1"
+    },
+    {
+      "path": "skill/embroidery-protocol-check/agents/openai.yaml",
+      "bytes": 349,
+      "sha256": "e73649ffdc48dd2df9000ecaecf861cd82fe831b7430fcf4214903a246c0982f"
+    },
+    {
+      "path": "skill/embroidery-protocol-check/README.md",
+      "bytes": 1173,
+      "sha256": "355d802f7d213dfa9f5c631f568e296cf3a91bff15f98553309eb85101baac1b"
+    },
+    {
+      "path": "skill/embroidery-protocol-check/scripts/check_uart.py",
+      "bytes": 2631,
+      "sha256": "c408f2df2834679d4e9a11ec52d7bc2509077116324fe2e4c283b30a0bb56d0b"
+    },
+    {
+      "path": "skill/embroidery-protocol-check/SKILL.md",
+      "bytes": 2478,
+      "sha256": "c345de951287bd9dced735825260d4172ae1e222fcbce5aefdf12680347b1a2a"
+    },
+    {
+      "path": "skill/embroidery-startup/agents/openai.yaml",
+      "bytes": 309,
+      "sha256": "70b1b6ca6afde65464aa6ae350b83b2bd054111a5871ae7f2ed5a708de86f185"
+    },
+    {
+      "path": "skill/embroidery-startup/README.md",
+      "bytes": 1132,
+      "sha256": "f9f0dfe70463add402dce1ade272c1309f9021592e0ef1b0f2b714f847d95485"
+    },
+    {
+      "path": "skill/embroidery-startup/scripts/inspect_environment.ps1",
+      "bytes": 1063,
+      "sha256": "e1699867c034f96e60b07bc8dfcef0f9000ac588ef59cfd8a9629ac56541494d"
+    },
+    {
+      "path": "skill/embroidery-startup/SKILL.md",
+      "bytes": 2468,
+      "sha256": "ed9ee0965d174e12e0ba8c4cabcebac03c905aa09259b4dbb9d26d4ab10bbe05"
+    },
+    {
+      "path": "skill/format-validation.json",
+      "bytes": 1171,
+      "sha256": "fe6e2cbc08b54261c4fea82ff79c2cf19eaef2256a358d9b0a7d2997e4f2418d"
+    },
+    {
+      "path": "skill/fpga-build/agents/openai.yaml",
+      "bytes": 329,
+      "sha256": "13e7b4fcfadc62597c449d9b83333abd71792236424a721a92f2d0486a81a155"
+    },
+    {
+      "path": "skill/fpga-build/README.md",
+      "bytes": 1183,
+      "sha256": "a222c22a011d9a54f915ece2ad4f128c01935ca3967f5de62f94fb777250f96e"
+    },
+    {
+      "path": "skill/fpga-build/SKILL.md",
+      "bytes": 2668,
+      "sha256": "d74476fb0145e86f435be7124c8154f2124611b5586e584d4ec76fbae0a7ad92"
+    },
+    {
+      "path": "skill/motion-calibration/agents/openai.yaml",
+      "bytes": 306,
+      "sha256": "d70bbf46d581893277561a2844475c8e4a08fa7fa11cebd39c5f2daef01138eb"
+    },
+    {
+      "path": "skill/motion-calibration/README.md",
+      "bytes": 1159,
+      "sha256": "c4459497651249f872f1d3975d6286dc9d2a2e9fcb8f5466a0611b7ced1f160e"
+    },
+    {
+      "path": "skill/motion-calibration/scripts/counts_mm.py",
+      "bytes": 1189,
+      "sha256": "bd4db56755c1c74a65c8040894e6aea30d6341105d8300e2646be16e78c62665"
+    },
+    {
+      "path": "skill/motion-calibration/SKILL.md",
+      "bytes": 2371,
+      "sha256": "3c24f0148fdce7b2322ef44c5683d0c666f0691f84123f1413b0c65f96db6e47"
+    },
+    {
+      "path": "skill/README.md",
+      "bytes": 2778,
+      "sha256": "ec32e8daf021e82f675a2ef26d637298b4718f82883b48952963581cb40ebda3"
+    },
+    {
+      "path": "skill/runtime-evidence/agents/openai.yaml",
+      "bytes": 290,
+      "sha256": "ebb95234ff73b91a6012349999c49bbf3b8518fe1d2dab5f9f861b69ab4095ce"
+    },
+    {
+      "path": "skill/runtime-evidence/README.md",
+      "bytes": 1315,
+      "sha256": "f9d17a4ffce0a3102a1e1be9bee27d7400aec4d3abe2737665901847810c4b7b"
+    },
+    {
+      "path": "skill/runtime-evidence/references/pitfalls.md",
+      "bytes": 1203,
+      "sha256": "591d2a2467adba14cddefcfe0ffbca87e3308f396dac8f2506d8025e78bc7a4f"
+    },
+    {
+      "path": "skill/runtime-evidence/scripts/evidence_check.py",
+      "bytes": 2781,
+      "sha256": "765d6f77c5524ee58ae26b49ff96b97e79905c0bf40279463200b133206ca8be"
+    },
+    {
+      "path": "skill/runtime-evidence/SKILL.md",
+      "bytes": 1962,
+      "sha256": "68f637e717d377079208cbfaa1d0229d439fa83082521a73b4e9fd14a8650891"
+    },
+    {
+      "path": "skill/runtime-evidence/templates/experiment.md",
+      "bytes": 1006,
+      "sha256": "c3843f83ef6ef45c6c0eff028ae6fc4b75384a62f5dbd2caf50f1e446ba8a24e"
+    },
+    {
+      "path": "skill/validate_package.py",
+      "bytes": 5517,
+      "sha256": "c2493716621958f1b8b613688919f26fa59ead48b6a30337bd53255ff6c84418"
+    },
+    {
+      "path": "skill/validation.json",
+      "bytes": 1592,
+      "sha256": "cf9e44188eed4b3163ac8635d6337ce148a8740a23bd93991c0e35da9f622a46"
+    },
+    {
+      "path": "src/host/camera_bridge.py",
+      "bytes": 13566,
+      "sha256": "aa5d9cc45dbc94265a587f9a02249edc5b1d3efde5b5f85523f2ac9d44251b96"
+    },
+    {
+      "path": "src/host/flower_bird_features.npz",
+      "bytes": 67109,
+      "sha256": "908ab6e50811f3cf5799367a1c1436e10ef6fecbc5a2f9a7d3b4fb446d411481"
+    },
+    {
+      "path": "src/host/recognize_artwork.py",
+      "bytes": 3474,
+      "sha256": "ae8caf7fb13de1aaac954b58c559e9fdd6e639478334693c8b13e947be692e14"
+    },
+    {
+      "path": "src/host/requirements.txt",
+      "bytes": 67,
+      "sha256": "100978a005488202975f6768697364e49629034ac4b675c7e7fe7818e458e101"
+    },
+    {
+      "path": "src/host/test_camera_bridge.py",
+      "bytes": 4114,
+      "sha256": "e3e863fd4401ee7a218f3e8b79ca3390fb6c44ea5d21c3d627f176bb55d346f4"
+    },
+    {
+      "path": "src/host/test_camera_serial.py",
+      "bytes": 2146,
+      "sha256": "804fe2ef5f7bedad5ca4dadeae8b92bc604d24d58fe1ad9b6989400093289d2b"
+    },
+    {
+      "path": "src/ml/adapters/ema/pytorch_lora_weights.safetensors",
+      "bytes": 35966728,
+      "sha256": "df1cb024c411d1122a12ad74c07db797bab43ebad38735fd9ab8bee805f4a117"
+    },
+    {
+      "path": "src/ml/adapters/pilot/pytorch_lora_weights.safetensors",
+      "bytes": 11778368,
+      "sha256": "1b8e50f70969d2badb3029d49e1e0eef3a6cde1bd0ec7a9dde69eaa82b40e2b9"
+    },
+    {
+      "path": "src/ml/adapters/raw/pytorch_lora_weights.safetensors",
+      "bytes": 35966728,
+      "sha256": "2ae7612518972e7cff6c78a8755072d0cf42613dac1a3cd69d53c103e7654bf4"
+    },
+    {
+      "path": "src/ml/base-model-manifest.json",
+      "bytes": 3623,
+      "sha256": "458118e8828308fc76b20594f2144822b78afdf66f88e6cd527cd02d0d8d4e34"
+    },
+    {
+      "path": "src/ml/benchmark_one.py",
+      "bytes": 5521,
+      "sha256": "88a8dfdfae9d9d6376f79e7b3a88abe8fad36de7933146b38175f18260b03b08"
+    },
+    {
+      "path": "src/ml/cache_benchmark_prompt.py",
+      "bytes": 2311,
+      "sha256": "360d130a939685dd6dbe1a534ef1ebeebc8b5fb9a7da3a10e6ef063d6a5b7232"
+    },
+    {
+      "path": "src/ml/download_base.py",
+      "bytes": 1195,
+      "sha256": "e4433e349d9d97412d3daf1ddbed95bb356f429252d7db721210429d109e59d2"
+    },
+    {
+      "path": "src/ml/environment.yml",
+      "bytes": 263,
+      "sha256": "44fcd3c4e459f28f65a946fe14a18d94fd332893313623f7de0869776d4942b0"
+    },
+    {
+      "path": "src/ml/infer.py",
+      "bytes": 1188,
+      "sha256": "fd49adc7b5718dc3fa2604f7164dff0c7ee0be76402736ef7e01c673a6ae1e48"
+    },
+    {
+      "path": "src/ml/README.md",
+      "bytes": 3356,
+      "sha256": "c88b285989041c33525b15e80377f3e6148fe2558ce97a19aa5ba1e845051779"
+    },
+    {
+      "path": "src/ml/requirements-lock.txt",
+      "bytes": 2575,
+      "sha256": "831b569761578e3ecca260731586050506a42738e324d063c0823e2a54912eb7"
+    },
+    {
+      "path": "src/ml/requirements.txt",
+      "bytes": 262,
+      "sha256": "96f364cdbd5afb95e5b521a58b9640cb3dccf73ad5fee1c6122d4e6a449a80b4"
+    },
+    {
+      "path": "src/ml/SDXL-LICENSE.md",
+      "bytes": 14109,
+      "sha256": "19b6998b569b53ac1fc2158a8a3202c8699a9a4605b47075715d9c96be7fb6d0"
+    },
+    {
+      "path": "src/ml/shard_unet.py",
+      "bytes": 2387,
+      "sha256": "11145d8c6c3f152b579f77a3c78fba638d104173d57c1bbb1e7228700d95c950"
+    },
+    {
+      "path": "src/ml/torch-constraint.txt",
+      "bytes": 45,
+      "sha256": "c4606510237b0e842d6855394b6c8591543eeacd03015cc7c7ca263473562e3b"
+    },
+    {
+      "path": "src/ml/train_v2.py",
+      "bytes": 13582,
+      "sha256": "1907f671f0507737953aa47bbcfa78cf84d7c0c27dabafd5ca5df382b432869d"
+    },
+    {
+      "path": "src/ml/外部大文件.md",
+      "bytes": 980,
+      "sha256": "4e39bb239fb2e49cf0bc13e75f41c948f4d1cd956406d6a2e8f1cc6c10ed2ddc"
+    },
+    {
+      "path": "src/rtl/board_top.v",
+      "bytes": 13894,
+      "sha256": "d3591a599141ccc08a2d2709bfadb18d007a2b143bb6ebbd44b4f38f9a0b18ad"
+    },
+    {
+      "path": "src/rtl/camera_usb_stream.v",
+      "bytes": 21482,
+      "sha256": "b739d67a43e4706ea088c42673e201d59ad56ce5156051be2714b61c7cb0af23"
+    },
+    {
+      "path": "src/rtl/encoder_monitor.v",
+      "bytes": 3416,
+      "sha256": "803215b4d2a54e9b211a3bffd7e4ff72e17aa5de763c2c99a7045dc3c1ce9730"
+    },
+    {
+      "path": "src/rtl/ft232h_stream_start.v",
+      "bytes": 1233,
+      "sha256": "f4d35f3e574f72f51f9d56c02384e1f246c05b99d7d2ff365b9932d6382b5dcb"
+    },
+    {
+      "path": "src/rtl/homing.v",
+      "bytes": 3018,
+      "sha256": "0aeb704ddf37408ef4435bb1c1d0af49b4ee678001e4be0d393c45e70ef97156"
+    },
+    {
+      "path": "src/rtl/input_filter.v",
+      "bytes": 1129,
+      "sha256": "21aed0922232ec4bd1f57f71a96e52ede676762e614dfe276cbe4ce960528278"
+    },
+    {
+      "path": "src/rtl/motion_xy.v",
+      "bytes": 13505,
+      "sha256": "8077a36d8268b1cb9003eb357f7cd5aa9a18f42b3ad13f1c2e851ff36e4fa005"
+    },
+    {
+      "path": "src/rtl/needle_ctrl.v",
+      "bytes": 4125,
+      "sha256": "c0f37967767c5c9348ec1a62081e5798fb793f62acee83401e07cf11c59ae446"
+    },
+    {
+      "path": "src/rtl/ov5640_sccb_init.v",
+      "bytes": 19062,
+      "sha256": "cf1b105a7beb83925fe6ad14800d91df91f1a5bca86fee0ce2d58ded7c266926"
+    },
+    {
+      "path": "src/rtl/protocol_parser.v",
+      "bytes": 14030,
+      "sha256": "2fae2a6b752427c85d53e8bffb778e335b739fed92999e4cb14bab5f551b4b8e"
+    },
+    {
+      "path": "src/rtl/text_tx.v",
+      "bytes": 7433,
+      "sha256": "67a682dcf34454ba366c7665dc4eef89936f9c032ceba2b9a79998e66dc46a1d"
+    },
+    {
+      "path": "src/rtl/top.v",
+      "bytes": 39728,
+      "sha256": "1b8ebe21b8b1317f4619e0f8bd758a5acce0fa251c595e52d74099d304603860"
+    },
+    {
+      "path": "src/rtl/uart.v",
+      "bytes": 2679,
+      "sha256": "c03ea2f16287f52df67a5a77a692ba7f463ba356c23c54895403558b30e37bd5"
+    },
+    {
+      "path": "src/upper/.env.example",
+      "bytes": 675,
+      "sha256": "05ef5a7e521dad79504c3fc9665782fbb51ef6aae406f306c5a009314a73a6a5"
+    },
+    {
+      "path": "src/upper/.gitignore",
+      "bytes": 49,
+      "sha256": "c62d1515ac39902aa74220e506f786b238341a6820054ce06d565b1878d8dd08"
+    },
+    {
+      "path": "src/upper/artworkRecognitionApi.ts",
+      "bytes": 3290,
+      "sha256": "c9b16d8320aa40a27d708ee5fca159753cc333770abcdfdbfaea0993ea4e6e58"
+    },
+    {
+      "path": "src/upper/index.html",
+      "bytes": 390,
+      "sha256": "3a63a3827b99b9723904c2de5d6260651fa4280db1460884fcf98905d346e375"
+    },
+    {
+      "path": "src/upper/init-account.cjs",
+      "bytes": 644,
+      "sha256": "3a385d4df5e7de5fee81d90f2b210ab0980eb20688be249c06a324a7cd718e95"
+    },
+    {
+      "path": "src/upper/localAuthApi.ts",
+      "bytes": 4248,
+      "sha256": "35f22ad0dd3d30f2ca945a589f3e6a581fb6098d1707aed061aebda1e4485f92"
+    },
+    {
+      "path": "src/upper/modelImageApi.test.ts",
+      "bytes": 7865,
+      "sha256": "b547d1a6c35cd021b0fe0b87b8b1ec1d8c8f23a1d21dc66df8d7861866f411f6"
+    },
+    {
+      "path": "src/upper/modelImageApi.ts",
+      "bytes": 9329,
+      "sha256": "9b8d2000e9cf9713f3bcceeb7efa24ea5b3fe801bcdfd442f90e0720973f29e3"
+    },
+    {
+      "path": "src/upper/package-lock.json",
+      "bytes": 75851,
+      "sha256": "bd710508a9da37caffdbc18c0ae9ded673f38b5b0ea0edf95a7018381b5c8266"
+    },
+    {
+      "path": "src/upper/package.json",
+      "bytes": 653,
+      "sha256": "3131d6eb5f55ad03872ec52027c4533ef2b1193cd45c8871d753a7dccda07369"
+    },
+    {
+      "path": "src/upper/public/presets/butterfly/butterfly-black-white.png",
+      "bytes": 1130285,
+      "sha256": "dc190ea3ce6254e14cf8b01b8f443e5ac89e1de09d07bf8b4c4a42e1df6b3df0"
+    },
+    {
+      "path": "src/upper/public/presets/butterfly/butterfly-keyword-ui.png",
+      "bytes": 443813,
+      "sha256": "34f79a178a5816d54b83c26330912f177c6fa631a4faf74f91a7eba91407e4d9"
+    },
+    {
+      "path": "src/upper/public/presets/butterfly/butterfly-path-ui.png",
+      "bytes": 294954,
+      "sha256": "b559f0f5bd0abd2def5b64690f187ec68c19d18e39cf31dbe43cc703fbaea295"
+    },
+    {
+      "path": "src/upper/public/presets/butterfly/butterfly-path.bin",
+      "bytes": 5684,
+      "sha256": "a2bada274b4d7c1a76137968e299bd68b4426724426978270b4d5c1a9d9c2415"
+    },
+    {
+      "path": "src/upper/public/presets/butterfly/butterfly-path.json",
+      "bytes": 85537,
+      "sha256": "a3f84c9fff2b313d4cc6de81c3fac67dc950b695f37147ab4ee342fb6aeafc89"
+    },
+    {
+      "path": "src/upper/public/presets/butterfly/butterfly-route-preview.png",
+      "bytes": 17395,
+      "sha256": "bf0ae72168b048438dcba6a7cad5fa55e358e774138b8f885ef20c69894bd58c"
+    },
+    {
+      "path": "src/upper/public/presets/butterfly/butterfly-route.json",
+      "bytes": 9538,
+      "sha256": "cf297dd12f064cfb53ceda74d1298b14d273f244a53d3aaf80223f8dc1d4de34"
+    },
+    {
+      "path": "src/upper/public/presets/butterfly/butterfly-uart.txt",
+      "bytes": 5553,
+      "sha256": "aa791ab4df992e8c496a6229ade5b7741ae6a2ef3ff6b9074211032154984e02"
+    },
+    {
+      "path": "src/upper/public/presets/butterfly/continuous-planning.json",
+      "bytes": 4251,
+      "sha256": "55e70d4929819ad6c39bae2728ffa24c8c7969959af1da76434d3b7f1a1a53fe"
+    },
+    {
+      "path": "src/upper/public/presets/butterfly/image-generation.json",
+      "bytes": 612,
+      "sha256": "f8578ac538b54110102d17af425b998d83a31072f8b35d3c05e90f605c99e619"
+    },
+    {
+      "path": "src/upper/public/presets/butterfly/mask.json",
+      "bytes": 786471,
+      "sha256": "7c1f02b5b7d77b875533b8e3b60d13abd0db4fbdcea6c52a89fc06ca0b530f7d"
+    },
+    {
+      "path": "src/upper/public/presets/butterfly/README.md",
+      "bytes": 1474,
+      "sha256": "f974e5301916e14c4982847eead4a3d4aa5cba3c7b7c0073a3718e31face8131"
+    },
+    {
+      "path": "src/upper/public/presets/butterfly/ui-verification.json",
+      "bytes": 233,
+      "sha256": "82718e52b61720fcd45854db7b0f71bd5cbd9ad36d8f4cc5b3ac80ffb3d0eb87"
+    },
+    {
+      "path": "src/upper/public/presets/butterfly/verification.json",
+      "bytes": 671,
+      "sha256": "4d72c5888c4ef26989044fa35b897acc5cfb5b837d2512a7c6c28aeef1213fb9"
+    },
+    {
+      "path": "src/upper/public/presets/full-bird-leaf-repaired/LEAF-REPAIR.md",
+      "bytes": 973,
+      "sha256": "56db3f9b57971111f6a6d1db8cc598ea2579d1eb8e885a46938864ce6abc63d7"
+    },
+    {
+      "path": "src/upper/public/presets/full-bird-leaf-repaired/optimized-full-bird-order.gif",
+      "bytes": 218116,
+      "sha256": "0415c08fc512132ef4e53fa783d9eee7648d87a8466504891fc9b50f3b7a8057"
+    },
+    {
+      "path": "src/upper/public/presets/full-bird-leaf-repaired/optimized-full-bird-path.json",
+      "bytes": 385007,
+      "sha256": "ee930e1416a2888d711f249ebcb610d5f847ab0571165c11cfb0f09514e47fc4"
+    },
+    {
+      "path": "src/upper/public/presets/full-bird-leaf-repaired/optimized-full-bird-preview.png",
+      "bytes": 124333,
+      "sha256": "45854c7dfc1ebf094874a2811000930f16766f7cdefd7b914b90767f14189c86"
+    },
+    {
+      "path": "src/upper/public/presets/full-bird-leaf-repaired/optimized-full-bird-route.json",
+      "bytes": 58665,
+      "sha256": "ff2f5dda72a44e082b40ffafc22e5697ab3a30ea2cadc085eb67bfc96ed1271c"
+    },
+    {
+      "path": "src/upper/public/presets/full-bird-leaf-repaired/optimized-full-bird-serial.txt",
+      "bytes": 25744,
+      "sha256": "eb8c0678f156b6ebfd1040cf2b915d5e0512f1715efdeb1191a8d888394bf527"
+    },
+    {
+      "path": "src/upper/public/presets/full-bird-leaf-repaired/right-leaf-before-after.png",
+      "bytes": 59043,
+      "sha256": "27399684552141e5ed2359ad5482b9f72521c6013a90951aa8556cd046b57411"
+    },
+    {
+      "path": "src/upper/public/presets/rabbit/rabbit-black-white.png",
+      "bytes": 43417,
+      "sha256": "f378e8eeb72c452662dd45a9ceddc226803540f8953e66571a3da92085334fbd"
+    },
+    {
+      "path": "src/upper/public/presets/rabbit/rabbit-black-white.svg",
+      "bytes": 1281,
+      "sha256": "d711f9e1c5ef3a0bb5ab6316c43905026b5be5e5070dba026985e46a32bb8809"
+    },
+    {
+      "path": "src/upper/public/presets/rabbit/rabbit-keyword-ui.png",
+      "bytes": 284100,
+      "sha256": "28c61246fca429770159401728cc722938d2baca92b28a141f6956a8ae7d2d33"
+    },
+    {
+      "path": "src/upper/public/presets/rabbit/rabbit-path-ui.png",
+      "bytes": 282634,
+      "sha256": "7dd5d691986fc91c8e171442eea725372bee42c5810fcbdde96dc7a73b2ddc8f"
+    },
+    {
+      "path": "src/upper/public/presets/rabbit/rabbit-path.bin",
+      "bytes": 4981,
+      "sha256": "990f17f3f4f16bdf319f1045913d11757dc9ec480a3d7870701b7b1aecea2940"
+    },
+    {
+      "path": "src/upper/public/presets/rabbit/rabbit-path.json",
+      "bytes": 74875,
+      "sha256": "c8fd49dab0b632b26411c8a3b1223092f16b8d27a8007bca9c8a677176e2a05c"
+    },
+    {
+      "path": "src/upper/public/presets/rabbit/rabbit-route-preview.png",
+      "bytes": 17065,
+      "sha256": "8379729bcf1b2bc4105c3c77449f26671445921cef3fd1d576ef591b9557bbd6"
+    },
+    {
+      "path": "src/upper/public/presets/rabbit/rabbit-route.json",
+      "bytes": 26568,
+      "sha256": "8afe3e34ad6240a592bfaaaa89842f89fda29b54bd37b68328df116b07850949"
+    },
+    {
+      "path": "src/upper/public/presets/rabbit/rabbit-uart.txt",
+      "bytes": 4669,
+      "sha256": "7cfab1d9cdc5cb245b65b129e6ba6aa0252ce7fbc9d0e2e0ccde0491fe6186a5"
+    },
+    {
+      "path": "src/upper/public/presets/rabbit/README.md",
+      "bytes": 1083,
+      "sha256": "816bd23a80b7fb58124f0dc82ac7421285a75f96026e15b732437db198a86fc0"
+    },
+    {
+      "path": "src/upper/public/presets/rabbit/ui-verification.json",
+      "bytes": 187,
+      "sha256": "8d4b2f47a9d1d54f13c772cd047b8a32c1298e9721c48391156a1d88ee179d24"
+    },
+    {
+      "path": "src/upper/public/presets/rabbit/verification.json",
+      "bytes": 250,
+      "sha256": "3d868cab069b98c46907e1dee78b82a727283ef75a7717fddc433fece5b8f6ad"
+    },
+    {
+      "path": "src/upper/public/presets/README.md",
+      "bytes": 464,
+      "sha256": "58c9207b3b442df98fb122b57bb0095693bc7dd90bf3aa7bdd68ff187f2b64c5"
+    },
+    {
+      "path": "src/upper/public/presets/solo-bird-optimized/optimized-bird-order.gif",
+      "bytes": 107417,
+      "sha256": "9c0907a68e24210b144418d36eedf11bcb50aea2b213276499520250c0129f86"
+    },
+    {
+      "path": "src/upper/public/presets/solo-bird-optimized/optimized-bird-path.json",
+      "bytes": 84657,
+      "sha256": "5e5cd997bd10c91542f08bcde5acccd9913987f36cb49ee781a0971bd49892e1"
+    },
+    {
+      "path": "src/upper/public/presets/solo-bird-optimized/optimized-bird-preview.png",
+      "bytes": 93794,
+      "sha256": "79410173175109898ef22c00790135be72655dc63a3d095a19106b0992df68ff"
+    },
+    {
+      "path": "src/upper/public/presets/solo-bird-optimized/optimized-bird-route.json",
+      "bytes": 13804,
+      "sha256": "e6970eb30f0b66439914e867d2b15d5f1fb6e34d123c77cc2a45fbcd90a20409"
+    },
+    {
+      "path": "src/upper/public/presets/solo-bird-optimized/optimized-bird-serial.txt",
+      "bytes": 5629,
+      "sha256": "1eff881d7c288a354b8f933ce14eb8a2e992026405d9c98196b39f84a638c058"
+    },
+    {
+      "path": "src/upper/public/presets/solo-bird-optimized/optimized-bird.svg",
+      "bytes": 22410,
+      "sha256": "ab5c0b11ebeb549487cc9511ea40e62c8810dd7e24e4af165774553f88aec7b4"
+    },
+    {
+      "path": "src/upper/public/presets/solo-bird-optimized/OPTIMIZED-README.md",
+      "bytes": 1902,
+      "sha256": "e2e1924cf65a50e4a43ea9e36b1835c95f13c4343c4094a651969a36cc0f4a14"
+    },
+    {
+      "path": "src/upper/public/presets/solo-bird-optimized/optimized-summary.json",
+      "bytes": 439,
+      "sha256": "2c32fb5639fb1061affe9ead68ec299c45e7122e9823b6adde030e6244b8c100"
+    },
+    {
+      "path": "src/upper/public/presets/taiji/README.md",
+      "bytes": 1389,
+      "sha256": "ba781953a1e41bc986bc46955974dceb92d0c5830ccb572054a0fd9d82c2af6a"
+    },
+    {
+      "path": "src/upper/public/presets/taiji/summary.json",
+      "bytes": 362,
+      "sha256": "d968a44cfa8de214b1f149f7dae67b6d9372cbbe9c91c623ecd6c7643a08d6c5"
+    },
+    {
+      "path": "src/upper/public/presets/taiji/taiji-original.svg",
+      "bytes": 419,
+      "sha256": "5f1a8b9a68ad448d051f4e3f2da392094ed40771c71498dbb8d90723a9ed6149"
+    },
+    {
+      "path": "src/upper/public/presets/taiji/taiji-route.json",
+      "bytes": 7148,
+      "sha256": "359674bc0ae41c896beb1b97f3e848022e45b384cbe90e8609bb01508b8aa921"
+    },
+    {
+      "path": "src/upper/public/presets/taiji/taiji-stitch-preview.png",
+      "bytes": 23311,
+      "sha256": "5a0423d059a064a4301e9294ea91cb430231ab88b42891133a79a00233afb78b"
+    },
+    {
+      "path": "src/upper/public/presets/taiji-60mm/README.md",
+      "bytes": 1389,
+      "sha256": "ba781953a1e41bc986bc46955974dceb92d0c5830ccb572054a0fd9d82c2af6a"
+    },
+    {
+      "path": "src/upper/public/presets/taiji-60mm/sha256.json",
+      "bytes": 276,
+      "sha256": "d25760dee45346d1e6dfb9808b6e47eebd799c76ab53418aec9486c7777352c2"
+    },
+    {
+      "path": "src/upper/public/presets/taiji-60mm/stream-check.json",
+      "bytes": 236,
+      "sha256": "e6225c10f2d774abd7539fc5c7588b25157fa1399482a628af44b85c659e7f83"
+    },
+    {
+      "path": "src/upper/public/presets/taiji-60mm/taiji-60mm-preview.png",
+      "bytes": 23311,
+      "sha256": "5a0423d059a064a4301e9294ea91cb430231ab88b42891133a79a00233afb78b"
+    },
+    {
+      "path": "src/upper/public/presets/taiji-60mm/taiji-60mm-uart.txt",
+      "bytes": 6181,
+      "sha256": "925bf98531171dd1a1ec0c79ee95cf4dec3ecf801ed79f7a21709bdd6d506743"
+    },
+    {
+      "path": "src/upper/public/presets/taiji-60mm/taiji-60mm.bin",
+      "bytes": 6205,
+      "sha256": "209317e3b2a6b6ec704e0eb07683035c4242dc39853d52c4cd1f50ae15db8fbf"
+    },
+    {
+      "path": "src/upper/public/presets/taiji-60mm/taiji-60mm.json",
+      "bytes": 93430,
+      "sha256": "94acfe1a391982908d2ac7ac3d20ce14047bfad768c364dc5fa0565957b64ab8"
+    },
+    {
+      "path": "src/upper/public/presets/taiji-60mm/taiji-route.json",
+      "bytes": 7148,
+      "sha256": "359674bc0ae41c896beb1b97f3e848022e45b384cbe90e8609bb01508b8aa921"
+    },
+    {
+      "path": "src/upper/src/App.tsx",
+      "bytes": 31887,
+      "sha256": "feb601a30dbbfdf43fb4dc8e5f3222d539e770e471ae2913eb60520de55b53ef"
+    },
+    {
+      "path": "src/upper/src/assets/bird-original.jpg",
+      "bytes": 174058,
+      "sha256": "2f057a1f44a4f886a4ce5023050004785e32d56f357ba2b4a4e6f1e658dbcad7"
+    },
+    {
+      "path": "src/upper/src/assets/butterfly-original.png",
+      "bytes": 1130285,
+      "sha256": "dc190ea3ce6254e14cf8b01b8f443e5ac89e1de09d07bf8b4c4a42e1df6b3df0"
+    },
+    {
+      "path": "src/upper/src/assets/flower-original.png",
+      "bytes": 79911,
+      "sha256": "7adf56fc12555d08ddf2042f135b44743a446677d8ee4714ed330aa63fcc6671"
+    },
+    {
+      "path": "src/upper/src/assets/rabbit-original.png",
+      "bytes": 43417,
+      "sha256": "f378e8eeb72c452662dd45a9ceddc226803540f8953e66571a3da92085334fbd"
+    },
+    {
+      "path": "src/upper/src/assets/solo-bird.png",
+      "bytes": 1045606,
+      "sha256": "30b9c98dc7b40c5296471ab8d84a961dabfd12f17cd8282157eeaec0e6ad530d"
+    },
+    {
+      "path": "src/upper/src/assets/taiji-original.svg",
+      "bytes": 419,
+      "sha256": "5f1a8b9a68ad448d051f4e3f2da392094ed40771c71498dbb8d90723a9ed6149"
+    },
+    {
+      "path": "src/upper/src/assets/xiangxiu-branch.svg",
+      "bytes": 1705,
+      "sha256": "29f509e11f3d1c56b70fbaa2139e87aef51dc6aa92b89a2f781933427d6479d4"
+    },
+    {
+      "path": "src/upper/src/color-runtime.css",
+      "bytes": 3103,
+      "sha256": "d119d41a3d929b5372b8d1e721f9a0afcedd1e9ddc3ee626cc39dea2ff927e6a"
+    },
+    {
+      "path": "src/upper/src/components/ArtworkCreator.tsx",
+      "bytes": 27172,
+      "sha256": "f489278454f7e8d503755b3595f50907abdb8f508a6d7bcd7b380c5220acdb3c"
+    },
+    {
+      "path": "src/upper/src/components/AuthGate.tsx",
+      "bytes": 3888,
+      "sha256": "181f7bbc0313eef1ec09a18efc38627f4295c71b93c828c5b73b311b483f5d3a"
+    },
+    {
+      "path": "src/upper/src/components/CameraCapturePanel.tsx",
+      "bytes": 9236,
+      "sha256": "839d486865b5dd34bf13ae494bf1178d4db7b8ba8d29cb5f53a1bc981329e431"
+    },
+    {
+      "path": "src/upper/src/components/CanvasEditor.tsx",
+      "bytes": 21593,
+      "sha256": "9949c7ead457dce19c4aa3ab662fe3b99dd0d24206a4a6933e7c62350d5492a5"
+    },
+    {
+      "path": "src/upper/src/components/ColorPanel.tsx",
+      "bytes": 2083,
+      "sha256": "e90fba08b45925f98c970010be558bfd73fef85b0f76ff8db410497ac674ce88"
+    },
+    {
+      "path": "src/upper/src/components/DataTransferPage.tsx",
+      "bytes": 6321,
+      "sha256": "e4995bd9534ff9d27bc06614c2eba0fd1ac1830ce4915b732c519dbc0c3215c5"
+    },
+    {
+      "path": "src/upper/src/components/DevicePanel.tsx",
+      "bytes": 20096,
+      "sha256": "1cb00f971d57a0268b935fa8e36c4e2312e331d5bc0aa428ad27419c5619a338"
+    },
+    {
+      "path": "src/upper/src/components/ExportPanel.tsx",
+      "bytes": 2473,
+      "sha256": "49ae77cb69fded57c1ec9c3aa12af6c0704348c82162f95ad948d005c7c4c4af"
+    },
+    {
+      "path": "src/upper/src/components/FrameSettings.tsx",
+      "bytes": 5044,
+      "sha256": "1f37ec4d1f28f8a2baaec669ceee5ff33cf70cb3cc1736cc269cfcbe12c0402e"
+    },
+    {
+      "path": "src/upper/src/components/ImageUploader.tsx",
+      "bytes": 2409,
+      "sha256": "7b68433add93058dfa8678d595729262d96adf6ad8ff06d54f2517c95f5d7428"
+    },
+    {
+      "path": "src/upper/src/components/NeedleEditPanel.tsx",
+      "bytes": 2452,
+      "sha256": "38cb4dd29475040def705fa50edd369ff30ef855e9caa5dc728a6b8a134a38f7"
+    },
+    {
+      "path": "src/upper/src/components/PathPreview.tsx",
+      "bytes": 3999,
+      "sha256": "3870a5f69485f7dfb27b371766ff2e368e0c12d8d849355efeea28950047a3d7"
+    },
+    {
+      "path": "src/upper/src/components/SerialCapturePanel.css",
+      "bytes": 2716,
+      "sha256": "fdf0ef7fc8060e55efda6499b0271b0f40d8bda7da3f08277077b847dfce8e2d"
+    },
+    {
+      "path": "src/upper/src/components/SerialCapturePanel.tsx",
+      "bytes": 5907,
+      "sha256": "ba8f8cfb477edcd28e96ff9d472c60a5fad8d146f548bb02da42e7950c1a6b85"
+    },
+    {
+      "path": "src/upper/src/components/StabilityPanel.tsx",
+      "bytes": 3231,
+      "sha256": "b2cc114ef6dd1f5757b11dab462609083bed7f707a529956b0fca10c48b8cc61"
+    },
+    {
+      "path": "src/upper/src/components/StatisticsPanel.tsx",
+      "bytes": 2139,
+      "sha256": "54d8a91c3618edf0d348fc0ddc335ade939c92e5a9ecca67f679d963f4b28b52"
+    },
+    {
+      "path": "src/upper/src/components/ThreadLayersPanel.tsx",
+      "bytes": 1958,
+      "sha256": "6f02d6cf9e8031a838a9cb63749872659a8f8b050470df8d9151e2883257c6fa"
+    },
+    {
+      "path": "src/upper/src/components/VoiceInputButton.css",
+      "bytes": 781,
+      "sha256": "0bc7c4954f07431be9b31a6ddb8bda425342cc07bb848feee298793d2de78426"
+    },
+    {
+      "path": "src/upper/src/components/VoiceInputButton.tsx",
+      "bytes": 5439,
+      "sha256": "a4178dafe6356ee0c9bc9f9bbf5a873011724857a40650072cc1543bb7af93c2"
+    },
+    {
+      "path": "src/upper/src/data/bird-route.json",
+      "bytes": 26020,
+      "sha256": "ab1a50f7ad9222b2f9be050f8804ef98808240f5b17ca803a812256030c8b288"
+    },
+    {
+      "path": "src/upper/src/data/butterfly-route.json",
+      "bytes": 9538,
+      "sha256": "cf297dd12f064cfb53ceda74d1298b14d273f244a53d3aaf80223f8dc1d4de34"
+    },
+    {
+      "path": "src/upper/src/data/flower-route.json",
+      "bytes": 6292,
+      "sha256": "b460b0caddf2368d01bcf2380392312c280dfef5e9d2e0c1b3d8961eac7e45a5"
+    },
+    {
+      "path": "src/upper/src/data/rabbit-route.json",
+      "bytes": 9502,
+      "sha256": "860b20d09b0c77cf6b9d5ab3b1d71687f690404daf14fab86415c53bcaad0f1b"
+    },
+    {
+      "path": "src/upper/src/data/solo-bird-route.json",
+      "bytes": 6351,
+      "sha256": "e5400125ba08e2ed967c9acf9bb6a8e7500e89d4b2ae7151aede52a5abf95e8b"
+    },
+    {
+      "path": "src/upper/src/data/taiji-route.json",
+      "bytes": 7148,
+      "sha256": "359674bc0ae41c896beb1b97f3e848022e45b384cbe90e8609bb01508b8aa921"
+    },
+    {
+      "path": "src/upper/src/index.css",
+      "bytes": 41062,
+      "sha256": "36fd31fe02dcd1dedeb69cc6504cf0465cc14e7b896ad6a35be6458c1781357c"
+    },
+    {
+      "path": "src/upper/src/main.tsx",
+      "bytes": 280,
+      "sha256": "c61eb16c45ba070201e8112aefd4b03d3e04dad768489b93aacd4f96bbe282fb"
+    },
+    {
+      "path": "src/upper/src/types/embroidery.ts",
+      "bytes": 1624,
+      "sha256": "32bd9395b281e7c1d1fba1e83b66fdc64548ff1c20512fc77516beeaf14a9672"
+    },
+    {
+      "path": "src/upper/src/types/exportData.ts",
+      "bytes": 1260,
+      "sha256": "44cfcf029f792c5917207fa3e9ffa1036b5a156d0a5014bb58f5451adba35d99"
+    },
+    {
+      "path": "src/upper/src/utils/adaptiveColors.test.ts",
+      "bytes": 1822,
+      "sha256": "27ab77545a6fc04b9642ccb87c562d151f2084dcb9e069aa3c668b8e21d3078d"
+    },
+    {
+      "path": "src/upper/src/utils/adaptiveColors.ts",
+      "bytes": 4306,
+      "sha256": "4e882028250615269a95e60f0d4f4d3ae899f72e1253d94a583ba97f068d5819"
+    },
+    {
+      "path": "src/upper/src/utils/artworkPresets.ts",
+      "bytes": 2120,
+      "sha256": "e3bdac85de28be1eaeb72bd06f69337d53e2d373ef051f5c26de47a48221c7f4"
+    },
+    {
+      "path": "src/upper/src/utils/binProtocol.test.ts",
+      "bytes": 5473,
+      "sha256": "43261ed434950e73311a8a31dd08a3d98f1378fd8bbd705a3ac00282aea3a08d"
+    },
+    {
+      "path": "src/upper/src/utils/binProtocol.ts",
+      "bytes": 9256,
+      "sha256": "6a4dceeedc36a9c7367e627e6c021c1344fb480a845dd4ac349c1c58c734d30c"
+    },
+    {
+      "path": "src/upper/src/utils/birdPreset.test.ts",
+      "bytes": 2391,
+      "sha256": "80e4fcb34fc5ba804a42353895fb072ae4cd5b45c02a79e588ba8424fcd0bd26"
+    },
+    {
+      "path": "src/upper/src/utils/birdPreset.ts",
+      "bytes": 2704,
+      "sha256": "7ccb8e7aa8f0deff1e4939dbb4b8a987e9ba0a87523231c8eaec52ce931ed8dc"
+    },
+    {
+      "path": "src/upper/src/utils/butterflyPreset.test.ts",
+      "bytes": 3868,
+      "sha256": "375e142fd9667314d2827e9940cee59dedc087921f357ffeaaef1af4f8c0b332"
+    },
+    {
+      "path": "src/upper/src/utils/cameraStream.test.ts",
+      "bytes": 5434,
+      "sha256": "a6071edd241d7529aba6eb87284fc53c70dea0b24ca5ab8519ab4396e70e6748"
+    },
+    {
+      "path": "src/upper/src/utils/cameraStream.ts",
+      "bytes": 7735,
+      "sha256": "4e316b11e008d5b0ff1cd19c75e397c0acbc117e363a516c6fc2d45a65569cde"
+    },
+    {
+      "path": "src/upper/src/utils/colorDetection.test.ts",
+      "bytes": 1597,
+      "sha256": "035f9b7a44b64693e125d2cc4230f8542244877a17d2f9aaa0c9f7903ab7ae89"
+    },
+    {
+      "path": "src/upper/src/utils/colorDetection.ts",
+      "bytes": 8193,
+      "sha256": "a1baf0593b75854e9adeb33f52a5c4f7b5f919b529ac550aff1c05f12f2f2b5d"
+    },
+    {
+      "path": "src/upper/src/utils/continuousRoute.test.ts",
+      "bytes": 6254,
+      "sha256": "f1d43b4c722c6b7de3a97f539a18255c1d8c7e6f63dac2e7c424890a2450cd6b"
+    },
+    {
+      "path": "src/upper/src/utils/contourPaths.test.ts",
+      "bytes": 3296,
+      "sha256": "3412866091202bcb9f09197f0f520cf0551be63369bbe7d22397fdf8aa8d47a4"
+    },
+    {
+      "path": "src/upper/src/utils/contourPaths.ts",
+      "bytes": 5700,
+      "sha256": "6500c58eca5b47b998f990cb38c5e953955dcbde1b21bd4a3450626e49e352bb"
+    },
+    {
+      "path": "src/upper/src/utils/coordinateTransform.ts",
+      "bytes": 1793,
+      "sha256": "ae203b2604e3447dc425374470a5dc75b5266ff5c5d8d8777560efc599b16392"
+    },
+    {
+      "path": "src/upper/src/utils/deviceProtocol.test.ts",
+      "bytes": 4107,
+      "sha256": "59904398a869cb9500a7306f46a1fb6e8afb143c7757a684bf501d7acdb43b5a"
+    },
+    {
+      "path": "src/upper/src/utils/deviceProtocol.ts",
+      "bytes": 4056,
+      "sha256": "54f6f57682fa803d800d88811dba1580f863f9fca484939834bf3749f0051648"
+    },
+    {
+      "path": "src/upper/src/utils/encoderTelemetry.test.ts",
+      "bytes": 948,
+      "sha256": "2df7f3ef77216836100a252daa069f0141213c91d32c6ccb62093345a323724b"
+    },
+    {
+      "path": "src/upper/src/utils/encoderTelemetry.ts",
+      "bytes": 655,
+      "sha256": "20ed0c4e9c6fa1ffe9ca90a38cb84f7935d4065c30b2f26b9a1a1fa600df83af"
+    },
+    {
+      "path": "src/upper/src/utils/fileDownload.ts",
+      "bytes": 281,
+      "sha256": "d37a1768e9c9acd7212cf6649171cb11cb90fa9bfcd695702e14d782429b8360"
+    },
+    {
+      "path": "src/upper/src/utils/fixtures/flower-line.json",
+      "bytes": 26567,
+      "sha256": "18067ce3304f7de3a1d6e5ac00ec20759347f9bf248d784bea7ae8b5012ea1f1"
+    },
+    {
+      "path": "src/upper/src/utils/graphStrokePaths.test.ts",
+      "bytes": 3812,
+      "sha256": "e5c307f775d03b333074bcb362093a5bebca3a4a4a602eef56eca98ce2570fd8"
+    },
+    {
+      "path": "src/upper/src/utils/graphStrokePaths.ts",
+      "bytes": 8861,
+      "sha256": "9b518fd4be07746dfc28ff8103c47eba251b4de81cacc4759db3266ef0317e73"
+    },
+    {
+      "path": "src/upper/src/utils/imageProcessing.ts",
+      "bytes": 1159,
+      "sha256": "053143097cd6e38931e0bc6492425fb279ac67f889450badc10e8c562769e02c"
+    },
+    {
+      "path": "src/upper/src/utils/needleEditing.test.ts",
+      "bytes": 5879,
+      "sha256": "138ca6aa09f5b87aa94082ee47c197673fa8d2c65e86b7fe8166f54a52ece341"
+    },
+    {
+      "path": "src/upper/src/utils/needleEditing.ts",
+      "bytes": 3246,
+      "sha256": "837feef87d82dfa4ebd474dfe92363cc88b626e120407f290ea4dbade879135e"
+    },
+    {
+      "path": "src/upper/src/utils/oneStrokePaths.test.ts",
+      "bytes": 4022,
+      "sha256": "bb290addc5c4933126efde9dc00f319944fafa6bad665be95d6eed2978afa628"
+    },
+    {
+      "path": "src/upper/src/utils/oneStrokePaths.ts",
+      "bytes": 14653,
+      "sha256": "4d5d810d4c0e6caaaea6f08fbe7a7ce41e4e3a6f3db4a8938ab749bdd58d9f33"
+    },
+    {
+      "path": "src/upper/src/utils/orderedPointPaths.test.ts",
+      "bytes": 4963,
+      "sha256": "722e48013508e65760364e00fc1a0a9c27a51086fe3bafbca1e5aeb37ca96637"
+    },
+    {
+      "path": "src/upper/src/utils/orderedPointPaths.ts",
+      "bytes": 3030,
+      "sha256": "dec912304f865f547318784052282cb61fd779309f77b9f518a7f8476c4dee4f"
+    },
+    {
+      "path": "src/upper/src/utils/pathExport.ts",
+      "bytes": 7102,
+      "sha256": "7c7748ad00a3c5e0d97b8bed8ee1ac3107df9b3ab3da02791b809971317e77ff"
+    },
+    {
+      "path": "src/upper/src/utils/pathGenerator.ts",
+      "bytes": 11149,
+      "sha256": "7256461b6cd2f5b03e97bf3d9e6787ed40abc2e84c0f644dff96d6284eba11b4"
+    },
+    {
+      "path": "src/upper/src/utils/rabbitPreset.test.ts",
+      "bytes": 2647,
+      "sha256": "f61996681c480bf3c342c5b2d2e694ac299451cf07301f7daf84b4283c3b4230"
+    },
+    {
+      "path": "src/upper/src/utils/recognizeArtwork.ts",
+      "bytes": 2050,
+      "sha256": "17498515b9b1179dd5f873eda786a32344fce28dd31a6924094081c609230d1e"
+    },
+    {
+      "path": "src/upper/src/utils/routePreview.ts",
+      "bytes": 2047,
+      "sha256": "0459edb5b87100f31f5e9247dbe2b9f4f58b3d980cacda071da1fe6992c958e1"
+    },
+    {
+      "path": "src/upper/src/utils/runtimeMetrics.test.ts",
+      "bytes": 1356,
+      "sha256": "8c30ad95e789c150a74aa6739806f613b6ed57cbe0adc5317463976f106d7b5a"
+    },
+    {
+      "path": "src/upper/src/utils/runtimeMetrics.ts",
+      "bytes": 3318,
+      "sha256": "ae0dce2c381a284d85263c9c2f7ebf798b622d31f9fbbc4c2e988a59803bf7da"
+    },
+    {
+      "path": "src/upper/src/utils/serialCapture.ts",
+      "bytes": 4837,
+      "sha256": "3890097ef5ada34a776db2893e018b227c356dd4b4af4b7bf9beb1a22d4effaf"
+    },
+    {
+      "path": "src/upper/src/utils/serialWriteMetrics.test.ts",
+      "bytes": 553,
+      "sha256": "bc74368a18505e7cedf83f4563a09230410815b88f974739714a31543ef93d8f"
+    },
+    {
+      "path": "src/upper/src/utils/smallDetails.test.ts",
+      "bytes": 3906,
+      "sha256": "464a580161fa80d5056a68761d9b14a73e9c65d862ee266daf09e6acd977df1f"
+    },
+    {
+      "path": "src/upper/src/utils/threadPreview.test.ts",
+      "bytes": 2140,
+      "sha256": "77937be7fa849bae28c0e039b192d16f749af16a08c4a15b026d32e42d8a006b"
+    },
+    {
+      "path": "src/upper/src/workspace-pages.css",
+      "bytes": 8779,
+      "sha256": "c7946834bde5af08296b15a9c33f82df981b3b92160bc8800c9ae286a4e81d55"
+    },
+    {
+      "path": "src/upper/tsconfig.json",
+      "bytes": 487,
+      "sha256": "79b0012fa6cf8b61cf1a0aa0df011c6974c8b5597db6083638ca7cfc619b214b"
+    },
+    {
+      "path": "src/upper/tsconfig.node.json",
+      "bytes": 325,
+      "sha256": "54fca67c84f5b300ad8dd93c592fd08947c8d8212302cd40eda5545c3155b457"
+    },
+    {
+      "path": "src/upper/vite.config.ts",
+      "bytes": 684,
+      "sha256": "94ca207c3a39131bdfb9cfece8a70d55fe318c08680de690d3588b1e361d08ae"
+    },
+    {
+      "path": "yizhen-qianyun/board/constraints/camera_clock_route.xdc",
+      "bytes": 140,
+      "sha256": "73e72c6513528ac99bd6d1dd1f592342e91ae0c78deba1b5c14d68c24cd959af"
+    },
+    {
+      "path": "yizhen-qianyun/board/constraints/pins.xdc",
+      "bytes": 7227,
+      "sha256": "eb814d640f9bb790c649f6cf7ea6f35789d9bf6e0b10b955fbf476f58e705627"
+    },
+    {
+      "path": "yizhen-qianyun/board/firmware/README.md",
+      "bytes": 1207,
+      "sha256": "34e75c0bbb3cd6d4ebe9323d10c89eecdf8b0b154ccd17dfbddc83ae6c9c70ad"
+    },
+    {
+      "path": "yizhen-qianyun/board/firmware/release-manifest.json",
+      "bytes": 4124,
+      "sha256": "d426122c8bd55bda25a965b6c108f0f8be64a1dda94b6658a2b3d47c93b191ad"
+    },
+    {
+      "path": "yizhen-qianyun/board/firmware/yizhen_qianyun_auto_needle.bit",
+      "bytes": 3825989,
+      "sha256": "d886a66a27e780f803ebfb0b069f40cf0d632c58fdf63abb828932393a23c1b5"
+    },
+    {
+      "path": "yizhen-qianyun/board/README.md",
+      "bytes": 2795,
+      "sha256": "8cc3b19b8dad4bf5c34ca49861bf900c035e8fd0863fea7d74c841b6c340b22a"
+    },
+    {
+      "path": "yizhen-qianyun/board/references/board-base-v2.6.pdf",
+      "bytes": 1023684,
+      "sha256": "37bcf9a78b48858aae9b5e348b2c8c0ed201c8f80277246a92a7476773fa9922"
+    },
+    {
+      "path": "yizhen-qianyun/board/references/board-core-v4.1.pdf",
+      "bytes": 698217,
+      "sha256": "35971818bd26768e675a8d37ee857aa13bb428869c54ff3fe6330604f6552a85"
+    },
+    {
+      "path": "yizhen-qianyun/board/references/davinci-pro-spec-v1.2.pdf",
+      "bytes": 3008796,
+      "sha256": "c7621dec72c2bc82c320abaef664bdc3b9d6d715c524f7ee1893a8297c9fe2e2"
+    },
+    {
+      "path": "yizhen-qianyun/board/references/itr9606.pdf",
+      "bytes": 328408,
+      "sha256": "9f86ea120fdbd394f2a7d35b81278e3deaf86f78e937dda4596027ba6b292985"
+    },
+    {
+      "path": "yizhen-qianyun/board/references/minebea-motor.jpg",
+      "bytes": 172448,
+      "sha256": "57e005699b3e9361b1bfb8ae89b484276d78ac4c7f30fed892c2522889936f6d"
+    },
+    {
+      "path": "yizhen-qianyun/board/references/ov5640-datasheet.pdf",
+      "bytes": 1227583,
+      "sha256": "e00aa20794992826bfceffe7330d714a99e80869e24fff216c0ae750bb0fa9dd"
+    },
+    {
+      "path": "yizhen-qianyun/board/references/provenance.json",
+      "bytes": 2425,
+      "sha256": "20aa415019f31b9c9055499725b4cef2be494181582ea5c479c0609396219713"
+    },
+    {
+      "path": "yizhen-qianyun/board/references/README.md",
+      "bytes": 1147,
+      "sha256": "02252dbc77ae52819a1a14ec65762220b6ef45a5b9d09b1b5676df503c02a9fd"
+    },
+    {
+      "path": "yizhen-qianyun/board/references/tb6600.pdf",
+      "bytes": 436474,
+      "sha256": "8877ece051fce3c4e412098274c8a02cfb5bd0d5f01e7ea699d09b99c87707fb"
+    },
+    {
+      "path": "yizhen-qianyun/board/references/vendor-io-map.xlsx",
+      "bytes": 21720,
+      "sha256": "210621daee3d3a2662bb60cae3cede294843fb992d768289a9cd50ba72f29aa1"
+    },
+    {
+      "path": "yizhen-qianyun/board/start-camera.ps1",
+      "bytes": 243,
+      "sha256": "978ff10ef5c45490d41b20e34c0cd8ac7deb26d519a000a7a851d8faedf63c10"
+    },
+    {
+      "path": "yizhen-qianyun/board/start-upper.ps1",
+      "bytes": 312,
+      "sha256": "00ae4d780c75b7cff8a27dd645c75db84a0ac235478d57bbca69465ad05a219c"
+    },
+    {
+      "path": "yizhen-qianyun/board/完整引脚表.csv",
+      "bytes": 2499,
+      "sha256": "359f42fa93ec5d7ebbeb31f86171c2c120dad1fed598336c33bd79e53137f2b6"
+    },
+    {
+      "path": "yizhen-qianyun/board/硬件清单与完整接线.md",
+      "bytes": 13167,
+      "sha256": "f3719b269207626733e6c40c96fd4eeb2640e907e941f1174dd2ebe8fd2a1b95"
+    },
+    {
+      "path": "yizhen-qianyun/build/attempts/vivado-license.txt",
+      "bytes": 296,
+      "sha256": "ef00593cfa281433e0d5f1e5bd1fc7c1bc76d19913239758c5f19ad54ad9bded"
+    },
+    {
+      "path": "yizhen-qianyun/build/attempts/xsim-license.log",
+      "bytes": 1602,
+      "sha256": "59440cb69a97db3b84724422d0eb8d1d44d64ea5956f459f0824a216d9c64149"
+    },
+    {
+      "path": "yizhen-qianyun/build/browser-verification.json",
+      "bytes": 197,
+      "sha256": "15b5078c3bc1a458b0ec609f2c689a5dc4030c7b9b4102ab96730fb6dc32085c"
+    },
+    {
+      "path": "yizhen-qianyun/build/build.tcl",
+      "bytes": 1906,
+      "sha256": "376f4374ac7e677dc34dfcfa615c02fce2d519c34c9164ee1aa414e9cbb46312"
+    },
+    {
+      "path": "yizhen-qianyun/build/create_project.tcl",
+      "bytes": 1144,
+      "sha256": "dbef7d66b089120b03ad5265e39741a676aabdb8cb9c1bd9df51b29dd1860d71"
+    },
+    {
+      "path": "yizhen-qianyun/build/documentation-update.json",
+      "bytes": 568,
+      "sha256": "1fe1b5dafe14a30ddc22628547d2171786f26cd9767df2c988316b57dea79182"
+    },
+    {
+      "path": "yizhen-qianyun/build/frontend-build.log",
+      "bytes": 793,
+      "sha256": "2330cd18c699f6f19a3149d3d070ded8e0a53aa2d32a18248edb290797725724"
+    },
+    {
+      "path": "yizhen-qianyun/build/frontend-tests.log",
+      "bytes": 1412,
+      "sha256": "efe6f020842538b38d76c2c37a1ee27399b3669412352bf4f1551801b76bb190"
+    },
+    {
+      "path": "yizhen-qianyun/build/ml-smoke.json",
+      "bytes": 1487,
+      "sha256": "77ab06cb152ca67f3f8c9d964334a6a26028a6d4132f795df2b2c11602e28bef"
+    },
+    {
+      "path": "yizhen-qianyun/build/ml-smoke.log",
+      "bytes": 3926,
+      "sha256": "6471f9db0d0bb04c15deeb4b2e71689e035bf963476ec5eb2a3b50f1b4821c14"
+    },
+    {
+      "path": "yizhen-qianyun/build/project/README.md",
+      "bytes": 859,
+      "sha256": "8db9a1b1ed4729316b715a5606b71a683010e751ca19bdb37bdb6448cad2ba78"
+    },
+    {
+      "path": "yizhen-qianyun/build/project/yizhen_qianyun.xpr",
+      "bytes": 15539,
+      "sha256": "ac184ca956139646e73535ea6471abfb359d7b0131be807f10a1c98fa0f7a7b6"
+    },
+    {
+      "path": "yizhen-qianyun/build/readme-layout-verification.json",
+      "bytes": 564,
+      "sha256": "7577b65949f3df728967603fdd36ba65470d63ae8f6bf1a6684b8c9109da3f7e"
+    },
+    {
+      "path": "yizhen-qianyun/build/README.md",
+      "bytes": 815,
+      "sha256": "0a9e153402e9727cead6bb03acbc1e1a925f2a89e246e2a9a9f9fc3ef6013312"
+    },
+    {
+      "path": "yizhen-qianyun/build/release/drc.rpt",
+      "bytes": 21601,
+      "sha256": "31c8b3f12ed6741c8a38863f2b9eb21fbbf91542f96542254fd3fc94be6b7439"
+    },
+    {
+      "path": "yizhen-qianyun/build/release/executed-build.tcl",
+      "bytes": 2093,
+      "sha256": "a17a65c3a0b473a88513816dcf4d555b921f70e0cd520faa672bf7d75f9febca"
+    },
+    {
+      "path": "yizhen-qianyun/build/release/impl_1.log",
+      "bytes": 46526,
+      "sha256": "99db0add1749f971fa5aa4901e233ff7daeacf20912e9082a77c89433bf38031"
+    },
+    {
+      "path": "yizhen-qianyun/build/release/implementation-utilization.rpt",
+      "bytes": 11539,
+      "sha256": "c1abecd104e934a1bbd1b863391cda980aad777ddfaa545748a1d8fcd2beef7b"
+    },
+    {
+      "path": "yizhen-qianyun/build/release/io.rpt",
+      "bytes": 151779,
+      "sha256": "03e6394786651ebc257f1f6b363257ff28bd90a5ec0de9c797468fadad64c41d"
+    },
+    {
+      "path": "yizhen-qianyun/build/release/project-creation.log",
+      "bytes": 3191,
+      "sha256": "3e7b5eac9252efc691eaa99d41899c4b192ee128aba772faa48122b9895d51eb"
+    },
+    {
+      "path": "yizhen-qianyun/build/release/project-relocation.log",
+      "bytes": 3743,
+      "sha256": "974424dd0b38f58aba46281355c8c08842ef052386ada3af9c8fec7cf277be9d"
+    },
+    {
+      "path": "yizhen-qianyun/build/release/README.md",
+      "bytes": 923,
+      "sha256": "b55689f4d6b6b1c68709c1c657f8eb71997813c1c5e718258d45deb7d17050b3"
+    },
+    {
+      "path": "yizhen-qianyun/build/release/route.rpt",
+      "bytes": 588,
+      "sha256": "4c8d52e0a027c17291a07abf92f7a6a45e884a8e7172ee19f3197f90a9c11501"
+    },
+    {
+      "path": "yizhen-qianyun/build/release/synth_1.log",
+      "bytes": 63020,
+      "sha256": "a91ccbdf283e4881984a430c39f5727289a7598817b4b64ef4cb45b43ee53d9a"
+    },
+    {
+      "path": "yizhen-qianyun/build/release/synthesis-utilization.rpt",
+      "bytes": 9180,
+      "sha256": "a338fac0ff1b51b5f10b1e2e0382fc2ec9320dddc96dafc8ed30ce66951f0da2"
+    },
+    {
+      "path": "yizhen-qianyun/build/release/timing.rpt",
+      "bytes": 172211,
+      "sha256": "b3bfe5332744f8fbd7313c18ba4de560b942dd96bbb874f3f3724c25de353219"
+    },
+    {
+      "path": "yizhen-qianyun/build/release/vivado-build.log",
+      "bytes": 55597,
+      "sha256": "4cbf97294af1cba7b68818f10a91f198fbf7b3662a84134866428f1ac81e9686"
+    },
+    {
+      "path": "yizhen-qianyun/build/source-equivalence.json",
+      "bytes": 43946,
+      "sha256": "404fe7d15fdf8352b65b63be057140835d742587d7174bdb0b36c3b297f5e1c3"
+    },
+    {
+      "path": "yizhen-qianyun/build/source-manifest.json",
+      "bytes": 63578,
+      "sha256": "0b25f6dd65d13dd444646648d9965f0ec0bb5981f70e4e84ea360e4fa81a6306"
+    },
+    {
+      "path": "yizhen-qianyun/build/validation.json",
+      "bytes": 1730,
+      "sha256": "f1e25b81a3598498aae9c279a28061c7f160593800a479b475a9824cbcb477d4"
+    },
+    {
+      "path": "yizhen-qianyun/build/verify.py",
+      "bytes": 606,
+      "sha256": "7d0cbb4caa4ead4e7f0dbb2f21da594013d812dff5aa1f6638ae401c336832a5"
+    },
+    {
+      "path": "yizhen-qianyun/data/ml/training-images/bird-original-0.png",
+      "bytes": 108006,
+      "sha256": "7421691344aefc5b64088ac85c6fed4085122ebce9f7428b8e92eddfb914051f"
+    },
+    {
+      "path": "yizhen-qianyun/data/ml/training-images/bird-original-1.png",
+      "bytes": 124586,
+      "sha256": "1f9f167d1d97a617ab16285a91e0be7297fa9f5fb4d9c95f76d297f133f884a8"
+    },
+    {
+      "path": "yizhen-qianyun/data/ml/training-images/bird-original-2.png",
+      "bytes": 124422,
+      "sha256": "240d7098c64cf49bcb8a290a30d202346671c3e56aef40c6b91dd11b9ea6dd33"
+    },
+    {
+      "path": "yizhen-qianyun/data/ml/training-images/bird-original-3.png",
+      "bytes": 106846,
+      "sha256": "5f7e3f58d422f8d0d49f4dd79a32a763dc91f802e4c718def953ff65f7927eb7"
+    },
+    {
+      "path": "yizhen-qianyun/data/ml/training-images/flower-original-0.png",
+      "bytes": 81361,
+      "sha256": "6eddbecea6418abf1a6a7482a2a96707857ea84bb5176409ccaf691e1a419531"
+    },
+    {
+      "path": "yizhen-qianyun/data/ml/training-images/solo-bird-0.png",
+      "bytes": 105769,
+      "sha256": "2b49ce5c57df92f7dd6ed540fe31ca8d73c3bd5511106922f8f5c4553a1d20cf"
+    },
+    {
+      "path": "yizhen-qianyun/data/ml/training-images/solo-bird-1.png",
+      "bytes": 115564,
+      "sha256": "c2f160fa2d4baf09bf0a174524de923380e5710281779d0f118cd8ec4b12ba25"
+    },
+    {
+      "path": "yizhen-qianyun/data/ml/training-images/solo-bird-2.png",
+      "bytes": 113358,
+      "sha256": "d1bd91301cdc15787b0c0ea06673f7d1bcec5a3aa3cbd267bd934afb7011e44b"
+    },
+    {
+      "path": "yizhen-qianyun/data/ml/training-images/solo-bird-3.png",
+      "bytes": 106739,
+      "sha256": "cf3213fa3d966e283706a6cd3513277eb9e9a8b82cf8db18f46cbffd3c348edb"
+    },
+    {
+      "path": "yizhen-qianyun/data/README.md",
+      "bytes": 462,
+      "sha256": "59f817814b8fdfeba582165e928d0599551cadba0c2f1af07daa5f384f0e679d"
+    },
+    {
+      "path": "yizhen-qianyun/data/数据集与基座下载地址.md",
+      "bytes": 8634,
+      "sha256": "21efc05f1e8bb950acad3d34ce1ff4de0c0cab77b3b4496e06b0aad30ca998f6"
+    },
+    {
+      "path": "yizhen-qianyun/README.md",
+      "bytes": 38284,
+      "sha256": "8bdc4e293b7fc6b88e315376698d0b13cbb6f27d3d182a2429f46691cd68b812"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/benchmark-final/base_seed123.json",
+      "bytes": 1899,
+      "sha256": "696a436e42882ea0b7b76e7d9e9699131b2d87cdd06176b367c68f249edbc8c0"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/benchmark-final/base_seed123.png",
+      "bytes": 316435,
+      "sha256": "0e7106c855234de3dbc05f41e21c89468672caac7e1ac2d20081fa1cde49e305"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/benchmark-final/base_seed42.json",
+      "bytes": 1896,
+      "sha256": "6c7d2c1df26169699f7f8535c26c788533681783751a623d171671b5e70d923c"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/benchmark-final/base_seed42.png",
+      "bytes": 268848,
+      "sha256": "5d21ade53af38629ed4f9a09cae798939bd6ac86a4c8fcf9f09e603dc647087c"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/benchmark-final/ema_seed123.json",
+      "bytes": 1902,
+      "sha256": "ebe8113011aafa8645f7e31c9bce1a25414ff0b5f4a6e4ed9e4241cd11adb9b5"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/benchmark-final/ema_seed123.png",
+      "bytes": 190699,
+      "sha256": "095d0144f7a60a5d2dbbd5d441640b780dbb6de7b89e06e5076d772f83907e02"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/benchmark-final/ema_seed42.json",
+      "bytes": 1902,
+      "sha256": "075c691f5949902545db906355676cadab0e7d45369ed05f7586636d3ae42dd1"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/benchmark-final/ema_seed42.png",
+      "bytes": 287361,
+      "sha256": "55301345e3403a1696bbcfbec845b0d5bd6c1e0217de3cafc64f577476f27d49"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/benchmark-final/pilot_seed123.json",
+      "bytes": 1910,
+      "sha256": "f441261cc73f53947b76b42e38532b2585078d626aae244386f50c611c575157"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/benchmark-final/pilot_seed123.png",
+      "bytes": 179184,
+      "sha256": "a616cd88da2dc3ff1347016a72de6c33b1f4466eb9b9bb19cbf156b0574d713d"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/benchmark-final/pilot_seed42.json",
+      "bytes": 1906,
+      "sha256": "8a107f6bef8f207f140b194d01dddcb9ad2450742302ef5d6a458b83e237b42d"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/benchmark-final/pilot_seed42.png",
+      "bytes": 256115,
+      "sha256": "440603ec904ed2b390c9ae4daec12810e0355f489fe6dcd42aa6d88302a4c891"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/benchmark-final/raw_seed123.json",
+      "bytes": 1903,
+      "sha256": "2d79c5c9a7d401444e23f46beb7a4b5e48a371b3dc153e79c26de18db9011602"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/benchmark-final/raw_seed123.png",
+      "bytes": 176729,
+      "sha256": "6ef99dd7157bb68fc5a2dfe49e3c76ad6ad6bddbae1498b5bb1a3c3bb3feb885"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/benchmark-final/raw_seed42.json",
+      "bytes": 1900,
+      "sha256": "de9ccb40e600523c27273e5548c8f7a9ba7481db23166d2273a44e35c732f96b"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/benchmark-final/raw_seed42.png",
+      "bytes": 303430,
+      "sha256": "b4dc6f9797ac8491ad000a2ae591b1fccc9da82cb71b18dbcba23edb55fc7d38"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/benchmark-text-cache.json",
+      "bytes": 491,
+      "sha256": "ad4dc27a27320ca132b2cef46f70f6a4793be85cc5484aa5b8fe35e8fe11a446"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/config.json",
+      "bytes": 767,
+      "sha256": "ee02a75ad2a623f52502a018549c95413e43e7db8b4c02354d28dba0991ac05d"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/dataset.json",
+      "bytes": 5446,
+      "sha256": "687b8bc0d2cf841c32d355699d7bf6654b169b0c027dcf179036f0bb09e2da77"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/environment-freeze.txt",
+      "bytes": 2901,
+      "sha256": "d803b5dd000fd83b92e5b5cd56ae6ba39616754193e0fb53f06959fce67cebb9"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/environment.json",
+      "bytes": 481,
+      "sha256": "bf7cbbe116c137356942d2f21675b66774cbf8bf23c9ba3fa17110b169d691bb"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/01_training_loss.pdf",
+      "bytes": 49606,
+      "sha256": "ad6f3641c28a9a27bdd2e10f3eae515abf541bff61bcd1c4cb602b52fff3d387"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/01_training_loss.png",
+      "bytes": 322409,
+      "sha256": "871cb370aa50b94e4d2d8be6935d482531ebe6fa748977d766d62353bfc991ff"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/01_training_loss.svg",
+      "bytes": 113573,
+      "sha256": "fe1c790e93f0382854ab24f86889523d6ed32167f1e6d616fdfce6720d95c62f"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/02_fixed_noise_diagnostic.pdf",
+      "bytes": 36455,
+      "sha256": "e37310bacc319aba1472da8827b33ff21257dddc1ed22db2fa99dc7ee8978ff7"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/02_fixed_noise_diagnostic.png",
+      "bytes": 113537,
+      "sha256": "bed6af1d173de30b817d60bcad00238abd3a2268d343e9a73326c8994374e6d4"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/02_fixed_noise_diagnostic.svg",
+      "bytes": 71189,
+      "sha256": "67eb63a54a1b82db2df3e623ed4412cdabe773bb95eac2facd888d9a94971cee"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/03_training_runtime_memory.pdf",
+      "bytes": 46201,
+      "sha256": "cdfaf096633dd37a2243205c7979bdc61589bc96dcd78c4a68b0acd3b72a9bd1"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/03_training_runtime_memory.png",
+      "bytes": 120359,
+      "sha256": "d182c7d7c6272dc196bd150a8a2f77c2a6a06565ef595cee2285c894f0fd023a"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/03_training_runtime_memory.svg",
+      "bytes": 103182,
+      "sha256": "9934cb65c5e2dbe772aca2f21de7836c1d8d488aa0f0748347699471100600d3"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/04_inference_measured_comparison.pdf",
+      "bytes": 66385,
+      "sha256": "62d554849d3c3117385b6c71fe2122b43006a7de0e755257c1a167a5248fe5ca"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/04_inference_measured_comparison.png",
+      "bytes": 165317,
+      "sha256": "bd1d5bad062753d7dba163cd341fb2eee5eea08da692c76eb399d99160173590"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/04_inference_measured_comparison.svg",
+      "bytes": 145267,
+      "sha256": "0e29d0f9368306d5636d939e1c52f1c82a015139787c5ee20ae905662e48a7c3"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/05_same_seed_images.pdf",
+      "bytes": 766520,
+      "sha256": "77c7bc02fe58e7e386c5b82aaf4d55a42306c6048d06b5bd8d6faaf77a993af9"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/05_same_seed_images.png",
+      "bytes": 2268015,
+      "sha256": "a83509b1d6387a1a7de3303133f705c41a1a15753fcdebad58812044f43bef94"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/05_same_seed_images.svg",
+      "bytes": 1140008,
+      "sha256": "f2de0d02744df6bcbdcba2003fb02a208652d75035bb202542723dbe4e4bb914"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/06_actual_config.pdf",
+      "bytes": 59620,
+      "sha256": "5a45d1a3668da0f9bb9015a2f3c45bf20f4d925713fabe4a6f51e79131f08668"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/06_actual_config.png",
+      "bytes": 137811,
+      "sha256": "f270e674b6c4367ee7639b6c8c2e6b24058a1ae2284fc6a312055e59c4545424"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/06_actual_config.svg",
+      "bytes": 112091,
+      "sha256": "9ab872d941ff867f0d2c07368f249fcecb5191080968deb3b46f82876fa92f08"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/07_structure_and_dataflow.pdf",
+      "bytes": 63078,
+      "sha256": "47266bd791c00a114385d99cc190d036e9628fba42cecc377c14064476612e2a"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/07_structure_and_dataflow.png",
+      "bytes": 170638,
+      "sha256": "ba2c9cdcae333e96c24e63708e3bc64305f27349b6d245ac41fa78c883b7b9cc"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/07_structure_and_dataflow.svg",
+      "bytes": 118586,
+      "sha256": "29edafadf2de71fac587067f9804743a54662601444b63207a0152fd59590d1b"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/08_improved_model_framework.pdf",
+      "bytes": 146340,
+      "sha256": "a09cebc6a53b223162d6ab2f6d28fbca34486d1f5b05563310b34e792ec77650"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/08_improved_model_framework.png",
+      "bytes": 658349,
+      "sha256": "ea49a25dbb0cbe2c6b3cf2c8e5cc8991d333bac0918a483ede5987384e5e4e96"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/08_improved_model_framework.svg",
+      "bytes": 293356,
+      "sha256": "dbe58f09c60b9fa72a6986e3a1140e57446bb713feb33529dcbb5ccb23137072"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/09_lora_branch_detail.pdf",
+      "bytes": 45370,
+      "sha256": "7440a3edd9a993bb60b489c35894808c64ec30d7f739a4d57c1b9807a8fd4d49"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/09_lora_branch_detail.png",
+      "bytes": 183086,
+      "sha256": "4240b32521ce3168ed611c595901786fb57ba7c0cd494dda8fe37bc6a7348c23"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/figures/09_lora_branch_detail.svg",
+      "bytes": 96360,
+      "sha256": "cbc347d65bc06fba2e724f1e1292d68d10eef458c40a34bacaa81a35261c4045"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/inference-metrics.csv",
+      "bytes": 1471,
+      "sha256": "78e19401159611a6911dc247d9c82d5da5b7fdbbc4109e37399ba41c3f9eabff"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/metrics.csv",
+      "bytes": 11638,
+      "sha256": "06e1d91180f88ba51a04c9483b13bf038eb0a2dd4e4390d452ef57f6ee382246"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/model-and-dataset-details.md",
+      "bytes": 7519,
+      "sha256": "9f2248280b07f5e2762c38d3c3796b0f8b657abb4edfdfca5e4ae639f619f871"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/summary.json",
+      "bytes": 1483,
+      "sha256": "2394c82b53d94464c6e63dcfabe54eb8a524cee5198fc77c8b1179b3f8561e1d"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/v1-loss.csv",
+      "bytes": 4362,
+      "sha256": "7cfef2827046c7254a272ac3296d960cb49586b4f4dbcc92dde6795b89fff2c5"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/weight-sha256.json",
+      "bytes": 227,
+      "sha256": "3207de066778db60c8e0faf80ad36c6d88b7442a2c7556286a2c14eb66f7c06b"
+    },
+    {
+      "path": "yizhen-qianyun/report/ml/改进说明与真实结果.md",
+      "bytes": 14701,
+      "sha256": "dba928e01fa10c699d903ce618f95e3db20a87a599bc2bf2afee63c8f18b4d47"
+    },
+    {
+      "path": "yizhen-qianyun/report/上位机交付验证.png",
+      "bytes": 279653,
+      "sha256": "faeb2061830df38a20c7261a6c21458706288c1a812dfee16fcebda58e2ed46f"
+    },
+    {
+      "path": "yizhen-qianyun/report/版本一致性核对.md",
+      "bytes": 2072,
+      "sha256": "026eb7618f06eb04fd84d7ca32b6c112a364c6fede0f3be2cb5fca7cf536937b"
+    },
+    {
+      "path": "yizhen-qianyun/report/设计与交付说明.md",
+      "bytes": 2355,
+      "sha256": "dc82b6b7d6e2bfcbc4270e6782cab2f09df5d3576493bae53ab64c87c15e88c1"
+    },
+    {
+      "path": "yizhen-qianyun/sim/README.md",
+      "bytes": 467,
+      "sha256": "ffe6a62501de98f9bc067a03eeff7f142256c674c346f470b6cec53fc5ae9441"
+    },
+    {
+      "path": "yizhen-qianyun/sim/reference/needle-ir/tb_layer_reset_probe-xsim.log",
+      "bytes": 1542,
+      "sha256": "232b19927baf40221e7f97bb88f2a0d6f46e580b965a0654e087c3e77e490281"
+    },
+    {
+      "path": "yizhen-qianyun/sim/reference/needle-ir/tb_needle_ir-xsim.log",
+      "bytes": 1428,
+      "sha256": "7d0bd3e9075d62c7737d9ec5e1fcae6b1a799c23248536fcdb7644ca69e70ba4"
+    },
+    {
+      "path": "yizhen-qianyun/sim/reference/needle-ir/tb_needle_ir_top-xsim.log",
+      "bytes": 1519,
+      "sha256": "9f149b93fd4e485c41ea94b5891a420e2ca2f4adceaa8675eb2108385d6d1b77"
+    },
+    {
+      "path": "yizhen-qianyun/sim/reference/needle-ir/tb_needle_led-xsim.log",
+      "bytes": 1463,
+      "sha256": "a0969cac26cfcb0661782b3a36e0064b6f4ad83aa97001e8f5fbff58ea282559"
+    },
+    {
+      "path": "yizhen-qianyun/sim/reference/needle-ir/verification-original.json",
+      "bytes": 2053,
+      "sha256": "e4c7cc907168103644448a17092bc406e5f115e5dbf31b79e19a557eca41745c"
+    },
+    {
+      "path": "yizhen-qianyun/sim/reference/source-match.json",
+      "bytes": 1103,
+      "sha256": "489f475c22dd39dfab07425ef3834055e9931af7c58e593597b5c020e117479f"
+    },
+    {
+      "path": "yizhen-qianyun/sim/run.ps1",
+      "bytes": 1312,
+      "sha256": "27c58c6eb704b2ddea5bf93688b95124ce580864435ef392206ad9f302bcddc0"
+    },
+    {
+      "path": "yizhen-qianyun/sim/tb/tb_layer_reset_probe.v",
+      "bytes": 3338,
+      "sha256": "c4a46f4ee3a70450039af95b88cdf4d83d3ab264b05d8d648ac23fcedb430404"
+    },
+    {
+      "path": "yizhen-qianyun/sim/tb/tb_needle_ir.v",
+      "bytes": 5990,
+      "sha256": "41ddac1bb3db1b9fedcdcb2d72e167ebb2dd70bc836b477a174cfa7850b2cb99"
+    },
+    {
+      "path": "yizhen-qianyun/sim/tb/tb_needle_led.v",
+      "bytes": 2292,
+      "sha256": "a57fce495781c50527bc1c8fb592198192e8798457157bf668435d8fcc7180b7"
+    },
+    {
+      "path": "yizhen-qianyun/sim/verified-20261103/README.md",
+      "bytes": 428,
+      "sha256": "432ac978dbb2ac1749fd636f7152a7f4217002cad926885be6dfd7bc81757476"
+    },
+    {
+      "path": "yizhen-qianyun/sim/verified-20261103/run.log",
+      "bytes": 12128,
+      "sha256": "5e13e69db8825f67c9c27879f86825a501195aba6f5ee79510b0551aa09c7aa7"
+    },
+    {
+      "path": "yizhen-qianyun/sim/verified-20261103/tb_layer_reset_probe.log",
+      "bytes": 1747,
+      "sha256": "1ffcfcf1096389d446fe15e2498c52fd5c9ab6918b12024bb7c344dce060d8b5"
+    },
+    {
+      "path": "yizhen-qianyun/sim/verified-20261103/tb_needle_ir.log",
+      "bytes": 1633,
+      "sha256": "94d223e904792e615fbf28ccc3a0d249e3592cb01f8361bf39ac8b4321f62933"
+    },
+    {
+      "path": "yizhen-qianyun/sim/verified-20261103/tb_needle_ir_top.log",
+      "bytes": 1724,
+      "sha256": "45a9da804c5e792d1ee6e4c9ef0a1869a5159b652d077acb63c432056e140604"
+    },
+    {
+      "path": "yizhen-qianyun/sim/verified-20261103/tb_needle_led.log",
+      "bytes": 1669,
+      "sha256": "259de413bc320ff2c0aa09881f6c9e0d0a87c4f25e66eab6bce1f938dcbe0541"
+    },
+    {
+      "path": "yizhen-qianyun/skill/artwork-route/agents/openai.yaml",
+      "bytes": 308,
+      "sha256": "46942c48cb815ce830004c810958f9ac5619136ddeb71a62bde673cbdcbc5588"
+    },
+    {
+      "path": "yizhen-qianyun/skill/artwork-route/README.md",
+      "bytes": 1099,
+      "sha256": "2782699c0da7348bd82e35d30c8c34a34bfadf696160e651b0a07d7bb036546e"
+    },
+    {
+      "path": "yizhen-qianyun/skill/artwork-route/SKILL.md",
+      "bytes": 2085,
+      "sha256": "ee7a1e228f8606e20e26863f9c3f5fa8233f446019e5152675cf8b0e681c0f8b"
+    },
+    {
+      "path": "yizhen-qianyun/skill/color-layer-workflow/agents/openai.yaml",
+      "bytes": 291,
+      "sha256": "0df57d56bfd43c897930e52590a2736ec224614773a27feac75949fd64dc8ad3"
+    },
+    {
+      "path": "yizhen-qianyun/skill/color-layer-workflow/README.md",
+      "bytes": 1116,
+      "sha256": "b1c8a2334cdc8a511452cde25f8ff9d1e6f460e4dca3f2b828debd2250c44340"
+    },
+    {
+      "path": "yizhen-qianyun/skill/color-layer-workflow/SKILL.md",
+      "bytes": 1521,
+      "sha256": "4316663a314cc7b2934a450a666e25148cbb058daefa3762ec72f382b6aff17d"
+    },
+    {
+      "path": "yizhen-qianyun/skill/embroidery-path/agents/openai.yaml",
+      "bytes": 316,
+      "sha256": "088331fe27c901af5819c94c59c6860e107a6a49989b975cb56d1dd6b33ce182"
+    },
+    {
+      "path": "yizhen-qianyun/skill/embroidery-path/README.md",
+      "bytes": 1174,
+      "sha256": "10548d01996369dcc66dc9706acb01beb3b10f06759ea84b1b909119d0d5e6e9"
+    },
+    {
+      "path": "yizhen-qianyun/skill/embroidery-path/SKILL.md",
+      "bytes": 2390,
+      "sha256": "7ca48916ef66d69ea11a3e29d06e3ea59477161f9e8eb21db7fefd029f10bcf1"
+    },
+    {
+      "path": "yizhen-qianyun/skill/embroidery-protocol-check/agents/openai.yaml",
+      "bytes": 349,
+      "sha256": "e73649ffdc48dd2df9000ecaecf861cd82fe831b7430fcf4214903a246c0982f"
+    },
+    {
+      "path": "yizhen-qianyun/skill/embroidery-protocol-check/README.md",
+      "bytes": 1173,
+      "sha256": "355d802f7d213dfa9f5c631f568e296cf3a91bff15f98553309eb85101baac1b"
+    },
+    {
+      "path": "yizhen-qianyun/skill/embroidery-protocol-check/scripts/check_uart.py",
+      "bytes": 2631,
+      "sha256": "c408f2df2834679d4e9a11ec52d7bc2509077116324fe2e4c283b30a0bb56d0b"
+    },
+    {
+      "path": "yizhen-qianyun/skill/embroidery-protocol-check/SKILL.md",
+      "bytes": 2478,
+      "sha256": "c345de951287bd9dced735825260d4172ae1e222fcbce5aefdf12680347b1a2a"
+    },
+    {
+      "path": "yizhen-qianyun/skill/embroidery-startup/agents/openai.yaml",
+      "bytes": 309,
+      "sha256": "70b1b6ca6afde65464aa6ae350b83b2bd054111a5871ae7f2ed5a708de86f185"
+    },
+    {
+      "path": "yizhen-qianyun/skill/embroidery-startup/README.md",
+      "bytes": 1132,
+      "sha256": "f9f0dfe70463add402dce1ade272c1309f9021592e0ef1b0f2b714f847d95485"
+    },
+    {
+      "path": "yizhen-qianyun/skill/embroidery-startup/scripts/inspect_environment.ps1",
+      "bytes": 1063,
+      "sha256": "e1699867c034f96e60b07bc8dfcef0f9000ac588ef59cfd8a9629ac56541494d"
+    },
+    {
+      "path": "yizhen-qianyun/skill/embroidery-startup/SKILL.md",
+      "bytes": 2468,
+      "sha256": "ed9ee0965d174e12e0ba8c4cabcebac03c905aa09259b4dbb9d26d4ab10bbe05"
+    },
+    {
+      "path": "yizhen-qianyun/skill/format-validation.json",
+      "bytes": 1171,
+      "sha256": "fe6e2cbc08b54261c4fea82ff79c2cf19eaef2256a358d9b0a7d2997e4f2418d"
+    },
+    {
+      "path": "yizhen-qianyun/skill/fpga-build/agents/openai.yaml",
+      "bytes": 329,
+      "sha256": "13e7b4fcfadc62597c449d9b83333abd71792236424a721a92f2d0486a81a155"
+    },
+    {
+      "path": "yizhen-qianyun/skill/fpga-build/README.md",
+      "bytes": 1183,
+      "sha256": "a222c22a011d9a54f915ece2ad4f128c01935ca3967f5de62f94fb777250f96e"
+    },
+    {
+      "path": "yizhen-qianyun/skill/fpga-build/SKILL.md",
+      "bytes": 2668,
+      "sha256": "d74476fb0145e86f435be7124c8154f2124611b5586e584d4ec76fbae0a7ad92"
+    },
+    {
+      "path": "yizhen-qianyun/skill/motion-calibration/agents/openai.yaml",
+      "bytes": 306,
+      "sha256": "d70bbf46d581893277561a2844475c8e4a08fa7fa11cebd39c5f2daef01138eb"
+    },
+    {
+      "path": "yizhen-qianyun/skill/motion-calibration/README.md",
+      "bytes": 1159,
+      "sha256": "c4459497651249f872f1d3975d6286dc9d2a2e9fcb8f5466a0611b7ced1f160e"
+    },
+    {
+      "path": "yizhen-qianyun/skill/motion-calibration/scripts/counts_mm.py",
+      "bytes": 1189,
+      "sha256": "bd4db56755c1c74a65c8040894e6aea30d6341105d8300e2646be16e78c62665"
+    },
+    {
+      "path": "yizhen-qianyun/skill/motion-calibration/SKILL.md",
+      "bytes": 2371,
+      "sha256": "3c24f0148fdce7b2322ef44c5683d0c666f0691f84123f1413b0c65f96db6e47"
+    },
+    {
+      "path": "yizhen-qianyun/skill/README.md",
+      "bytes": 2778,
+      "sha256": "ec32e8daf021e82f675a2ef26d637298b4718f82883b48952963581cb40ebda3"
+    },
+    {
+      "path": "yizhen-qianyun/skill/runtime-evidence/agents/openai.yaml",
+      "bytes": 290,
+      "sha256": "ebb95234ff73b91a6012349999c49bbf3b8518fe1d2dab5f9f861b69ab4095ce"
+    },
+    {
+      "path": "yizhen-qianyun/skill/runtime-evidence/README.md",
+      "bytes": 1315,
+      "sha256": "f9d17a4ffce0a3102a1e1be9bee27d7400aec4d3abe2737665901847810c4b7b"
+    },
+    {
+      "path": "yizhen-qianyun/skill/runtime-evidence/references/pitfalls.md",
+      "bytes": 1203,
+      "sha256": "591d2a2467adba14cddefcfe0ffbca87e3308f396dac8f2506d8025e78bc7a4f"
+    },
+    {
+      "path": "yizhen-qianyun/skill/runtime-evidence/scripts/evidence_check.py",
+      "bytes": 2781,
+      "sha256": "765d6f77c5524ee58ae26b49ff96b97e79905c0bf40279463200b133206ca8be"
+    },
+    {
+      "path": "yizhen-qianyun/skill/runtime-evidence/SKILL.md",
+      "bytes": 1962,
+      "sha256": "68f637e717d377079208cbfaa1d0229d439fa83082521a73b4e9fd14a8650891"
+    },
+    {
+      "path": "yizhen-qianyun/skill/runtime-evidence/templates/experiment.md",
+      "bytes": 1006,
+      "sha256": "c3843f83ef6ef45c6c0eff028ae6fc4b75384a62f5dbd2caf50f1e446ba8a24e"
+    },
+    {
+      "path": "yizhen-qianyun/skill/validate_package.py",
+      "bytes": 5517,
+      "sha256": "c2493716621958f1b8b613688919f26fa59ead48b6a30337bd53255ff6c84418"
+    },
+    {
+      "path": "yizhen-qianyun/skill/validation.json",
+      "bytes": 1592,
+      "sha256": "cf9e44188eed4b3163ac8635d6337ce148a8740a23bd93991c0e35da9f622a46"
+    },
+    {
+      "path": "yizhen-qianyun/src/host/camera_bridge.py",
+      "bytes": 13566,
+      "sha256": "aa5d9cc45dbc94265a587f9a02249edc5b1d3efde5b5f85523f2ac9d44251b96"
+    },
+    {
+      "path": "yizhen-qianyun/src/host/flower_bird_features.npz",
+      "bytes": 67109,
+      "sha256": "908ab6e50811f3cf5799367a1c1436e10ef6fecbc5a2f9a7d3b4fb446d411481"
+    },
+    {
+      "path": "yizhen-qianyun/src/host/recognize_artwork.py",
+      "bytes": 3474,
+      "sha256": "ae8caf7fb13de1aaac954b58c559e9fdd6e639478334693c8b13e947be692e14"
+    },
+    {
+      "path": "yizhen-qianyun/src/host/requirements.txt",
+      "bytes": 67,
+      "sha256": "100978a005488202975f6768697364e49629034ac4b675c7e7fe7818e458e101"
+    },
+    {
+      "path": "yizhen-qianyun/src/host/test_camera_bridge.py",
+      "bytes": 4114,
+      "sha256": "e3e863fd4401ee7a218f3e8b79ca3390fb6c44ea5d21c3d627f176bb55d346f4"
+    },
+    {
+      "path": "yizhen-qianyun/src/host/test_camera_serial.py",
+      "bytes": 2146,
+      "sha256": "804fe2ef5f7bedad5ca4dadeae8b92bc604d24d58fe1ad9b6989400093289d2b"
+    },
+    {
+      "path": "yizhen-qianyun/src/ml/adapters/ema/pytorch_lora_weights.safetensors",
+      "bytes": 35966728,
+      "sha256": "df1cb024c411d1122a12ad74c07db797bab43ebad38735fd9ab8bee805f4a117"
+    },
+    {
+      "path": "yizhen-qianyun/src/ml/adapters/pilot/pytorch_lora_weights.safetensors",
+      "bytes": 11778368,
+      "sha256": "1b8e50f70969d2badb3029d49e1e0eef3a6cde1bd0ec7a9dde69eaa82b40e2b9"
+    },
+    {
+      "path": "yizhen-qianyun/src/ml/adapters/raw/pytorch_lora_weights.safetensors",
+      "bytes": 35966728,
+      "sha256": "2ae7612518972e7cff6c78a8755072d0cf42613dac1a3cd69d53c103e7654bf4"
+    },
+    {
+      "path": "yizhen-qianyun/src/ml/base-model-manifest.json",
+      "bytes": 3623,
+      "sha256": "458118e8828308fc76b20594f2144822b78afdf66f88e6cd527cd02d0d8d4e34"
+    },
+    {
+      "path": "yizhen-qianyun/src/ml/benchmark_one.py",
+      "bytes": 5521,
+      "sha256": "88a8dfdfae9d9d6376f79e7b3a88abe8fad36de7933146b38175f18260b03b08"
+    },
+    {
+      "path": "yizhen-qianyun/src/ml/cache_benchmark_prompt.py",
+      "bytes": 2311,
+      "sha256": "360d130a939685dd6dbe1a534ef1ebeebc8b5fb9a7da3a10e6ef063d6a5b7232"
+    },
+    {
+      "path": "yizhen-qianyun/src/ml/download_base.py",
+      "bytes": 1195,
+      "sha256": "e4433e349d9d97412d3daf1ddbed95bb356f429252d7db721210429d109e59d2"
+    },
+    {
+      "path": "yizhen-qianyun/src/ml/environment.yml",
+      "bytes": 263,
+      "sha256": "44fcd3c4e459f28f65a946fe14a18d94fd332893313623f7de0869776d4942b0"
+    },
+    {
+      "path": "yizhen-qianyun/src/ml/infer.py",
+      "bytes": 1188,
+      "sha256": "fd49adc7b5718dc3fa2604f7164dff0c7ee0be76402736ef7e01c673a6ae1e48"
+    },
+    {
+      "path": "yizhen-qianyun/src/ml/README.md",
+      "bytes": 3356,
+      "sha256": "c88b285989041c33525b15e80377f3e6148fe2558ce97a19aa5ba1e845051779"
+    },
+    {
+      "path": "yizhen-qianyun/src/ml/requirements-lock.txt",
+      "bytes": 2575,
+      "sha256": "831b569761578e3ecca260731586050506a42738e324d063c0823e2a54912eb7"
+    },
+    {
+      "path": "yizhen-qianyun/src/ml/requirements.txt",
+      "bytes": 262,
+      "sha256": "96f364cdbd5afb95e5b521a58b9640cb3dccf73ad5fee1c6122d4e6a449a80b4"
+    },
+    {
+      "path": "yizhen-qianyun/src/ml/SDXL-LICENSE.md",
+      "bytes": 14109,
+      "sha256": "19b6998b569b53ac1fc2158a8a3202c8699a9a4605b47075715d9c96be7fb6d0"
+    },
+    {
+      "path": "yizhen-qianyun/src/ml/shard_unet.py",
+      "bytes": 2387,
+      "sha256": "11145d8c6c3f152b579f77a3c78fba638d104173d57c1bbb1e7228700d95c950"
+    },
+    {
+      "path": "yizhen-qianyun/src/ml/torch-constraint.txt",
+      "bytes": 45,
+      "sha256": "c4606510237b0e842d6855394b6c8591543eeacd03015cc7c7ca263473562e3b"
+    },
+    {
+      "path": "yizhen-qianyun/src/ml/train_v2.py",
+      "bytes": 13582,
+      "sha256": "1907f671f0507737953aa47bbcfa78cf84d7c0c27dabafd5ca5df382b432869d"
+    },
+    {
+      "path": "yizhen-qianyun/src/ml/外部大文件.md",
+      "bytes": 980,
+      "sha256": "4e39bb239fb2e49cf0bc13e75f41c948f4d1cd956406d6a2e8f1cc6c10ed2ddc"
+    },
+    {
+      "path": "yizhen-qianyun/src/rtl/board_top.v",
+      "bytes": 13894,
+      "sha256": "d3591a599141ccc08a2d2709bfadb18d007a2b143bb6ebbd44b4f38f9a0b18ad"
+    },
+    {
+      "path": "yizhen-qianyun/src/rtl/camera_usb_stream.v",
+      "bytes": 21482,
+      "sha256": "b739d67a43e4706ea088c42673e201d59ad56ce5156051be2714b61c7cb0af23"
+    },
+    {
+      "path": "yizhen-qianyun/src/rtl/encoder_monitor.v",
+      "bytes": 3416,
+      "sha256": "803215b4d2a54e9b211a3bffd7e4ff72e17aa5de763c2c99a7045dc3c1ce9730"
+    },
+    {
+      "path": "yizhen-qianyun/src/rtl/ft232h_stream_start.v",
+      "bytes": 1233,
+      "sha256": "f4d35f3e574f72f51f9d56c02384e1f246c05b99d7d2ff365b9932d6382b5dcb"
+    },
+    {
+      "path": "yizhen-qianyun/src/rtl/homing.v",
+      "bytes": 3018,
+      "sha256": "0aeb704ddf37408ef4435bb1c1d0af49b4ee678001e4be0d393c45e70ef97156"
+    },
+    {
+      "path": "yizhen-qianyun/src/rtl/input_filter.v",
+      "bytes": 1129,
+      "sha256": "21aed0922232ec4bd1f57f71a96e52ede676762e614dfe276cbe4ce960528278"
+    },
+    {
+      "path": "yizhen-qianyun/src/rtl/motion_xy.v",
+      "bytes": 13505,
+      "sha256": "8077a36d8268b1cb9003eb357f7cd5aa9a18f42b3ad13f1c2e851ff36e4fa005"
+    },
+    {
+      "path": "yizhen-qianyun/src/rtl/needle_ctrl.v",
+      "bytes": 4125,
+      "sha256": "c0f37967767c5c9348ec1a62081e5798fb793f62acee83401e07cf11c59ae446"
+    },
+    {
+      "path": "yizhen-qianyun/src/rtl/ov5640_sccb_init.v",
+      "bytes": 19062,
+      "sha256": "cf1b105a7beb83925fe6ad14800d91df91f1a5bca86fee0ce2d58ded7c266926"
+    },
+    {
+      "path": "yizhen-qianyun/src/rtl/protocol_parser.v",
+      "bytes": 14030,
+      "sha256": "2fae2a6b752427c85d53e8bffb778e335b739fed92999e4cb14bab5f551b4b8e"
+    },
+    {
+      "path": "yizhen-qianyun/src/rtl/text_tx.v",
+      "bytes": 7433,
+      "sha256": "67a682dcf34454ba366c7665dc4eef89936f9c032ceba2b9a79998e66dc46a1d"
+    },
+    {
+      "path": "yizhen-qianyun/src/rtl/top.v",
+      "bytes": 39728,
+      "sha256": "1b8ebe21b8b1317f4619e0f8bd758a5acce0fa251c595e52d74099d304603860"
+    },
+    {
+      "path": "yizhen-qianyun/src/rtl/uart.v",
+      "bytes": 2679,
+      "sha256": "c03ea2f16287f52df67a5a77a692ba7f463ba356c23c54895403558b30e37bd5"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/.env.example",
+      "bytes": 675,
+      "sha256": "05ef5a7e521dad79504c3fc9665782fbb51ef6aae406f306c5a009314a73a6a5"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/.gitignore",
+      "bytes": 49,
+      "sha256": "c62d1515ac39902aa74220e506f786b238341a6820054ce06d565b1878d8dd08"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/artworkRecognitionApi.ts",
+      "bytes": 3290,
+      "sha256": "c9b16d8320aa40a27d708ee5fca159753cc333770abcdfdbfaea0993ea4e6e58"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/index.html",
+      "bytes": 390,
+      "sha256": "3a63a3827b99b9723904c2de5d6260651fa4280db1460884fcf98905d346e375"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/init-account.cjs",
+      "bytes": 644,
+      "sha256": "3a385d4df5e7de5fee81d90f2b210ab0980eb20688be249c06a324a7cd718e95"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/localAuthApi.ts",
+      "bytes": 4248,
+      "sha256": "35f22ad0dd3d30f2ca945a589f3e6a581fb6098d1707aed061aebda1e4485f92"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/modelImageApi.test.ts",
+      "bytes": 7865,
+      "sha256": "b547d1a6c35cd021b0fe0b87b8b1ec1d8c8f23a1d21dc66df8d7861866f411f6"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/modelImageApi.ts",
+      "bytes": 9329,
+      "sha256": "9b8d2000e9cf9713f3bcceeb7efa24ea5b3fe801bcdfd442f90e0720973f29e3"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/package-lock.json",
+      "bytes": 75851,
+      "sha256": "bd710508a9da37caffdbc18c0ae9ded673f38b5b0ea0edf95a7018381b5c8266"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/package.json",
+      "bytes": 653,
+      "sha256": "3131d6eb5f55ad03872ec52027c4533ef2b1193cd45c8871d753a7dccda07369"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/butterfly/butterfly-black-white.png",
+      "bytes": 1130285,
+      "sha256": "dc190ea3ce6254e14cf8b01b8f443e5ac89e1de09d07bf8b4c4a42e1df6b3df0"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/butterfly/butterfly-keyword-ui.png",
+      "bytes": 443813,
+      "sha256": "34f79a178a5816d54b83c26330912f177c6fa631a4faf74f91a7eba91407e4d9"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/butterfly/butterfly-path-ui.png",
+      "bytes": 294954,
+      "sha256": "b559f0f5bd0abd2def5b64690f187ec68c19d18e39cf31dbe43cc703fbaea295"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/butterfly/butterfly-path.bin",
+      "bytes": 5684,
+      "sha256": "a2bada274b4d7c1a76137968e299bd68b4426724426978270b4d5c1a9d9c2415"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/butterfly/butterfly-path.json",
+      "bytes": 85537,
+      "sha256": "a3f84c9fff2b313d4cc6de81c3fac67dc950b695f37147ab4ee342fb6aeafc89"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/butterfly/butterfly-route-preview.png",
+      "bytes": 17395,
+      "sha256": "bf0ae72168b048438dcba6a7cad5fa55e358e774138b8f885ef20c69894bd58c"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/butterfly/butterfly-route.json",
+      "bytes": 9538,
+      "sha256": "cf297dd12f064cfb53ceda74d1298b14d273f244a53d3aaf80223f8dc1d4de34"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/butterfly/butterfly-uart.txt",
+      "bytes": 5553,
+      "sha256": "aa791ab4df992e8c496a6229ade5b7741ae6a2ef3ff6b9074211032154984e02"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/butterfly/continuous-planning.json",
+      "bytes": 4251,
+      "sha256": "55e70d4929819ad6c39bae2728ffa24c8c7969959af1da76434d3b7f1a1a53fe"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/butterfly/image-generation.json",
+      "bytes": 612,
+      "sha256": "f8578ac538b54110102d17af425b998d83a31072f8b35d3c05e90f605c99e619"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/butterfly/mask.json",
+      "bytes": 786471,
+      "sha256": "7c1f02b5b7d77b875533b8e3b60d13abd0db4fbdcea6c52a89fc06ca0b530f7d"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/butterfly/README.md",
+      "bytes": 1474,
+      "sha256": "f974e5301916e14c4982847eead4a3d4aa5cba3c7b7c0073a3718e31face8131"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/butterfly/ui-verification.json",
+      "bytes": 233,
+      "sha256": "82718e52b61720fcd45854db7b0f71bd5cbd9ad36d8f4cc5b3ac80ffb3d0eb87"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/butterfly/verification.json",
+      "bytes": 671,
+      "sha256": "4d72c5888c4ef26989044fa35b897acc5cfb5b837d2512a7c6c28aeef1213fb9"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/full-bird-leaf-repaired/LEAF-REPAIR.md",
+      "bytes": 973,
+      "sha256": "56db3f9b57971111f6a6d1db8cc598ea2579d1eb8e885a46938864ce6abc63d7"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/full-bird-leaf-repaired/optimized-full-bird-order.gif",
+      "bytes": 218116,
+      "sha256": "0415c08fc512132ef4e53fa783d9eee7648d87a8466504891fc9b50f3b7a8057"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/full-bird-leaf-repaired/optimized-full-bird-path.json",
+      "bytes": 385007,
+      "sha256": "ee930e1416a2888d711f249ebcb610d5f847ab0571165c11cfb0f09514e47fc4"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/full-bird-leaf-repaired/optimized-full-bird-preview.png",
+      "bytes": 124333,
+      "sha256": "45854c7dfc1ebf094874a2811000930f16766f7cdefd7b914b90767f14189c86"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/full-bird-leaf-repaired/optimized-full-bird-route.json",
+      "bytes": 58665,
+      "sha256": "ff2f5dda72a44e082b40ffafc22e5697ab3a30ea2cadc085eb67bfc96ed1271c"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/full-bird-leaf-repaired/optimized-full-bird-serial.txt",
+      "bytes": 25744,
+      "sha256": "eb8c0678f156b6ebfd1040cf2b915d5e0512f1715efdeb1191a8d888394bf527"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/full-bird-leaf-repaired/right-leaf-before-after.png",
+      "bytes": 59043,
+      "sha256": "27399684552141e5ed2359ad5482b9f72521c6013a90951aa8556cd046b57411"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/rabbit/rabbit-black-white.png",
+      "bytes": 43417,
+      "sha256": "f378e8eeb72c452662dd45a9ceddc226803540f8953e66571a3da92085334fbd"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/rabbit/rabbit-black-white.svg",
+      "bytes": 1281,
+      "sha256": "d711f9e1c5ef3a0bb5ab6316c43905026b5be5e5070dba026985e46a32bb8809"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/rabbit/rabbit-keyword-ui.png",
+      "bytes": 284100,
+      "sha256": "28c61246fca429770159401728cc722938d2baca92b28a141f6956a8ae7d2d33"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/rabbit/rabbit-path-ui.png",
+      "bytes": 282634,
+      "sha256": "7dd5d691986fc91c8e171442eea725372bee42c5810fcbdde96dc7a73b2ddc8f"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/rabbit/rabbit-path.bin",
+      "bytes": 4981,
+      "sha256": "990f17f3f4f16bdf319f1045913d11757dc9ec480a3d7870701b7b1aecea2940"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/rabbit/rabbit-path.json",
+      "bytes": 74875,
+      "sha256": "c8fd49dab0b632b26411c8a3b1223092f16b8d27a8007bca9c8a677176e2a05c"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/rabbit/rabbit-route-preview.png",
+      "bytes": 17065,
+      "sha256": "8379729bcf1b2bc4105c3c77449f26671445921cef3fd1d576ef591b9557bbd6"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/rabbit/rabbit-route.json",
+      "bytes": 26568,
+      "sha256": "8afe3e34ad6240a592bfaaaa89842f89fda29b54bd37b68328df116b07850949"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/rabbit/rabbit-uart.txt",
+      "bytes": 4669,
+      "sha256": "7cfab1d9cdc5cb245b65b129e6ba6aa0252ce7fbc9d0e2e0ccde0491fe6186a5"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/rabbit/README.md",
+      "bytes": 1083,
+      "sha256": "816bd23a80b7fb58124f0dc82ac7421285a75f96026e15b732437db198a86fc0"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/rabbit/ui-verification.json",
+      "bytes": 187,
+      "sha256": "8d4b2f47a9d1d54f13c772cd047b8a32c1298e9721c48391156a1d88ee179d24"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/rabbit/verification.json",
+      "bytes": 250,
+      "sha256": "3d868cab069b98c46907e1dee78b82a727283ef75a7717fddc433fece5b8f6ad"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/README.md",
+      "bytes": 464,
+      "sha256": "58c9207b3b442df98fb122b57bb0095693bc7dd90bf3aa7bdd68ff187f2b64c5"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/solo-bird-optimized/optimized-bird-order.gif",
+      "bytes": 107417,
+      "sha256": "9c0907a68e24210b144418d36eedf11bcb50aea2b213276499520250c0129f86"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/solo-bird-optimized/optimized-bird-path.json",
+      "bytes": 84657,
+      "sha256": "5e5cd997bd10c91542f08bcde5acccd9913987f36cb49ee781a0971bd49892e1"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/solo-bird-optimized/optimized-bird-preview.png",
+      "bytes": 93794,
+      "sha256": "79410173175109898ef22c00790135be72655dc63a3d095a19106b0992df68ff"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/solo-bird-optimized/optimized-bird-route.json",
+      "bytes": 13804,
+      "sha256": "e6970eb30f0b66439914e867d2b15d5f1fb6e34d123c77cc2a45fbcd90a20409"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/solo-bird-optimized/optimized-bird-serial.txt",
+      "bytes": 5629,
+      "sha256": "1eff881d7c288a354b8f933ce14eb8a2e992026405d9c98196b39f84a638c058"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/solo-bird-optimized/optimized-bird.svg",
+      "bytes": 22410,
+      "sha256": "ab5c0b11ebeb549487cc9511ea40e62c8810dd7e24e4af165774553f88aec7b4"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/solo-bird-optimized/OPTIMIZED-README.md",
+      "bytes": 1902,
+      "sha256": "e2e1924cf65a50e4a43ea9e36b1835c95f13c4343c4094a651969a36cc0f4a14"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/solo-bird-optimized/optimized-summary.json",
+      "bytes": 439,
+      "sha256": "2c32fb5639fb1061affe9ead68ec299c45e7122e9823b6adde030e6244b8c100"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/taiji/README.md",
+      "bytes": 1389,
+      "sha256": "ba781953a1e41bc986bc46955974dceb92d0c5830ccb572054a0fd9d82c2af6a"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/taiji/summary.json",
+      "bytes": 362,
+      "sha256": "d968a44cfa8de214b1f149f7dae67b6d9372cbbe9c91c623ecd6c7643a08d6c5"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/taiji/taiji-original.svg",
+      "bytes": 419,
+      "sha256": "5f1a8b9a68ad448d051f4e3f2da392094ed40771c71498dbb8d90723a9ed6149"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/taiji/taiji-route.json",
+      "bytes": 7148,
+      "sha256": "359674bc0ae41c896beb1b97f3e848022e45b384cbe90e8609bb01508b8aa921"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/taiji/taiji-stitch-preview.png",
+      "bytes": 23311,
+      "sha256": "5a0423d059a064a4301e9294ea91cb430231ab88b42891133a79a00233afb78b"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/taiji-60mm/README.md",
+      "bytes": 1389,
+      "sha256": "ba781953a1e41bc986bc46955974dceb92d0c5830ccb572054a0fd9d82c2af6a"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/taiji-60mm/sha256.json",
+      "bytes": 276,
+      "sha256": "d25760dee45346d1e6dfb9808b6e47eebd799c76ab53418aec9486c7777352c2"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/taiji-60mm/stream-check.json",
+      "bytes": 236,
+      "sha256": "e6225c10f2d774abd7539fc5c7588b25157fa1399482a628af44b85c659e7f83"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/taiji-60mm/taiji-60mm-preview.png",
+      "bytes": 23311,
+      "sha256": "5a0423d059a064a4301e9294ea91cb430231ab88b42891133a79a00233afb78b"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/taiji-60mm/taiji-60mm-uart.txt",
+      "bytes": 6181,
+      "sha256": "925bf98531171dd1a1ec0c79ee95cf4dec3ecf801ed79f7a21709bdd6d506743"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/taiji-60mm/taiji-60mm.bin",
+      "bytes": 6205,
+      "sha256": "209317e3b2a6b6ec704e0eb07683035c4242dc39853d52c4cd1f50ae15db8fbf"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/taiji-60mm/taiji-60mm.json",
+      "bytes": 93430,
+      "sha256": "94acfe1a391982908d2ac7ac3d20ce14047bfad768c364dc5fa0565957b64ab8"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/public/presets/taiji-60mm/taiji-route.json",
+      "bytes": 7148,
+      "sha256": "359674bc0ae41c896beb1b97f3e848022e45b384cbe90e8609bb01508b8aa921"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/App.tsx",
+      "bytes": 31887,
+      "sha256": "feb601a30dbbfdf43fb4dc8e5f3222d539e770e471ae2913eb60520de55b53ef"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/assets/bird-original.jpg",
+      "bytes": 174058,
+      "sha256": "2f057a1f44a4f886a4ce5023050004785e32d56f357ba2b4a4e6f1e658dbcad7"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/assets/butterfly-original.png",
+      "bytes": 1130285,
+      "sha256": "dc190ea3ce6254e14cf8b01b8f443e5ac89e1de09d07bf8b4c4a42e1df6b3df0"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/assets/flower-original.png",
+      "bytes": 79911,
+      "sha256": "7adf56fc12555d08ddf2042f135b44743a446677d8ee4714ed330aa63fcc6671"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/assets/rabbit-original.png",
+      "bytes": 43417,
+      "sha256": "f378e8eeb72c452662dd45a9ceddc226803540f8953e66571a3da92085334fbd"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/assets/solo-bird.png",
+      "bytes": 1045606,
+      "sha256": "30b9c98dc7b40c5296471ab8d84a961dabfd12f17cd8282157eeaec0e6ad530d"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/assets/taiji-original.svg",
+      "bytes": 419,
+      "sha256": "5f1a8b9a68ad448d051f4e3f2da392094ed40771c71498dbb8d90723a9ed6149"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/assets/xiangxiu-branch.svg",
+      "bytes": 1705,
+      "sha256": "29f509e11f3d1c56b70fbaa2139e87aef51dc6aa92b89a2f781933427d6479d4"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/color-runtime.css",
+      "bytes": 3103,
+      "sha256": "d119d41a3d929b5372b8d1e721f9a0afcedd1e9ddc3ee626cc39dea2ff927e6a"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/components/ArtworkCreator.tsx",
+      "bytes": 27172,
+      "sha256": "f489278454f7e8d503755b3595f50907abdb8f508a6d7bcd7b380c5220acdb3c"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/components/AuthGate.tsx",
+      "bytes": 3888,
+      "sha256": "181f7bbc0313eef1ec09a18efc38627f4295c71b93c828c5b73b311b483f5d3a"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/components/CameraCapturePanel.tsx",
+      "bytes": 9236,
+      "sha256": "839d486865b5dd34bf13ae494bf1178d4db7b8ba8d29cb5f53a1bc981329e431"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/components/CanvasEditor.tsx",
+      "bytes": 21593,
+      "sha256": "9949c7ead457dce19c4aa3ab662fe3b99dd0d24206a4a6933e7c62350d5492a5"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/components/ColorPanel.tsx",
+      "bytes": 2083,
+      "sha256": "e90fba08b45925f98c970010be558bfd73fef85b0f76ff8db410497ac674ce88"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/components/DataTransferPage.tsx",
+      "bytes": 6321,
+      "sha256": "e4995bd9534ff9d27bc06614c2eba0fd1ac1830ce4915b732c519dbc0c3215c5"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/components/DevicePanel.tsx",
+      "bytes": 20096,
+      "sha256": "1cb00f971d57a0268b935fa8e36c4e2312e331d5bc0aa428ad27419c5619a338"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/components/ExportPanel.tsx",
+      "bytes": 2473,
+      "sha256": "49ae77cb69fded57c1ec9c3aa12af6c0704348c82162f95ad948d005c7c4c4af"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/components/FrameSettings.tsx",
+      "bytes": 5044,
+      "sha256": "1f37ec4d1f28f8a2baaec669ceee5ff33cf70cb3cc1736cc269cfcbe12c0402e"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/components/ImageUploader.tsx",
+      "bytes": 2409,
+      "sha256": "7b68433add93058dfa8678d595729262d96adf6ad8ff06d54f2517c95f5d7428"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/components/NeedleEditPanel.tsx",
+      "bytes": 2452,
+      "sha256": "38cb4dd29475040def705fa50edd369ff30ef855e9caa5dc728a6b8a134a38f7"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/components/PathPreview.tsx",
+      "bytes": 3999,
+      "sha256": "3870a5f69485f7dfb27b371766ff2e368e0c12d8d849355efeea28950047a3d7"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/components/SerialCapturePanel.css",
+      "bytes": 2716,
+      "sha256": "fdf0ef7fc8060e55efda6499b0271b0f40d8bda7da3f08277077b847dfce8e2d"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/components/SerialCapturePanel.tsx",
+      "bytes": 5907,
+      "sha256": "ba8f8cfb477edcd28e96ff9d472c60a5fad8d146f548bb02da42e7950c1a6b85"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/components/StabilityPanel.tsx",
+      "bytes": 3231,
+      "sha256": "b2cc114ef6dd1f5757b11dab462609083bed7f707a529956b0fca10c48b8cc61"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/components/StatisticsPanel.tsx",
+      "bytes": 2139,
+      "sha256": "54d8a91c3618edf0d348fc0ddc335ade939c92e5a9ecca67f679d963f4b28b52"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/components/ThreadLayersPanel.tsx",
+      "bytes": 1958,
+      "sha256": "6f02d6cf9e8031a838a9cb63749872659a8f8b050470df8d9151e2883257c6fa"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/components/VoiceInputButton.css",
+      "bytes": 781,
+      "sha256": "0bc7c4954f07431be9b31a6ddb8bda425342cc07bb848feee298793d2de78426"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/components/VoiceInputButton.tsx",
+      "bytes": 5439,
+      "sha256": "a4178dafe6356ee0c9bc9f9bbf5a873011724857a40650072cc1543bb7af93c2"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/data/bird-route.json",
+      "bytes": 26020,
+      "sha256": "ab1a50f7ad9222b2f9be050f8804ef98808240f5b17ca803a812256030c8b288"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/data/butterfly-route.json",
+      "bytes": 9538,
+      "sha256": "cf297dd12f064cfb53ceda74d1298b14d273f244a53d3aaf80223f8dc1d4de34"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/data/flower-route.json",
+      "bytes": 6292,
+      "sha256": "b460b0caddf2368d01bcf2380392312c280dfef5e9d2e0c1b3d8961eac7e45a5"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/data/rabbit-route.json",
+      "bytes": 9502,
+      "sha256": "860b20d09b0c77cf6b9d5ab3b1d71687f690404daf14fab86415c53bcaad0f1b"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/data/solo-bird-route.json",
+      "bytes": 6351,
+      "sha256": "e5400125ba08e2ed967c9acf9bb6a8e7500e89d4b2ae7151aede52a5abf95e8b"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/data/taiji-route.json",
+      "bytes": 7148,
+      "sha256": "359674bc0ae41c896beb1b97f3e848022e45b384cbe90e8609bb01508b8aa921"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/index.css",
+      "bytes": 41062,
+      "sha256": "36fd31fe02dcd1dedeb69cc6504cf0465cc14e7b896ad6a35be6458c1781357c"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/main.tsx",
+      "bytes": 280,
+      "sha256": "c61eb16c45ba070201e8112aefd4b03d3e04dad768489b93aacd4f96bbe282fb"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/types/embroidery.ts",
+      "bytes": 1624,
+      "sha256": "32bd9395b281e7c1d1fba1e83b66fdc64548ff1c20512fc77516beeaf14a9672"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/types/exportData.ts",
+      "bytes": 1260,
+      "sha256": "44cfcf029f792c5917207fa3e9ffa1036b5a156d0a5014bb58f5451adba35d99"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/adaptiveColors.test.ts",
+      "bytes": 1822,
+      "sha256": "27ab77545a6fc04b9642ccb87c562d151f2084dcb9e069aa3c668b8e21d3078d"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/adaptiveColors.ts",
+      "bytes": 4306,
+      "sha256": "4e882028250615269a95e60f0d4f4d3ae899f72e1253d94a583ba97f068d5819"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/artworkPresets.ts",
+      "bytes": 2120,
+      "sha256": "e3bdac85de28be1eaeb72bd06f69337d53e2d373ef051f5c26de47a48221c7f4"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/binProtocol.test.ts",
+      "bytes": 5473,
+      "sha256": "43261ed434950e73311a8a31dd08a3d98f1378fd8bbd705a3ac00282aea3a08d"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/binProtocol.ts",
+      "bytes": 9256,
+      "sha256": "6a4dceeedc36a9c7367e627e6c021c1344fb480a845dd4ac349c1c58c734d30c"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/birdPreset.test.ts",
+      "bytes": 2391,
+      "sha256": "80e4fcb34fc5ba804a42353895fb072ae4cd5b45c02a79e588ba8424fcd0bd26"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/birdPreset.ts",
+      "bytes": 2704,
+      "sha256": "7ccb8e7aa8f0deff1e4939dbb4b8a987e9ba0a87523231c8eaec52ce931ed8dc"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/butterflyPreset.test.ts",
+      "bytes": 3868,
+      "sha256": "375e142fd9667314d2827e9940cee59dedc087921f357ffeaaef1af4f8c0b332"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/cameraStream.test.ts",
+      "bytes": 5434,
+      "sha256": "a6071edd241d7529aba6eb87284fc53c70dea0b24ca5ab8519ab4396e70e6748"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/cameraStream.ts",
+      "bytes": 7735,
+      "sha256": "4e316b11e008d5b0ff1cd19c75e397c0acbc117e363a516c6fc2d45a65569cde"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/colorDetection.test.ts",
+      "bytes": 1597,
+      "sha256": "035f9b7a44b64693e125d2cc4230f8542244877a17d2f9aaa0c9f7903ab7ae89"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/colorDetection.ts",
+      "bytes": 8193,
+      "sha256": "a1baf0593b75854e9adeb33f52a5c4f7b5f919b529ac550aff1c05f12f2f2b5d"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/continuousRoute.test.ts",
+      "bytes": 6254,
+      "sha256": "f1d43b4c722c6b7de3a97f539a18255c1d8c7e6f63dac2e7c424890a2450cd6b"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/contourPaths.test.ts",
+      "bytes": 3296,
+      "sha256": "3412866091202bcb9f09197f0f520cf0551be63369bbe7d22397fdf8aa8d47a4"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/contourPaths.ts",
+      "bytes": 5700,
+      "sha256": "6500c58eca5b47b998f990cb38c5e953955dcbde1b21bd4a3450626e49e352bb"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/coordinateTransform.ts",
+      "bytes": 1793,
+      "sha256": "ae203b2604e3447dc425374470a5dc75b5266ff5c5d8d8777560efc599b16392"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/deviceProtocol.test.ts",
+      "bytes": 4107,
+      "sha256": "59904398a869cb9500a7306f46a1fb6e8afb143c7757a684bf501d7acdb43b5a"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/deviceProtocol.ts",
+      "bytes": 4056,
+      "sha256": "54f6f57682fa803d800d88811dba1580f863f9fca484939834bf3749f0051648"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/encoderTelemetry.test.ts",
+      "bytes": 948,
+      "sha256": "2df7f3ef77216836100a252daa069f0141213c91d32c6ccb62093345a323724b"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/encoderTelemetry.ts",
+      "bytes": 655,
+      "sha256": "20ed0c4e9c6fa1ffe9ca90a38cb84f7935d4065c30b2f26b9a1a1fa600df83af"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/fileDownload.ts",
+      "bytes": 281,
+      "sha256": "d37a1768e9c9acd7212cf6649171cb11cb90fa9bfcd695702e14d782429b8360"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/fixtures/flower-line.json",
+      "bytes": 26567,
+      "sha256": "18067ce3304f7de3a1d6e5ac00ec20759347f9bf248d784bea7ae8b5012ea1f1"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/graphStrokePaths.test.ts",
+      "bytes": 3812,
+      "sha256": "e5c307f775d03b333074bcb362093a5bebca3a4a4a602eef56eca98ce2570fd8"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/graphStrokePaths.ts",
+      "bytes": 8861,
+      "sha256": "9b518fd4be07746dfc28ff8103c47eba251b4de81cacc4759db3266ef0317e73"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/imageProcessing.ts",
+      "bytes": 1159,
+      "sha256": "053143097cd6e38931e0bc6492425fb279ac67f889450badc10e8c562769e02c"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/needleEditing.test.ts",
+      "bytes": 5879,
+      "sha256": "138ca6aa09f5b87aa94082ee47c197673fa8d2c65e86b7fe8166f54a52ece341"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/needleEditing.ts",
+      "bytes": 3246,
+      "sha256": "837feef87d82dfa4ebd474dfe92363cc88b626e120407f290ea4dbade879135e"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/oneStrokePaths.test.ts",
+      "bytes": 4022,
+      "sha256": "bb290addc5c4933126efde9dc00f319944fafa6bad665be95d6eed2978afa628"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/oneStrokePaths.ts",
+      "bytes": 14653,
+      "sha256": "4d5d810d4c0e6caaaea6f08fbe7a7ce41e4e3a6f3db4a8938ab749bdd58d9f33"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/orderedPointPaths.test.ts",
+      "bytes": 4963,
+      "sha256": "722e48013508e65760364e00fc1a0a9c27a51086fe3bafbca1e5aeb37ca96637"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/orderedPointPaths.ts",
+      "bytes": 3030,
+      "sha256": "dec912304f865f547318784052282cb61fd779309f77b9f518a7f8476c4dee4f"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/pathExport.ts",
+      "bytes": 7102,
+      "sha256": "7c7748ad00a3c5e0d97b8bed8ee1ac3107df9b3ab3da02791b809971317e77ff"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/pathGenerator.ts",
+      "bytes": 11149,
+      "sha256": "7256461b6cd2f5b03e97bf3d9e6787ed40abc2e84c0f644dff96d6284eba11b4"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/rabbitPreset.test.ts",
+      "bytes": 2647,
+      "sha256": "f61996681c480bf3c342c5b2d2e694ac299451cf07301f7daf84b4283c3b4230"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/recognizeArtwork.ts",
+      "bytes": 2050,
+      "sha256": "17498515b9b1179dd5f873eda786a32344fce28dd31a6924094081c609230d1e"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/routePreview.ts",
+      "bytes": 2047,
+      "sha256": "0459edb5b87100f31f5e9247dbe2b9f4f58b3d980cacda071da1fe6992c958e1"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/runtimeMetrics.test.ts",
+      "bytes": 1356,
+      "sha256": "8c30ad95e789c150a74aa6739806f613b6ed57cbe0adc5317463976f106d7b5a"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/runtimeMetrics.ts",
+      "bytes": 3318,
+      "sha256": "ae0dce2c381a284d85263c9c2f7ebf798b622d31f9fbbc4c2e988a59803bf7da"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/serialCapture.ts",
+      "bytes": 4837,
+      "sha256": "3890097ef5ada34a776db2893e018b227c356dd4b4af4b7bf9beb1a22d4effaf"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/serialWriteMetrics.test.ts",
+      "bytes": 553,
+      "sha256": "bc74368a18505e7cedf83f4563a09230410815b88f974739714a31543ef93d8f"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/smallDetails.test.ts",
+      "bytes": 3906,
+      "sha256": "464a580161fa80d5056a68761d9b14a73e9c65d862ee266daf09e6acd977df1f"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/utils/threadPreview.test.ts",
+      "bytes": 2140,
+      "sha256": "77937be7fa849bae28c0e039b192d16f749af16a08c4a15b026d32e42d8a006b"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/src/workspace-pages.css",
+      "bytes": 8779,
+      "sha256": "c7946834bde5af08296b15a9c33f82df981b3b92160bc8800c9ae286a4e81d55"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/tsconfig.json",
+      "bytes": 487,
+      "sha256": "79b0012fa6cf8b61cf1a0aa0df011c6974c8b5597db6083638ca7cfc619b214b"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/tsconfig.node.json",
+      "bytes": 325,
+      "sha256": "54fca67c84f5b300ad8dd93c592fd08947c8d8212302cd40eda5545c3155b457"
+    },
+    {
+      "path": "yizhen-qianyun/src/upper/vite.config.ts",
+      "bytes": 684,
+      "sha256": "94ca207c3a39131bdfb9cfece8a70d55fe318c08680de690d3588b1e361d08ae"
+    }
+  ]
+}

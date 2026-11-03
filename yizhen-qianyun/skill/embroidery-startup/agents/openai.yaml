@@ -1,0 +1,4 @@
+interface:
+  display_name: "湘绣环境启动"
+  short_description: "上位机、相机桥接、USB设备与端口占用排查，提供可复用流程、真实检查结果与适用边界说明。"
+  default_prompt: "$embroidery-startup 打开上位机并启动真实相机桥接，复用已有服务。"

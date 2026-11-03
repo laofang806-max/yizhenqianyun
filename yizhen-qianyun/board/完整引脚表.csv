@@ -1,0 +1,55 @@
+﻿端口,FPGA封装球位,IO标准,底板接口/连接说明
+sys_clk,R4,LVCMOS15,板内已连接
+sys_rst_n,U7,LVCMOS15,板内已连接
+uart_rxd,E14,LVCMOS33,板内已连接
+uart_txd,D17,LVCMOS33,板内已连接
+start_button,T4,LVCMOS15,板内已连接
+estop_button,T3,LVCMOS15,板内已连接
+key2_button,R6,LVCMOS15,板内已连接
+led[0],V9,LVCMOS15,板内已连接
+led[1],Y8,LVCMOS15,板内已连接
+led[2],Y7,LVCMOS15,板内已连接
+led[3],W7,LVCMOS15,板内已连接
+cam_data[0],P17,LVCMOS33,P1-8
+cam_data[1],P15,LVCMOS33,P1-9
+cam_data[2],R16,LVCMOS33,P1-10
+cam_data[3],R17,LVCMOS33,P1-11
+cam_data[4],P16,LVCMOS33,P1-12
+cam_data[5],V17,LVCMOS33,P1-13
+cam_data[6],W17,LVCMOS33,P1-14
+cam_data[7],U17,LVCMOS33,P1-15
+cam_pclk,U18,LVCMOS33,P1-16
+cam_reset_n,N17,LVCMOS33,P1-7
+cam_pwdn,AB18,LVCMOS33,P1-18
+cam_vsync,P14,LVCMOS33,P1-3
+cam_href,N14,LVCMOS33,P1-5
+cam_scl,N13,LVCMOS33,P1-4
+cam_sda,R14,LVCMOS33,P1-6
+usb_oe_n,D19,LVCMOS33,板载 FT232HL 固定连线，无需外接杜邦线
+usb_txe_n,E17,LVCMOS33,板载 FT232HL 固定连线，无需外接杜邦线
+usb_rxf_n,F16,LVCMOS33,板载 FT232HL 固定连线，无需外接杜邦线
+usb_wr_n,F20,LVCMOS33,板载 FT232HL 固定连线，无需外接杜邦线
+usb_rd_n,F19,LVCMOS33,板载 FT232HL 固定连线，无需外接杜邦线
+usb_clk_60m,E19,LVCMOS33,板载 FT232HL 固定连线，无需外接杜邦线
+usb_data[0],C17,LVCMOS33,板载 FT232HL 固定连线，无需外接杜邦线
+usb_data[1],F15,LVCMOS33,板载 FT232HL 固定连线，无需外接杜邦线
+usb_data[2],F18,LVCMOS33,板载 FT232HL 固定连线，无需外接杜邦线
+usb_data[3],E18,LVCMOS33,板载 FT232HL 固定连线，无需外接杜邦线
+usb_data[4],E21,LVCMOS33,板载 FT232HL 固定连线，无需外接杜邦线
+usb_data[5],D21,LVCMOS33,板载 FT232HL 固定连线，无需外接杜邦线
+usb_data[6],F21,LVCMOS33,板载 FT232HL 固定连线，无需外接杜邦线
+usb_data[7],E22,LVCMOS33,板载 FT232HL 固定连线，无需外接杜邦线
+usb_siwu_n,G21,LVCMOS33,板载 FT232HL 固定连线，无需外接杜邦线
+x_step,AA15,LVCMOS33,J4-31
+x_dir,AB15,LVCMOS33,J4-32
+y_step,Y16,LVCMOS33,J4-35
+y_dir,AA16,LVCMOS33,J4-36
+limit_x,C13,LVCMOS33,J3-17
+limit_y,C14,LVCMOS33,J3-19
+needle_trig,C18,LVCMOS33,J3-23
+needle_sensor,D20,LVCMOS33,J3-27
+needle_sensor_debug,E16,LVCMOS33,J3-35
+encoder_x_a,Y13,LVCMOS33,J4-27
+encoder_x_b,AA14,LVCMOS33,J4-28
+encoder_y_a,AB16,LVCMOS33,J4-33
+encoder_y_b,AB17,LVCMOS33,J4-34

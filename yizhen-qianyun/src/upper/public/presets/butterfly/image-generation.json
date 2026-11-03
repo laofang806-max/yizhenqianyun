@@ -1,0 +1,11 @@
+{
+  "tool": "image_gen.imagegen built-in",
+  "reference": "codex-clipboard-eee7e4fb-be68-4bf8-9411-5d0ca2cb9a91.jpg",
+  "request": "Isolate the upper-right butterfly, remove flower/leaves/stem/fabric, preserve diagonal silhouette and antennae, render only black outlines on white.",
+  "sourceImage": "C:\\Users\\libiao\\.codex\\generated_images\\01a16e9b-1809-7a83-aa4a-001f36d53723\\exec-b80b7c92-19d1-49cd-a0a8-98fcef96917f.png",
+  "sourceSize": [
+    1254,
+    1254
+  ],
+  "note": "AI-assisted isolation/redrawing; needle route is traced from the saved output, not from the original flower photo."
+}

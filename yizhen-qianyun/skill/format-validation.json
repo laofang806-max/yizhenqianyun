@@ -1,0 +1,52 @@
+{
+  "date": "20261031-163602",
+  "officialSkillValidation": [
+    {
+      "name": "artwork-route",
+      "passed": true,
+      "message": "Skill is valid!"
+    },
+    {
+      "name": "color-layer-workflow",
+      "passed": true,
+      "message": "Skill is valid!"
+    },
+    {
+      "name": "embroidery-path",
+      "passed": true,
+      "message": "Skill is valid!"
+    },
+    {
+      "name": "embroidery-protocol-check",
+      "passed": true,
+      "message": "Skill is valid!"
+    },
+    {
+      "name": "embroidery-startup",
+      "passed": true,
+      "message": "Skill is valid!"
+    },
+    {
+      "name": "fpga-build",
+      "passed": true,
+      "message": "Skill is valid!"
+    },
+    {
+      "name": "motion-calibration",
+      "passed": true,
+      "message": "Skill is valid!"
+    },
+    {
+      "name": "runtime-evidence",
+      "passed": true,
+      "message": "Skill is valid!"
+    }
+  ],
+  "hardwareAccess": false,
+  "actualTimingReport": {
+    "source": "Control/fpga/reports/color-reset-stability-20261031/timing.rpt",
+    "wnsNs": 0.747,
+    "whsNs": 0.1,
+    "constraintCoverageChecked": false
+  }
+}

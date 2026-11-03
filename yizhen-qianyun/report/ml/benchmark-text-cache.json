@@ -1,0 +1,7 @@
+{
+  "prompt": "A clean black line drawing of a small bird perched on a flowering branch, simple flat embroidery design, complete centered composition, pure white background, no text, no fabric texture",
+  "negative": "photograph, cloth texture, watermark, letters, cropped subject",
+  "frozenTextEncoders": true,
+  "computeSecondsOnce": 0.8197756999870762,
+  "benchmarkCondition": "same fixed text embeddings reused for all variants; measured image generation excludes text encoding"
+}

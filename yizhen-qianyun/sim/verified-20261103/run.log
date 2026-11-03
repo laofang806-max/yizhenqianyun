@@ -1,0 +1,201 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/libiao/Documents/ChatGPT/competition/delivery/yizhen-qianyun/src/rtl/board_top.v" into library work
+INFO: [VRFC 10-311] analyzing module board_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/libiao/Documents/ChatGPT/competition/delivery/yizhen-qianyun/src/rtl/camera_usb_stream.v" into library work
+INFO: [VRFC 10-311] analyzing module camera_usb_stream
+INFO: [VRFC 10-311] analyzing module async_fifo_gray
+INFO: [VRFC 10-311] analyzing module camera_status_mux
+INFO: [VRFC 10-311] analyzing module ft232h_tx_register
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/libiao/Documents/ChatGPT/competition/delivery/yizhen-qianyun/src/rtl/encoder_monitor.v" into library work
+INFO: [VRFC 10-311] analyzing module encoder_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/libiao/Documents/ChatGPT/competition/delivery/yizhen-qianyun/src/rtl/ft232h_stream_start.v" into library work
+INFO: [VRFC 10-311] analyzing module ft232h_stream_start
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/libiao/Documents/ChatGPT/competition/delivery/yizhen-qianyun/src/rtl/homing.v" into library work
+INFO: [VRFC 10-311] analyzing module homing
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/libiao/Documents/ChatGPT/competition/delivery/yizhen-qianyun/src/rtl/input_filter.v" into library work
+INFO: [VRFC 10-311] analyzing module input_filter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/libiao/Documents/ChatGPT/competition/delivery/yizhen-qianyun/src/rtl/motion_xy.v" into library work
+INFO: [VRFC 10-311] analyzing module motion_xy
+INFO: [VRFC 10-311] analyzing module motion_feedback
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/libiao/Documents/ChatGPT/competition/delivery/yizhen-qianyun/src/rtl/needle_ctrl.v" into library work
+INFO: [VRFC 10-311] analyzing module needle_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/libiao/Documents/ChatGPT/competition/delivery/yizhen-qianyun/src/rtl/ov5640_sccb_init.v" into library work
+INFO: [VRFC 10-311] analyzing module ov5640_sccb_init
+INFO: [VRFC 10-311] analyzing module ov5640_readback
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/libiao/Documents/ChatGPT/competition/delivery/yizhen-qianyun/src/rtl/protocol_parser.v" into library work
+INFO: [VRFC 10-311] analyzing module protocol_parser
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/libiao/Documents/ChatGPT/competition/delivery/yizhen-qianyun/src/rtl/text_tx.v" into library work
+INFO: [VRFC 10-311] analyzing module text_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/libiao/Documents/ChatGPT/competition/delivery/yizhen-qianyun/src/rtl/top.v" into library work
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/libiao/Documents/ChatGPT/competition/delivery/yizhen-qianyun/src/rtl/uart.v" into library work
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/libiao/Documents/ChatGPT/competition/delivery/yizhen-qianyun/sim/tb/tb_layer_reset_probe.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_layer_reset_probe
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/libiao/Documents/ChatGPT/competition/delivery/yizhen-qianyun/sim/tb/tb_needle_ir.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_needle_ir
+INFO: [VRFC 10-311] analyzing module tb_needle_ir_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/libiao/Documents/ChatGPT/competition/delivery/yizhen-qianyun/sim/tb/tb_needle_led.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_needle_led
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe tb_needle_ir -s tb_needle_ir -debug typical -mt 2 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.needle_ctrl(CLK_HZ=1000,WAIT_DEL...
+Compiling module work.tb_needle_ir
+Built simulation snapshot tb_needle_ir
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Nov  3 17:39:01 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_needle_ir/xsim_script.tcl
+# xsim {tb_needle_ir} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS: needle IR cycle, retry, missing down, stuck return, initial blocked, pause, cancel
+$finish called at time : 1430 ns : File "C:/Users/libiao/Documents/ChatGPT/competition/delivery/yizhen-qianyun/sim/tb/tb_needle_ir.v" Line 32
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Nov  3 17:39:03 2026...
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe tb_needle_ir_top -s tb_needle_ir_top -debug typical -mt 2 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.uart_rx(CLK_HZ=1000000,BAUD=1000...
+Compiling module work.uart_tx(CLK_HZ=1000000,BAUD=1000...
+Compiling module work.protocol_parser
+Compiling module work.input_filter(CLK_HZ=1000000,DEBO...
+Compiling module work.input_filter(CLK_HZ=1000000,DEBO...
+Compiling module work.input_filter(CLK_HZ=1000000,DEBO...
+Compiling module work.homing(CLK_HZ=1000000)
+Compiling module work.text_tx(REPORT_CYCLES=200000)
+Compiling module work.motion_xy(CLK_HZ=1000000,STEP_MA...
+Compiling module work.motion_xy(CLK_HZ=1000000,STEP_MA...
+Compiling module work.motion_feedback(CLK_HZ=1000000,S...
+Compiling module work.encoder_monitor_default
+Compiling module work.needle_ctrl(CLK_HZ=1000000,WAIT_...
+Compiling module work.top(CLK_HZ=1000000,BAUD=100000,S...
+Compiling module work.tb_needle_ir_top
+Built simulation snapshot tb_needle_ir_top
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Nov  3 17:39:05 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_needle_ir_top/xsim_script.tcl
+# xsim {tb_needle_ir_top} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS: top automatic verified stitches, no XY before return, retry fault, KEY0 lockout, RESET, initial motion interlock, no needle error reply and BUSY status
+$finish called at time : 46506 us : File "C:/Users/libiao/Documents/ChatGPT/competition/delivery/yizhen-qianyun/sim/tb/tb_needle_ir.v" Line 100
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Nov  3 17:39:07 2026...
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe tb_needle_led -s tb_needle_led -debug typical -mt 2 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.uart_rx(CLK_HZ=1000000,BAUD=1000...
+Compiling module work.uart_tx(CLK_HZ=1000000,BAUD=1000...
+Compiling module work.protocol_parser
+Compiling module work.input_filter(CLK_HZ=1000000,DEBO...
+Compiling module work.input_filter(CLK_HZ=1000000,DEBO...
+Compiling module work.homing(CLK_HZ=1000000)
+Compiling module work.text_tx(REPORT_CYCLES=200000)
+Compiling module work.motion_xy(CLK_HZ=1000000,STEP_MA...
+Compiling module work.motion_xy(CLK_HZ=1000000,STEP_MA...
+Compiling module work.motion_feedback(CLK_HZ=1000000,S...
+Compiling module work.encoder_monitor_default
+Compiling module work.needle_ctrl(CLK_HZ=1000000,WAIT_...
+Compiling module work.top(CLK_HZ=1000000,BAUD=100000,S...
+Compiling module work.tb_needle_led
+Built simulation snapshot tb_needle_led
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Nov  3 17:39:09 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_needle_led/xsim_script.tcl
+# xsim {tb_needle_led} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS: LED3 marks two stationary stitch locations, skips jumps/return/completion, auto-continues without confirmation
+$finish called at time : 22899 us : File "C:/Users/libiao/Documents/ChatGPT/competition/delivery/yizhen-qianyun/sim/tb/tb_needle_led.v" Line 40
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Nov  3 17:39:11 2026...
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe tb_layer_reset_probe -s tb_layer_reset_probe -debug typical -mt 2 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.uart_rx(CLK_HZ=1000000,BAUD=1000...
+Compiling module work.uart_tx(CLK_HZ=1000000,BAUD=1000...
+Compiling module work.protocol_parser
+Compiling module work.input_filter(CLK_HZ=1000000,DEBO...
+Compiling module work.input_filter(CLK_HZ=1000000,DEBO...
+Compiling module work.homing(CLK_HZ=1000000)
+Compiling module work.text_tx(REPORT_CYCLES=200000)
+Compiling module work.motion_xy(CLK_HZ=1000000,STEP_MA...
+Compiling module work.motion_xy(CLK_HZ=1000000,STEP_MA...
+Compiling module work.motion_feedback(CLK_HZ=1000000,S...
+Compiling module work.encoder_monitor_default
+Compiling module work.needle_ctrl(CLK_HZ=1000000,WAIT_...
+Compiling module work.top(RESET_HOLD_MS=5,CLK_HZ=10000...
+Compiling module work.tb_layer_reset_probe
+Built simulation snapshot tb_layer_reset_probe
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Nov  3 17:39:13 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_layer_reset_probe/xsim_script.tcl
+# xsim {tb_layer_reset_probe} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS: five reusable layers, tagged PING idle/motion, UART reset, held KEY1 one-shot reset, retained firmware response and held-KEY0 restart interlock
+$finish called at time : 118033500 ns : File "C:/Users/libiao/Documents/ChatGPT/competition/delivery/yizhen-qianyun/sim/tb/tb_layer_reset_probe.v" Line 61
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Nov  3 17:39:15 2026...
+PASS: four real RTL simulations

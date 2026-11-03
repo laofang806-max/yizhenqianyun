@@ -1,0 +1,4 @@
+interface:
+  display_name: "湘绣单轴校准"
+  short_description: "小行程单轴脉冲/编码器/尺量对照，提供可复用流程、真实检查结果与适用边界说明。"
+  default_prompt: "$motion-calibration 准备X轴前进2mm、不返回、不下针的校准方案，先不启动。"

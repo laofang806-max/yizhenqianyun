@@ -1,0 +1,18 @@
+
+> embroidery-image-positioner@0.1.0 build
+> tsc --noEmit && tsc --noEmit -p tsconfig.node.json && vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 1630 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                  0.47 kB │ gzip:   0.35 kB
+dist/assets/rabbit-original-WU4DNn8F.png        43.42 kB
+dist/assets/flower-original-BwrDBS-T.png        79.91 kB
+dist/assets/bird-original-4aOlJEh1.jpg         174.06 kB
+dist/assets/solo-bird-aofqWNPE.png           1,045.61 kB
+dist/assets/butterfly-original-CHTIXIqN.png  1,130.29 kB
+dist/assets/index-CukEmuBt.css                  55.35 kB │ gzip:  11.95 kB
+dist/assets/index-CLZ03hXW.js                  348.39 kB │ gzip: 125.04 kB
+✓ built in 7.45s

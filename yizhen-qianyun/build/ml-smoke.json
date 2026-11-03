@@ -1,0 +1,33 @@
+{
+  "pass": true,
+  "purpose": "2-step execution smoke test, not quality or speed benchmark",
+  "record": {
+    "variant": "ema",
+    "seed": 42,
+    "settings": {
+      "prompt": "A clean black line drawing of a small bird perched on a flowering branch, simple flat embroidery design, complete centered composition, pure white background, no text, no fabric texture",
+      "negative_prompt": "photograph, cloth texture, watermark, letters, cropped subject",
+      "width": 512,
+      "height": 512,
+      "num_inference_steps": 2,
+      "guidance_scale": 5.0
+    },
+    "loadSeconds": 12.565168900007848,
+    "encodeAndDenoiseSeconds": 16.74793920002412,
+    "decodeAndTransferSeconds": 8.325095899985172,
+    "generationSeconds": 25.073035100009292,
+    "steadyDenoiseStepSeconds": null,
+    "stepIntervalsSeconds": [],
+    "peakAllocatedMiB": 5053.1953125,
+    "peakReservedMiB": 5266.0,
+    "borderNonwhiteRate": 0.9721272849671172,
+    "borderDarkRate": 0.24061415773393402,
+    "borderWidthFraction": 0.08,
+    "textEmbeddingsCached": true,
+    "execution": "manual UNet GPU, VAE CPU, no automatic offload hooks",
+    "explicitEvalMode": true,
+    "allDropoutDisabled": true,
+    "weightLoading": "sharded direct-to-GPU; loadSeconds not used to claim model speed superiority",
+    "scope": "isolated process; generation includes cached tensor transfer and CPU tiled decoding, excludes frozen text encoding and disk loading; no FPGA inference"
+  }
+}

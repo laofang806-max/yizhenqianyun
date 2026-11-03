@@ -1,0 +1,33 @@
+{
+  "historicalDate": "2026-11-02",
+  "currentDate": "2026-11-03",
+  "matches": [
+    {
+      "file": "src/rtl/board_top.v",
+      "sha256": "d3591a599141ccc08a2d2709bfadb18d007a2b143bb6ebbd44b4f38f9a0b18ad",
+      "matchesHistoricalEvidence": true
+    },
+    {
+      "file": "src/rtl/top.v",
+      "sha256": "1b8ebe21b8b1317f4619e0f8bd758a5acce0fa251c595e52d74099d304603860",
+      "matchesHistoricalEvidence": true
+    },
+    {
+      "file": "src/rtl/needle_ctrl.v",
+      "sha256": "c0f37967767c5c9348ec1a62081e5798fb793f62acee83401e07cf11c59ae446",
+      "matchesHistoricalEvidence": true
+    },
+    {
+      "file": "src/rtl/text_tx.v",
+      "sha256": "67a682dcf34454ba366c7665dc4eef89936f9c032ceba2b9a79998e66dc46a1d",
+      "matchesHistoricalEvidence": true
+    },
+    {
+      "file": "sim/tb/tb_needle_ir.v",
+      "sha256": "41ddac1bb3db1b9fedcdcb2d72e167ebb2dd70bc836b477a174cfa7850b2cb99",
+      "matchesHistoricalEvidence": true
+    }
+  ],
+  "currentRerun": "PASS: four real XSim tests rerun 2026-11-03; see sim/verified-20261103",
+  "hardwareTested": false
+}

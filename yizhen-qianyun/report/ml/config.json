@@ -1,0 +1,31 @@
+{
+  "steps": 100,
+  "resolution": 512,
+  "batchSize": 1,
+  "gradientAccumulation": 4,
+  "learningRate": 5e-05,
+  "rankSelf": 4,
+  "rankCross": 8,
+  "dropout": 0.05,
+  "emaDecay": 0.95,
+  "snrGamma": 5.0,
+  "seed": 42,
+  "trainableParameters": 8949760,
+  "totalParameters": 2576413444,
+  "attentionAdapterCounts": {
+    "self": 280,
+    "cross": 280
+  },
+  "captionEncodersFrozen": true,
+  "vaeFrozen": true,
+  "latentCache": "fixed posterior means; no stochastic latent resampling",
+  "independentTrainCompositions": 1,
+  "diagnosticImages": 1,
+  "validationTimesteps": [
+    250,
+    500,
+    750
+  ],
+  "validationNoiseSeed": 1234,
+  "validationScope": "fixed-noise diagnostic on one unseen flower, not representative generalization"
+}

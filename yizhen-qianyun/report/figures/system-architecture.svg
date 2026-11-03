@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#547064"/></marker></defs>
+<rect width="1500" height="1000" fill="#fff"/>
+<g font-family="Microsoft YaHei,SimHei,Arial,sans-serif" fill="#22352d">
+<text x="45" y="48" font-size="28" font-weight="700">一针千韵｜系统结构与数据流</text>
+<text x="45" y="78" font-size="17" fill="#58695f">电脑负责图像与针迹规划；FPGA负责确定性运动和针位反馈控制</text>
+
+<rect x="30" y="100" width="1440" height="215" rx="12" fill="#f2f7f3" stroke="#b8c9c0"/>
+<text x="50" y="132" font-size="22" font-weight="600" fill="#22352d" text-anchor="start">电脑上位机 / 本地模型</text>
+<rect x="60" y="160" width="280" height="95" rx="12" fill="#fff" stroke="#b8c9c0"/>
+<text x="78" y="195" font-size="21" font-weight="600" fill="#22352d" text-anchor="start">图案输入</text>
+<text x="78" y="228" font-size="16" font-weight="400" fill="#53685e" text-anchor="start">上传 / 拍摄 / 文生图</text>
+<rect x="420" y="160" width="280" height="95" rx="12" fill="#fff" stroke="#b8c9c0"/>
+<text x="438" y="195" font-size="21" font-weight="600" fill="#22352d" text-anchor="start">颜色与针迹处理</text>
+<text x="438" y="228" font-size="16" font-weight="400" fill="#53685e" text-anchor="start">忽略白底、合并近似色</text>
+<rect x="780" y="160" width="280" height="95" rx="12" fill="#fff" stroke="#b8c9c0"/>
+<text x="798" y="195" font-size="21" font-weight="600" fill="#22352d" text-anchor="start">预览与数据导出</text>
+<text x="798" y="228" font-size="16" font-weight="400" fill="#53685e" text-anchor="start">尺寸、首针、针序和逐层任务</text>
+<rect x="1140" y="160" width="280" height="95" rx="12" fill="#fff" stroke="#b8c9c0"/>
+<text x="1158" y="195" font-size="21" font-weight="600" fill="#22352d" text-anchor="start">通信与状态查看</text>
+<text x="1158" y="228" font-size="16" font-weight="400" fill="#53685e" text-anchor="start">UART动作流、ENC与抓包</text>
+<path d="M340,207 L410,207" fill="none" stroke="#547064" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M700,207 L770,207" fill="none" stroke="#547064" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M1060,207 L1130,207" fill="none" stroke="#547064" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="60" y="289" font-size="17" font-weight="400" fill="#22352d" text-anchor="start">SDXL + LoRA 在电脑 GPU 运行；当前并未在 FPGA 部署图像生成模型。</text>
+<rect x="30" y="355" width="1440" height="325" rx="12" fill="#f1f5fa" stroke="#b9c8d6"/>
+<text x="50" y="389" font-size="22" font-weight="600" fill="#22352d" text-anchor="start">FPGA / XC7A100T / board_top</text>
+<rect x="60" y="465" width="280" height="95" rx="12" fill="#fff" stroke="#b8c9c0"/>
+<text x="78" y="500" font-size="21" font-weight="600" fill="#22352d" text-anchor="start">串口解析与动作存储</text>
+<text x="78" y="533" font-size="16" font-weight="400" fill="#53685e" text-anchor="start">115200 baud / 4096动作上限</text>
+<rect x="420" y="465" width="280" height="95" rx="12" fill="#fff" stroke="#b8c9c0"/>
+<text x="438" y="500" font-size="21" font-weight="600" fill="#22352d" text-anchor="start">任务与联锁控制</text>
+<text x="438" y="533" font-size="16" font-weight="400" fill="#53685e" text-anchor="start">复位、暂停、状态和故障锁定</text>
+<rect x="780" y="465" width="280" height="95" rx="12" fill="#fff" stroke="#b8c9c0"/>
+<text x="798" y="500" font-size="21" font-weight="600" fill="#22352d" text-anchor="start">双轴运动与编码器反馈</text>
+<text x="798" y="533" font-size="16" font-weight="400" fill="#53685e" text-anchor="start">DDA插补、加减速、段末纠偏</text>
+<rect x="1140" y="465" width="280" height="95" rx="12" fill="#fff" stroke="#b8c9c0"/>
+<text x="1158" y="500" font-size="21" font-weight="600" fill="#22352d" text-anchor="start">自动下针状态机</text>
+<text x="1158" y="533" font-size="16" font-weight="400" fill="#53685e" text-anchor="start">短脉冲、遮挡检测、回位确认</text>
+<path d="M340,512 L410,512" fill="none" stroke="#547064" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M700,512 L770,512" fill="none" stroke="#547064" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M1060,512 L1130,512" fill="none" stroke="#547064" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M1280,255 L1280,335" fill="none" stroke="#547064" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M1280,335 L200,335 L200,455" fill="none" stroke="#547064" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="600" y="326" font-size="16" font-weight="400" fill="#22352d" text-anchor="start">分层指令与状态回传</text>
+<rect x="60" y="590" width="640" height="60" rx="12" fill="#e7eef7" stroke="#b8c9c0"/>
+<text x="78" y="626" font-size="17" font-weight="400" fill="#22352d" text-anchor="start">相机通路：OV5640 → DVP / FIFO → FT232HL → 电脑</text>
+<text x="780" y="623" font-size="17" font-weight="400" fill="#22352d" text-anchor="start">只有反馈确认后，任务控制才放行下一段运动。</text>
+<rect x="30" y="730" width="1440" height="215" rx="12" fill="#fbf7ef" stroke="#ddcbae"/>
+<text x="50" y="766" font-size="22" font-weight="600" fill="#22352d" text-anchor="start">实体装置与外设</text>
+<rect x="60" y="805" width="280" height="95" rx="12" fill="#fff" stroke="#b8c9c0"/>
+<text x="78" y="840" font-size="21" font-weight="600" fill="#22352d" text-anchor="start">OV5640 相机</text>
+<text x="78" y="873" font-size="16" font-weight="400" fill="#53685e" text-anchor="start">P1接口 / 本地24MHz时钟</text>
+<rect x="420" y="805" width="280" height="95" rx="12" fill="#fff" stroke="#b8c9c0"/>
+<text x="438" y="840" font-size="21" font-weight="600" fill="#22352d" text-anchor="start">AB编码器 / 可选限位</text>
+<text x="438" y="873" font-size="16" font-weight="400" fill="#53685e" text-anchor="start">双轴计数反馈，限位仅可选回零</text>
+<rect x="780" y="805" width="280" height="95" rx="12" fill="#fff" stroke="#b8c9c0"/>
+<text x="798" y="840" font-size="21" font-weight="600" fill="#22352d" text-anchor="start">XY平台与两只TB6600</text>
+<text x="798" y="873" font-size="16" font-weight="400" fill="#53685e" text-anchor="start">0.9°电机 / 8mm导程</text>
+<rect x="1140" y="805" width="280" height="95" rx="12" fill="#fff" stroke="#b8c9c0"/>
+<text x="1158" y="840" font-size="21" font-weight="600" fill="#22352d" text-anchor="start">绣针机构与ITR9606</text>
+<text x="1158" y="873" font-size="16" font-weight="400" fill="#53685e" text-anchor="start">3.3V触发 / 透光表示最高点</text>
+<path d="M200,805 L200,662" fill="none" stroke="#547064" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M560,805 L560,687" fill="none" stroke="#547064" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="7 5"/>
+<path d="M560,687 L920,687 L920,570" fill="none" stroke="#547064" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<path d="M920,560 L920,795" fill="none" stroke="#547064" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M1280,560 L1280,795" fill="none" stroke="#547064" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M1410,805 L1410,570" fill="none" stroke="#547064" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="7 5"/>
+<text x="50" y="978" font-size="17" font-weight="400" fill="#607066" text-anchor="start">实线：数据或控制输出　　虚线：传感反馈。图示为逻辑结构，不替代电气接线表。</text>
+</g></svg>

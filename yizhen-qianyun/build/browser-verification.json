@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "freshAccountLogin": true,
+  "wrongPasswordRejected": true,
+  "ordinaryUploadNeedles": 48,
+  "savedButterflyUartExactMatch": true,
+  "hardwareConnected": false,
+  "errors": []
+}

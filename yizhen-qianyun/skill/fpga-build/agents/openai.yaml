@@ -1,0 +1,4 @@
+interface:
+  display_name: "湘绣固件构建"
+  short_description: "当前RTL构建、资源/时序报告、版本与交付核对，提供可复用流程、真实检查结果与适用边界说明。"
+  default_prompt: "$fpga-build 基于当前源码构建带摄像头固件，记录SHA256、资源和时序，不下载。"

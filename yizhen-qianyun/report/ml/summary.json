@@ -1,0 +1,39 @@
+{
+  "trainingSteps": 100,
+  "trainableParameters": 8949760,
+  "trainingOptimizerMedianSecondsAfter5": 2.8357485000160523,
+  "trainingPeakAllocatedMiB": 5319.72412109375,
+  "initialFixedNoiseMse": 0.04712880775332451,
+  "finalRawFixedNoiseMse": 0.0429864606509606,
+  "finalEmaFixedNoiseMse": 0.04299155001839002,
+  "rawMseFirst10Mean": 0.07653313536429777,
+  "rawMseLast10Mean": 0.07486185412853956,
+  "actualInferenceRuns": 8,
+  "perVariant": {
+    "base": {
+      "generationSeconds": 14.308198949962389,
+      "steadyDenoiseStepSeconds": 0.1455283000250347,
+      "peakAllocatedMiB": 5036.125,
+      "borderNonwhiteRate": 0.47302055823106004
+    },
+    "pilot": {
+      "generationSeconds": 15.292716399999335,
+      "steadyDenoiseStepSeconds": 0.17786724999314174,
+      "peakAllocatedMiB": 5047.19921875,
+      "borderNonwhiteRate": 0.20692869349075657
+    },
+    "raw": {
+      "generationSeconds": 14.480062799993902,
+      "steadyDenoiseStepSeconds": 0.17608735000248998,
+      "peakAllocatedMiB": 5053.1953125,
+      "borderNonwhiteRate": 0.5241507430997877
+    },
+    "ema": {
+      "generationSeconds": 14.513188849989092,
+      "steadyDenoiseStepSeconds": 0.1765651500027161,
+      "peakAllocatedMiB": 5053.1953125,
+      "borderNonwhiteRate": 0.2925923049039407
+    }
+  },
+  "claims": "Exploratory measurements only; small data, one diagnostic image, two inference seeds per variant. No FPGA inference or population quality claim."
+}

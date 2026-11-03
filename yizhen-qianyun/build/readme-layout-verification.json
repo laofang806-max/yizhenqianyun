@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-03",
+  "rootFiles": [
+    "README.md"
+  ],
+  "rootDirectories": [
+    "src",
+    "sim",
+    "build",
+    "board",
+    "data",
+    "skill",
+    "report"
+  ],
+  "merged": [
+    "README.md",
+    "复现步骤.md",
+    "board/硬件清单与完整接线.md",
+    "data/数据集与基座下载地址.md"
+  ],
+  "removedRootDocument": "复现步骤.md",
+  "completeWiringInline": true,
+  "baseDownloadLinks": 20,
+  "localReadmeLinksChecked": 18,
+  "unchangedImplementationAndWeightFiles": 109,
+  "hardwareActions": false
+}

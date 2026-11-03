@@ -1,0 +1,14 @@
+{
+  "stitches": 264,
+  "actions": 529,
+  "widthMm": 49.98312000000001,
+  "heightMm": 59.64623999999999,
+  "frame": {
+    "width": 100,
+    "height": 100
+  },
+  "scale": 0.72,
+  "stepsPerMm": 1600,
+  "binRoundtrip": "PASS",
+  "sentToHardware": false
+}

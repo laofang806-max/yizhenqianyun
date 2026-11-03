@@ -1,0 +1,160 @@
+{
+  "project": "一针千韵",
+  "assistant": "OpenAI Codex",
+  "recordDate": "2026-11-03",
+  "nature": "Retrospective collaboration summary tied to genuine local artifacts, not an official certification or full transcript",
+  "hardwareExecutionByAssistant": false,
+  "sourceCodeModifiedInThisDocumentationTask": false,
+  "entries": [
+    {
+      "path": "src/upper/src/App.tsx",
+      "bytes": 31887,
+      "sha256": "feb601a30dbbfdf43fb4dc8e5f3222d539e770e471ae2913eb60520de55b53ef"
+    },
+    {
+      "path": "src/upper/modelImageApi.ts",
+      "bytes": 9329,
+      "sha256": "9b8d2000e9cf9713f3bcceeb7efa24ea5b3fe801bcdfd442f90e0720973f29e3"
+    },
+    {
+      "path": "src/upper/localAuthApi.ts",
+      "bytes": 4248,
+      "sha256": "35f22ad0dd3d30f2ca945a589f3e6a581fb6098d1707aed061aebda1e4485f92"
+    },
+    {
+      "path": "src/upper/src/utils/adaptiveColors.ts",
+      "bytes": 4306,
+      "sha256": "4e882028250615269a95e60f0d4f4d3ae899f72e1253d94a583ba97f068d5819"
+    },
+    {
+      "path": "src/upper/src/data/butterfly-route.json",
+      "bytes": 9538,
+      "sha256": "cf297dd12f064cfb53ceda74d1298b14d273f244a53d3aaf80223f8dc1d4de34"
+    },
+    {
+      "path": "src/rtl/board_top.v",
+      "bytes": 13894,
+      "sha256": "d3591a599141ccc08a2d2709bfadb18d007a2b143bb6ebbd44b4f38f9a0b18ad"
+    },
+    {
+      "path": "src/rtl/top.v",
+      "bytes": 39728,
+      "sha256": "1b8ebe21b8b1317f4619e0f8bd758a5acce0fa251c595e52d74099d304603860"
+    },
+    {
+      "path": "src/rtl/needle_ctrl.v",
+      "bytes": 4125,
+      "sha256": "c0f37967767c5c9348ec1a62081e5798fb793f62acee83401e07cf11c59ae446"
+    },
+    {
+      "path": "sim/tb/tb_needle_ir.v",
+      "bytes": 5990,
+      "sha256": "41ddac1bb3db1b9fedcdcb2d72e167ebb2dd70bc836b477a174cfa7850b2cb99"
+    },
+    {
+      "path": "sim/verified-20261103/tb_needle_ir.log",
+      "bytes": 1633,
+      "sha256": "94d223e904792e615fbf28ccc3a0d249e3592cb01f8361bf39ac8b4321f62933"
+    },
+    {
+      "path": "sim/verified-20261103/tb_needle_ir_top.log",
+      "bytes": 1724,
+      "sha256": "45a9da804c5e792d1ee6e4c9ef0a1869a5159b652d077acb63c432056e140604"
+    },
+    {
+      "path": "sim/verified-20261103/tb_needle_led.log",
+      "bytes": 1669,
+      "sha256": "259de413bc320ff2c0aa09881f6c9e0d0a87c4f25e66eab6bce1f938dcbe0541"
+    },
+    {
+      "path": "sim/verified-20261103/tb_layer_reset_probe.log",
+      "bytes": 1747,
+      "sha256": "1ffcfcf1096389d446fe15e2498c52fd5c9ab6918b12024bb7c344dce060d8b5"
+    },
+    {
+      "path": "build/frontend-tests.log",
+      "bytes": 1412,
+      "sha256": "efe6f020842538b38d76c2c37a1ee27399b3669412352bf4f1551801b76bb190"
+    },
+    {
+      "path": "build/frontend-build.log",
+      "bytes": 793,
+      "sha256": "2330cd18c699f6f19a3149d3d070ded8e0a53aa2d32a18248edb290797725724"
+    },
+    {
+      "path": "build/browser-verification.json",
+      "bytes": 197,
+      "sha256": "15b5078c3bc1a458b0ec609f2c689a5dc4030c7b9b4102ab96730fb6dc32085c"
+    },
+    {
+      "path": "build/validation.json",
+      "bytes": 1730,
+      "sha256": "f1e25b81a3598498aae9c279a28061c7f160593800a479b475a9824cbcb477d4"
+    },
+    {
+      "path": "build/release/vivado-build.log",
+      "bytes": 55597,
+      "sha256": "4cbf97294af1cba7b68818f10a91f198fbf7b3662a84134866428f1ac81e9686"
+    },
+    {
+      "path": "build/release/project-relocation.log",
+      "bytes": 3743,
+      "sha256": "974424dd0b38f58aba46281355c8c08842ef052386ada3af9c8fec7cf277be9d"
+    },
+    {
+      "path": "build/release/timing.rpt",
+      "bytes": 172211,
+      "sha256": "b3bfe5332744f8fbd7313c18ba4de560b942dd96bbb874f3f3724c25de353219"
+    },
+    {
+      "path": "board/firmware/release-manifest.json",
+      "bytes": 4124,
+      "sha256": "d426122c8bd55bda25a965b6c108f0f8be64a1dda94b6658a2b3d47c93b191ad"
+    },
+    {
+      "path": "board/firmware/yizhen_qianyun_auto_needle.bit",
+      "bytes": 3825989,
+      "sha256": "d886a66a27e780f803ebfb0b069f40cf0d632c58fdf63abb828932393a23c1b5"
+    },
+    {
+      "path": "report/ml/config.json",
+      "bytes": 767,
+      "sha256": "ee02a75ad2a623f52502a018549c95413e43e7db8b4c02354d28dba0991ac05d"
+    },
+    {
+      "path": "report/ml/summary.json",
+      "bytes": 1483,
+      "sha256": "2394c82b53d94464c6e63dcfabe54eb8a524cee5198fc77c8b1179b3f8561e1d"
+    },
+    {
+      "path": "report/ml/metrics.csv",
+      "bytes": 11638,
+      "sha256": "06e1d91180f88ba51a04c9483b13bf038eb0a2dd4e4390d452ef57f6ee382246"
+    },
+    {
+      "path": "report/ml/inference-metrics.csv",
+      "bytes": 1471,
+      "sha256": "78e19401159611a6911dc247d9c82d5da5b7fdbbc4109e37399ba41c3f9eabff"
+    },
+    {
+      "path": "src/ml/train_v2.py",
+      "bytes": 13582,
+      "sha256": "1907f671f0507737953aa47bbcfa78cf84d7c0c27dabafd5ca5df382b432869d"
+    },
+    {
+      "path": "skill/README.md",
+      "bytes": 2778,
+      "sha256": "ec32e8daf021e82f675a2ef26d637298b4718f82883b48952963581cb40ebda3"
+    },
+    {
+      "path": "skill/validation.json",
+      "bytes": 1592,
+      "sha256": "cf9e44188eed4b3163ac8635d6337ce148a8740a23bd93991c0e35da9f622a46"
+    },
+    {
+      "path": "build/source-equivalence.json",
+      "bytes": 43946,
+      "sha256": "404fe7d15fdf8352b65b63be057140835d742587d7174bdb0b36c3b297f5e1c3"
+    }
+  ]
+}

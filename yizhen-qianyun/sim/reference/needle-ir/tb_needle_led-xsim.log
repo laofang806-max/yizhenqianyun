@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# xsim v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Mon Nov  2 20:44:44 2026
+# Process ID         : 46756
+# Current directory  : Q:/reports/needle-ir-20261102
+# Command line       : xsim.exe -log tb_needle_led-xsim.log -mode tcl -source {xsim.dir/ir_tb_needle_led/xsim_script.tcl}
+# Log file           : Q:/reports/needle-ir-20261102/tb_needle_led-xsim.log
+# Journal file       : Q:/reports/needle-ir-20261102\xsim.jou
+# Running On         : libiao
+# Platform           : Windows 11
+# Operating System   : 26100
+# Processor Detail   : AMD Ryzen 9 9955HX 16-Core Processor           
+# CPU Frequency      : 2495 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 32
+# Host memory        : 16305 MB
+# Swap memory        : 26597 MB
+# Total Virtual      : 42902 MB
+# Available Virtual  : 9022 MB
+#-----------------------------------------------------------
+source xsim.dir/ir_tb_needle_led/xsim_script.tcl
+# xsim {ir_tb_needle_led} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS: LED3 marks two stationary stitch locations, skips jumps/return/completion, auto-continues without confirmation
+$finish called at time : 22899 us : File "Q:/tb/tb_needle_led.v" Line 40
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 20:44:46 2026...

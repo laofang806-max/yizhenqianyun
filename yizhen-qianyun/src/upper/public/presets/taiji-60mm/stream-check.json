@@ -1,0 +1,12 @@
+{
+  "stitches": 331,
+  "actions": 676,
+  "widthMm": 60,
+  "heightMm": 60,
+  "stepsPerMm": 1600,
+  "nominalDiameterSteps": 96000,
+  "bytes": 6181,
+  "needleOrderVerified": true,
+  "binRoundTrip": true,
+  "boardTransmission": "not sent"
+}

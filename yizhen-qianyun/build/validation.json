@@ -1,0 +1,45 @@
+{
+  "project": "一针千韵",
+  "date": "2026-11-03",
+  "firmware": "board/firmware/yizhen_qianyun_auto_needle.bit",
+  "frontend": {
+    "cleanNpmCi": true,
+    "build": "PASS",
+    "testFiles": 20,
+    "testsPassed": 92
+  },
+  "browser": {
+    "pass": true,
+    "freshAccountLogin": true,
+    "wrongPasswordRejected": true,
+    "ordinaryUploadNeedles": 48,
+    "savedButterflyUartExactMatch": true,
+    "hardwareConnected": false,
+    "errors": []
+  },
+  "cameraOfflineUnitTests": {
+    "passed": 8,
+    "realCameraUsed": false
+  },
+  "skillsOfflineCases": 14,
+  "mlSmokeInference": {
+    "pass": true,
+    "steps": 2,
+    "variant": "ema",
+    "qualityBenchmark": false
+  },
+  "rtlCompile": "PASS",
+  "currentSimulation": "PASS: four real XSim tests rerun 2026-11-03",
+  "currentImplementation": "PASS: Vivado RELEASE_PASS setup=0.903 hold=0.084",
+  "currentBitIncluded": true,
+  "historicalSimulation": "2026-11-02 four PASS logs; source-match.json verifies key sources",
+  "hardwareDownloaded": false,
+  "hardwareMotionStarted": false,
+  "mechanicalStabilityVerified": false,
+  "privacyCheck": "No local account or private API credential packaged",
+  "baseModel": "External; public pinned download script and SHA manifest provided",
+  "sourceCleanup": "Clean delivery only; original development folders retained for traceability",
+  "currentProjectIncluded": "build/project/yizhen_qianyun.xpr",
+  "firmwareSHA256": "d886a66a27e780f803ebfb0b069f40cf0d632c58fdf63abb828932393a23c1b5",
+  "earlierLicenseFailure": "Occurred in restricted execution context; normal local execution detected valid license and completed build/simulation. Older attempt logs retained as historical only."
+}

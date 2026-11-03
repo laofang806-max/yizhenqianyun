@@ -1,0 +1,63 @@
+{
+  "hardwareAccess": false,
+  "cases": [
+    {
+      "check": "artwork-route: structure and references",
+      "passed": true
+    },
+    {
+      "check": "color-layer-workflow: structure and references",
+      "passed": true
+    },
+    {
+      "check": "embroidery-path: structure and references",
+      "passed": true
+    },
+    {
+      "check": "embroidery-protocol-check: structure and references",
+      "passed": true
+    },
+    {
+      "check": "embroidery-startup: structure and references",
+      "passed": true
+    },
+    {
+      "check": "fpga-build: structure and references",
+      "passed": true
+    },
+    {
+      "check": "motion-calibration: structure and references",
+      "passed": true
+    },
+    {
+      "check": "runtime-evidence: structure and references",
+      "passed": true
+    },
+    {
+      "check": "five headers and cumulative S geometry",
+      "passed": true
+    },
+    {
+      "check": "overflow/count/empty/LF/action rejection (5)",
+      "passed": true
+    },
+    {
+      "check": "layer standard JSON match and wrong target rejection",
+      "passed": true
+    },
+    {
+      "check": "signed encoder negative/positive conversion",
+      "passed": true
+    },
+    {
+      "check": "hash inventory, tamper and path escape rejection",
+      "passed": true
+    },
+    {
+      "check": "timing parser positive/negative/missing summary",
+      "passed": true
+    }
+  ],
+  "allPassed": true,
+  "scope": "Offline fixtures only; not FPGA simulation, bit generation or hardware long-run validation."
+}

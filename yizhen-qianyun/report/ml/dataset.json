@@ -1,0 +1,109 @@
+{
+  "records": [
+    {
+      "file": "E:\\AMD_COMPETITION\\Control\\ml\\training\\white-flower-bird-v2-20261101\\images\\bird-original-0.png",
+      "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\assets\\bird-original.jpg",
+      "sourceSha256": "2f057a1f44a4f886a4ce5023050004785e32d56f357ba2b4a4e6f1e658dbcad7",
+      "split": "train",
+      "caption": "a small bird perched on a flowering branch with leaves, clean black line drawing on a white background, isolated embroidery motif",
+      "scale": 1.0,
+      "angle": 0,
+      "flip": false,
+      "sourceGroup": "bird-and-derived-crop"
+    },
+    {
+      "file": "E:\\AMD_COMPETITION\\Control\\ml\\training\\white-flower-bird-v2-20261101\\images\\bird-original-1.png",
+      "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\assets\\bird-original.jpg",
+      "sourceSha256": "2f057a1f44a4f886a4ce5023050004785e32d56f357ba2b4a4e6f1e658dbcad7",
+      "split": "train",
+      "caption": "a small bird perched on a flowering branch with leaves, clean black line drawing on a white background, isolated embroidery motif",
+      "scale": 0.88,
+      "angle": -5,
+      "flip": false,
+      "sourceGroup": "bird-and-derived-crop"
+    },
+    {
+      "file": "E:\\AMD_COMPETITION\\Control\\ml\\training\\white-flower-bird-v2-20261101\\images\\bird-original-2.png",
+      "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\assets\\bird-original.jpg",
+      "sourceSha256": "2f057a1f44a4f886a4ce5023050004785e32d56f357ba2b4a4e6f1e658dbcad7",
+      "split": "train",
+      "caption": "a small bird perched on a flowering branch with leaves, clean black line drawing on a white background, isolated embroidery motif",
+      "scale": 0.88,
+      "angle": 5,
+      "flip": false,
+      "sourceGroup": "bird-and-derived-crop"
+    },
+    {
+      "file": "E:\\AMD_COMPETITION\\Control\\ml\\training\\white-flower-bird-v2-20261101\\images\\bird-original-3.png",
+      "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\assets\\bird-original.jpg",
+      "sourceSha256": "2f057a1f44a4f886a4ce5023050004785e32d56f357ba2b4a4e6f1e658dbcad7",
+      "split": "train",
+      "caption": "a small bird perched on a flowering branch with leaves, clean black line drawing on a white background, isolated embroidery motif",
+      "scale": 0.94,
+      "angle": 0,
+      "flip": true,
+      "sourceGroup": "bird-and-derived-crop"
+    },
+    {
+      "file": "E:\\AMD_COMPETITION\\Control\\ml\\training\\white-flower-bird-v2-20261101\\images\\solo-bird-0.png",
+      "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\assets\\solo-bird.png",
+      "sourceSha256": "30b9c98dc7b40c5296471ab8d84a961dabfd12f17cd8282157eeaec0e6ad530d",
+      "split": "train",
+      "caption": "one small bird in side view, clean black outline drawing, isolated on a white background",
+      "scale": 1.0,
+      "angle": 0,
+      "flip": false,
+      "sourceGroup": "bird-and-derived-crop"
+    },
+    {
+      "file": "E:\\AMD_COMPETITION\\Control\\ml\\training\\white-flower-bird-v2-20261101\\images\\solo-bird-1.png",
+      "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\assets\\solo-bird.png",
+      "sourceSha256": "30b9c98dc7b40c5296471ab8d84a961dabfd12f17cd8282157eeaec0e6ad530d",
+      "split": "train",
+      "caption": "one small bird in side view, clean black outline drawing, isolated on a white background",
+      "scale": 0.88,
+      "angle": -5,
+      "flip": false,
+      "sourceGroup": "bird-and-derived-crop"
+    },
+    {
+      "file": "E:\\AMD_COMPETITION\\Control\\ml\\training\\white-flower-bird-v2-20261101\\images\\solo-bird-2.png",
+      "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\assets\\solo-bird.png",
+      "sourceSha256": "30b9c98dc7b40c5296471ab8d84a961dabfd12f17cd8282157eeaec0e6ad530d",
+      "split": "train",
+      "caption": "one small bird in side view, clean black outline drawing, isolated on a white background",
+      "scale": 0.88,
+      "angle": 5,
+      "flip": false,
+      "sourceGroup": "bird-and-derived-crop"
+    },
+    {
+      "file": "E:\\AMD_COMPETITION\\Control\\ml\\training\\white-flower-bird-v2-20261101\\images\\solo-bird-3.png",
+      "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\assets\\solo-bird.png",
+      "sourceSha256": "30b9c98dc7b40c5296471ab8d84a961dabfd12f17cd8282157eeaec0e6ad530d",
+      "split": "train",
+      "caption": "one small bird in side view, clean black outline drawing, isolated on a white background",
+      "scale": 0.94,
+      "angle": 0,
+      "flip": true,
+      "sourceGroup": "bird-and-derived-crop"
+    },
+    {
+      "file": "E:\\AMD_COMPETITION\\Control\\ml\\training\\white-flower-bird-v2-20261101\\images\\flower-original-0.png",
+      "source": "E:\\AMD_COMPETITION\\Control\\AMD_fpga\\src\\assets\\flower-original.png",
+      "sourceSha256": "7adf56fc12555d08ddf2042f135b44743a446677d8ee4714ed330aa63fcc6671",
+      "split": "diagnostic",
+      "caption": "one five-petal flower with a round center, clean black outline drawing, isolated on a white background",
+      "scale": 1.0,
+      "angle": 0,
+      "flip": false,
+      "sourceGroup": "flower-independent"
+    }
+  ],
+  "trainVariants": 8,
+  "trainSourceFiles": 2,
+  "trainIndependentCompositions": 1,
+  "diagnosticSourceFiles": 1,
+  "augmentationIsNotIndependentData": true,
+  "diagnosticIsNotRepresentativeValidation": true
+}
